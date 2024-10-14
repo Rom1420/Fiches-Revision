@@ -51,9 +51,6 @@ Les fonctions d'activation introduisent la non-linéarité dans les réseaux neu
 >**Pourquoi ?**
     >Sans fonction d'activation, un réseau ne pourrait modéliser que des relations linéaires simples.
 - **ReLU (Rectified Linear Unit)** , est rapide à calculer et aide à éviter les gradients très petits.
-  \[
-  \text{ReLU}(x) = \max(0, x)
-  \]
   
    ```python
   import torch
@@ -61,9 +58,6 @@ Les fonctions d'activation introduisent la non-linéarité dans les réseaux neu
   ```
 
 - **Sigmoïde** : Utilisée pour la **classification binaire**,  est utile en classification binaire pour obtenir une sortie entre 0 et 1.
-  \[
-  \sigma(x) = \frac{1}{1 + e^{-x}}
-  \]
   
   ```python
   import torch
