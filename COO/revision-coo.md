@@ -5,6 +5,7 @@
   - [📝 Sommaire](#-sommaire)
   - [📊 UML](#-uml)
     - [🖼️ Diagrammes UML](#️-diagrammes-uml)
+      - [📌 Les 4 rôles principaux dans le projet :](#-les-4-rôles-principaux-dans-le-projet-)
     - [🏗️ Cas d'utilisation](#️-cas-dutilisation)
       - [🔄 Notions de `include` et `extend`](#-notions-de-include-et-extend)
       - [✅ À faire / ❌ À éviter dans les diagrammes de cas d'utilisation](#-à-faire---à-éviter-dans-les-diagrammes-de-cas-dutilisation)
@@ -24,7 +25,14 @@
 ## 📊 UML
 
 ### 🖼️ Diagrammes UML
-Les diagrammes UML permettent de représenter différents aspects d'un système logiciel :
+Les diagrammes UML permettent de représenter différents aspects d'un système logiciel
+
+#### 📌 Les 4 rôles principaux dans le projet :
+- **QA (Quality Assurance)** : Responsable de garantir la qualité des livrables logiciels, notamment en définissant les critères d'acceptation.
+- **OPS (Operations)** : Se concentre sur le déploiement, la maintenance et le bon fonctionnement du système en production.
+- **PO (Product Owner)** : Responsable de prioriser les besoins métier et de s'assurer que les fonctionnalités sont conformes aux exigences des utilisateurs.
+- **SA (Solution Architect)** : Conçoit l'architecture technique du système et veille à sa cohérence et robustesse.
+
 
 ### 🏗️ Cas d'utilisation
 Le diagramme de cas d'utilisation illustre les interactions entre les **acteurs** (utilisateurs externes) et les **systèmes**. Il permet de modéliser les fonctionnalités attendues.
