@@ -10,7 +10,7 @@
 ---
 
 ## 1. Vulnérabilité de Condition de Course (Race Condition)
-![alt text](image.png)
+![alt text](pic/image.png)
 
 ### Définition
 
@@ -31,7 +31,7 @@
   Le programme crée un fichier temporaire supposé sûr mais modifie `/etc/passwd`.
 
 - **TOCTOU (Time of Check to Time of Use)** : Une vulnérabilité classique où une condition est vérifiée (par exemple, des permissions) puis utilisée, permettant à un attaquant de modifier la ressource entre la vérification et l'utilisation.
-- ![alt text](image-1.png)
+- ![alt text](pic/image-1.png)
 
 ### Prévention
 
@@ -53,7 +53,7 @@
 
 ## 2. Injection SQL (SQLi)
 
-![alt text](image-2.png)
+![alt text](pic/image-2.png)
 
 ### Définition
 
@@ -107,7 +107,7 @@
 
 ## 3. Cross-Site Scripting (XSS)
 
-![alt text](image-3.png)
+![alt text](pic/image-3.png)
 
 ### Définition
 
@@ -155,7 +155,7 @@
 
 ## 4. Cross-Site Request Forgery (CSRF)
 
-![alt text](image-4.png)
+![alt text](pic/image-4.png)
 
 ### Définition
 
@@ -199,3 +199,10 @@
 
 3. **Quels sont les risques de ne pas utiliser des tokens anti-CSRF dans les formulaires sensibles ?**
    - **Réponse attendue** : Risque d'exécution d'actions non autorisées, comme des transactions ou des modifications de paramètres, à l'insu de l'utilisateur.
+
+## Ancien QCM
+
+![alt text](<pic/Capture d'écran 2024-11-24 231847.png>)
+![alt text](<pic/Capture d'écran 2024-11-24 231903.png>)
+![alt text](<pic/Capture d'écran 2024-11-24 231910.png>)
+![alt text](<pic/Capture d'écran 2024-11-24 231920.png>)
