@@ -22,7 +22,7 @@
 - Contrairement aux réseaux classiques qui considèrent chaque entrée indépendamment, les RNN utilisent les informations séquentielles en mémorisant l'état précédent.
 - **Problèmes des RNN :** Problèmes de gradient évanescent ou explosif lors de l'entraînement, surtout sur de longues séquences.
 
-![alt text](https://github.com/Rom1420/Fiches-Revision/blob/master/Deep%20Learning/images/image-1.png)
+![alt text](https://raw.githubusercontent.com/Rom1420/Fiches-Revision/refs/heads/master/Deep%20Learning/images/image-1.png)
 
 
 **4. Les cellules LSTM :**
