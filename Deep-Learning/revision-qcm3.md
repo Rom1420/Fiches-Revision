@@ -22,14 +22,14 @@
 - Contrairement aux réseaux classiques qui considèrent chaque entrée indépendamment, les RNN utilisent les informations séquentielles en mémorisant l'état précédent.
 - **Problèmes des RNN :** Problèmes de gradient évanescent ou explosif lors de l'entraînement, surtout sur de longues séquences.
 
-![alt text](https://github.com/Rom1420/Fiches-Revision/blob/ec438b3edff7a35f40557dd768fa707cc8e169ca/Deep%20Learning/images/image-1.png)
+![alt text](https://github.com/Rom1420/Fiches-Revision/blob/ec438b3edff7a35f40557dd768fa707cc8e169ca/Deep-Learning/images/image-1.png)
 
 
 **4. Les cellules LSTM :**
 - LSTM (“Long Short-Term Memory”) permet de contrôler les informations à mémoriser, oublier ou passer à la sortie via trois portes (“input gate”, “forget gate”, “output gate”).
 - Les LSTM résolvent le problème du gradient évanescent, permettant un meilleur apprentissage des dépendances à long terme.
 
-![alt text](https://github.com/Rom1420/Fiches-Revision/blob/master/Deep%20Learning/images/image.png)
+![alt text](https://github.com/Rom1420/Fiches-Revision/blob/master/Deep-Learning/images/image.png)
 
 ### Cours 2: Architecture Seq2Seq et Attention
 
@@ -91,7 +91,7 @@
   - **Correspondance avec le Cours :** Ces ajustements correspondent à des **optimisations pratiques** pour rendre l'entraînement du modèle plus efficace.
 
 
-![alt text](https://github.com/Rom1420/Fiches-Revision/blob/master/Deep%20Learning/images/image3.png)
+![alt text](https://github.com/Rom1420/Fiches-Revision/blob/master/Deep-Learning/images/image3.png)
 
 ### Création d'un RNN LSTM et d'un Modèle Seq2Seq
 
