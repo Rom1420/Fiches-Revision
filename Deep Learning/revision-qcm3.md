@@ -1,27 +1,11 @@
 # Table des Matières
 
-1. [Cours 1: Représentation des mots et Réseaux Récurrents](#cours-1-représentation-des-mots-et-réseaux-récurrents)
-   1. [Représentation des mots](#1-représentation-des-mots)
-   2. [Approche par Embedding](#2-approche-par-embedding)
-   3. [Les Réseaux Récurrents (RNN)](#3-les-réseaux-récurrents-rnn)
-   4. [Les cellules LSTM](#4-les-cellules-lstm)
-2. [Cours 2: Architecture Seq2Seq et Attention](#cours-2-architecture-seq2seq-et-attention)
-   1. [Architecture Seq2Seq](#1-architecture-seq2seq)
-   2. [Limites du Seq2Seq](#2-limites-du-seq2seq)
-   3. [Le mécanisme d'attention](#3-le-mécanisme-dattention)
-3. [Travaux Dirigés (TDs)](#travaux-dirigés-tds)
-   1. [TD sur l'Embedding](#1-td-sur-lembedding)
-   2. [TD sur Seq2Seq avec Attention](#2-td-sur-seq2seq-avec-attention)
-   3. [Evaluation des erreurs en NER](#3-evaluation-des-erreurs-en-ner)
-4. [Résumé des Étapes Réalisées lors du TD](#résumé-des-étapes-réalisées-lors-du-td)
-   1. [Préparation des Données](#1-préparation-des-données)
-   2. [Construction du Modèle](#2-construction-du-modèle)
-   3. [Compilation et Entraînement du Modèle](#3-compilation-et-entraînement-du-modèle)
-   4. [Accélération de l'Entraînement](#4-accélération-de-lentraînement)
-5. [Création d'un RNN LSTM et d'un Modèle Seq2Seq](#création-dun-rnn-lstm-et-dun-modèle-seq2seq)
-   1. [Création d'un RNN LSTM](#1-création-dun-rnn-lstm)
-   2. [Création d'un Modèle Seq2Seq](#2-création-dun-modèle-seq2seq)
-6. [Conclusion](#conclusion)
+- [Table des Matières](#table-des-matières)
+    - [Cours 1: Représentation des mots et Réseaux Récurrents](#cours-1-représentation-des-mots-et-réseaux-récurrents)
+    - [Cours 2: Architecture Seq2Seq et Attention](#cours-2-architecture-seq2seq-et-attention)
+    - [Travaux Dirigés (TDs)](#travaux-dirigés-tds)
+    - [Résumé des Étapes Réalisées lors du TD](#résumé-des-étapes-réalisées-lors-du-td)
+    - [Création d'un RNN LSTM et d'un Modèle Seq2Seq](#création-dun-rnn-lstm-et-dun-modèle-seq2seq)
 
 ### Cours 1: Représentation des mots et Réseaux Récurrents
 
@@ -38,13 +22,14 @@
 - Contrairement aux réseaux classiques qui considèrent chaque entrée indépendamment, les RNN utilisent les informations séquentielles en mémorisant l'état précédent.
 - **Problèmes des RNN :** Problèmes de gradient évanescent ou explosif lors de l'entraînement, surtout sur de longues séquences.
 
-![alt text](images/image-1.png)
+![alt text](https://github.com/Rom1420/Fiches-Revision/blob/master/Deep%20Learning/images/image-1.png)
+
 
 **4. Les cellules LSTM :**
 - LSTM (“Long Short-Term Memory”) permet de contrôler les informations à mémoriser, oublier ou passer à la sortie via trois portes (“input gate”, “forget gate”, “output gate”).
 - Les LSTM résolvent le problème du gradient évanescent, permettant un meilleur apprentissage des dépendances à long terme.
 
-![alt text](images/image.png)
+![alt text](https://github.com/Rom1420/Fiches-Revision/blob/master/Deep%20Learning/images/image.png)
 
 ### Cours 2: Architecture Seq2Seq et Attention
 
@@ -106,7 +91,7 @@
   - **Correspondance avec le Cours :** Ces ajustements correspondent à des **optimisations pratiques** pour rendre l'entraînement du modèle plus efficace.
 
 
-![alt text](images/image3.png)
+![alt text](https://github.com/Rom1420/Fiches-Revision/blob/master/Deep%20Learning/images/image3.png)
 
 ### Création d'un RNN LSTM et d'un Modèle Seq2Seq
 
@@ -161,6 +146,3 @@ def build_seq2seq(encoder, decoder):
   - **Encodeur :** Prend une séquence d'entrée et la transforme en un vecteur de contexte.
   - **Décodeur :** Utilise le vecteur de contexte pour produire la séquence de sortie, mot par mot.
   - **Seq2Seq :** Combine l'encodeur et le décodeur pour traduire une séquence d'entrée en séquence de sortie.
-
-### Conclusion
-Ces cours et TDs abordent les principaux concepts du Deep Learning appliqué au Traitement du Langage Naturel (NLP). Les représentations de mots, les réseaux récurrents, les architectures Seq2Seq et les mécanismes d'attention sont fondamentaux pour de nombreuses applications comme la traduction automatique, les chatbots, et la reconnaissance d'entités nommées (NER). Les TDs permettent de mettre en pratique ces concepts à travers des exemples concrets, facilitant ainsi la compréhension et l'acquisition des compétences nécessaires pour répondre aux questions techniques du QCM.
