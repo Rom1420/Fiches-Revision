@@ -1,3 +1,28 @@
+# Table des Matières
+
+1. [Cours 1: Représentation des mots et Réseaux Récurrents](#cours-1-représentation-des-mots-et-réseaux-récurrents)
+   1. [Représentation des mots](#1-représentation-des-mots)
+   2. [Approche par Embedding](#2-approche-par-embedding)
+   3. [Les Réseaux Récurrents (RNN)](#3-les-réseaux-récurrents-rnn)
+   4. [Les cellules LSTM](#4-les-cellules-lstm)
+2. [Cours 2: Architecture Seq2Seq et Attention](#cours-2-architecture-seq2seq-et-attention)
+   1. [Architecture Seq2Seq](#1-architecture-seq2seq)
+   2. [Limites du Seq2Seq](#2-limites-du-seq2seq)
+   3. [Le mécanisme d'attention](#3-le-mécanisme-dattention)
+3. [Travaux Dirigés (TDs)](#travaux-dirigés-tds)
+   1. [TD sur l'Embedding](#1-td-sur-lembedding)
+   2. [TD sur Seq2Seq avec Attention](#2-td-sur-seq2seq-avec-attention)
+   3. [Evaluation des erreurs en NER](#3-evaluation-des-erreurs-en-ner)
+4. [Résumé des Étapes Réalisées lors du TD](#résumé-des-étapes-réalisées-lors-du-td)
+   1. [Préparation des Données](#1-préparation-des-données)
+   2. [Construction du Modèle](#2-construction-du-modèle)
+   3. [Compilation et Entraînement du Modèle](#3-compilation-et-entraînement-du-modèle)
+   4. [Accélération de l'Entraînement](#4-accélération-de-lentraînement)
+5. [Création d'un RNN LSTM et d'un Modèle Seq2Seq](#création-dun-rnn-lstm-et-dun-modèle-seq2seq)
+   1. [Création d'un RNN LSTM](#1-création-dun-rnn-lstm)
+   2. [Création d'un Modèle Seq2Seq](#2-création-dun-modèle-seq2seq)
+6. [Conclusion](#conclusion)
+
 ### Cours 1: Représentation des mots et Réseaux Récurrents
 
 **1. Représentation des mots :**
@@ -12,6 +37,7 @@
 **3. Les Réseaux Récurrents (RNN) :**
 - Contrairement aux réseaux classiques qui considèrent chaque entrée indépendamment, les RNN utilisent les informations séquentielles en mémorisant l'état précédent.
 - **Problèmes des RNN :** Problèmes de gradient évanescent ou explosif lors de l'entraînement, surtout sur de longues séquences.
+
 ![alt text](images/image-1.png)
 
 **4. Les cellules LSTM :**
