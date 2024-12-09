@@ -413,3 +413,6 @@ Pour illustrer la convolution, considérons un exemple :
 ### Conclusion
 
 La convolution est un outil fondamental pour le traitement d'images dans les réseaux de neurones, car elle permet d'extraire des informations significatives tout en réduisant la complexité des données d'entrée. Elle est à la base de la puissance des CNN pour des tâches telles que la reconnaissance d'images, la détection d'objets, et bien d'autres applications en vision par ordinateur.
+
+
+![alt text](images/image4.png)
