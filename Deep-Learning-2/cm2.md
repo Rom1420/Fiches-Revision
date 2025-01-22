@@ -2,14 +2,16 @@
 
 Résultat de tokénisation = vocabulaire initial 
 
-#### Byte Pair encoding
+#### Byte Pair Encoding (BPE) :
+- BPE : Méthode de compression qui remplace les paires de caractères les plus fréquentes par un nouveau symbole, itérant jusqu'à obtenir un vocabulaire plus petit.
 
 #### Byte Level BPE :
-- Appliquer sur des octes plutot que sur les carcatères directement
-- Chaque caractère sur 1 à 4 octets 
+- Applique BPE sur des octets (pas des caractères).
+- Chaque caractère est encodé en 1 à 4 octets.
 
-#### WordPiece tokenizer :
-- Au lieu de selectionner la 
+#### WordPiece Tokenizer :
+- Découpe les mots en sous-unités (subwords) plutôt que sur des caractères complets.
+- Sélectionne des sous-mots les plus fréquents pour créer un vocabulaire plus compact et flexible.
 
 #### Vraissemblance (likelihood) :
 
