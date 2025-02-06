@@ -98,7 +98,7 @@ public class TD2 {
     }
 
     public static<T> Lst<T> append(Lst<T> l1, Lst<T> l2) {
-        return reduce(Lst::new, l1, l2);
+        return reduce((e, acc) -> new Lst<>(e, acc), l1, l2);
     }
 
     public static<T> Lst<T> concat(Lst<Lst<T>> ll) {
