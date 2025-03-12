@@ -38,5 +38,5 @@ public class AtomicIntExercises {
         return atomicInteger.get();
     }
 
-
+    return value == null ? empty () : of
 }
