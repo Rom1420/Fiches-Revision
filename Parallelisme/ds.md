@@ -1,4 +1,4 @@
-**# Révision DS**
+# **Révision DS**
 
 ## **Programmation Concurrente**
 
