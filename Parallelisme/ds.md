@@ -139,24 +139,23 @@ Des variables conditionnelles (wait(), notify(), notifyAll() en Java)
 
 #### **Exemple en Java :**
 ```java
-private final Object isBufferFullCondition = new Object();
-	private final Object isBufferEmptyCondition = new Object();
+private final Object isBufferEmptyCondition = new Object();
 
-	
-	@Override
-	public void put(E data) throws InterruptedException {
-		synchronized (isBufferFullCondition) {
-			while (count == SIZE) {
-				isBufferFullCondition.wait();
-			}
-		}
-		synchronized (isBufferEmptyCondition) {
-			queue[tail] = data;
-			tail = (tail + 1) % SIZE;
-			count++;
-			isBufferEmptyCondition.notify();
+
+@Override
+public void put(E data) throws InterruptedException {
+	synchronized (isBufferFullCondition) {
+		while (count == SIZE) {
+			isBufferFullCondition.wait();
 		}
 	}
+	synchronized (isBufferEmptyCondition) {
+		queue[tail] = data;
+		tail = (tail + 1) % SIZE;
+		count++;
+		isBufferEmptyCondition.notify();
+	}
+}
 ```
 
 #### 📌 Explication
