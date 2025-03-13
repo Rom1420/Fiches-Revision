@@ -1,4 +1,4 @@
-**# Révision DS**
+# **Révision DS**
 
 ## **Programmation Concurrente**
 
@@ -139,24 +139,23 @@ Des variables conditionnelles (wait(), notify(), notifyAll() en Java)
 
 #### **Exemple en Java :**
 ```java
-private final Object isBufferFullCondition = new Object();
-	private final Object isBufferEmptyCondition = new Object();
+private final Object isBufferEmptyCondition = new Object();
 
-	
-	@Override
-	public void put(E data) throws InterruptedException {
-		synchronized (isBufferFullCondition) {
-			while (count == SIZE) {
-				isBufferFullCondition.wait();
-			}
-		}
-		synchronized (isBufferEmptyCondition) {
-			queue[tail] = data;
-			tail = (tail + 1) % SIZE;
-			count++;
-			isBufferEmptyCondition.notify();
+
+@Override
+public void put(E data) throws InterruptedException {
+	synchronized (isBufferFullCondition) {
+		while (count == SIZE) {
+			isBufferFullCondition.wait();
 		}
 	}
+	synchronized (isBufferEmptyCondition) {
+		queue[tail] = data;
+		tail = (tail + 1) % SIZE;
+		count++;
+		isBufferEmptyCondition.notify();
+	}
+}
 ```
 
 #### 📌 Explication
@@ -188,6 +187,23 @@ OpenMP est une API qui facilite la parallélisation en C/C++.
 - `omp_get_num_procs()` : Obtient le nombre de processeurs disponibles.
 
 - `#pragma omp parallel reduction(op : var)` : Effectue une réduction parallèle sur var en appliquant l'opérateur op (exemple : +, *, max, min). Chaque thread dispose d'une copie locale de var et une réduction est effectuée à la fin de la région parallèle.
+
+```c
+#define N 10
+
+int main() {
+    int somme = 0;
+
+    #pragma omp parallel for reduction(+ : somme)
+    for (int i = 1; i <= N; i++) {
+        somme += i;
+    }
+
+    printf("Somme des nombres de 1 à %d = %d\n", N, somme);
+    return 0;
+}
+```
+
 - `#pragma omp atomic` : Assure une opération atomique sur une variable partagée, empêchant les conditions de course.
 - `#pragma omp critical` : Définit une section critique où un seul thread à la fois peut exécuter le code.
 - `#pragma omp barrier` : Synchronise tous les threads à un point donné du programme.
