@@ -6,7 +6,7 @@
 - `pthread_create` : Crée un thread.
 - `pthread_join` : Attend la fin d'un thread.
 - `pthread_mutex_lock(&lock);` : Verrouille un mutex pour empêcher d'autres threads d'y accéder.
-- `pthread_mutex_unlock(&lock);` : Libère le mutex pour permettre l'accès à d'autres threads.
+- `pthread_mutex_unlock(&lock);` : Libère le mutex pour permettre l'accès à d'autres threads.   
 - `pthread_mutex_init(&lock, NULL);` : Initialise un mutex.
 - `pthread_mutex_destroy(&lock);` : Détruit un mutex à la fin.
 
