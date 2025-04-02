@@ -140,7 +140,7 @@ run(50, 32)
 
 ### Transformation image
 
-````python
+```python
 from numba import cuda
 import numba as nb
 import numpy as np
@@ -225,14 +225,14 @@ inputFile = sys.argv[1]
 outputFile=sys.argv[2]
 
 
-im = Image.open(inputFile)
-imagetab = np.array(im)
+    im = Image.open(inputFile)
+    imagetab = np.array(im)
 
-threadsperblock,blockspergrid=compute_threads_and_blocks(imagetab)
-output=gpu_run(imagetab, threadsperblock, blockspergrid)
-# output=cpu_run(imagetab)
-m = Image.fromarray(output) #.convert('RGB')
-m.save(outputFile)
+    threadsperblock,blockspergrid=compute_threads_and_blocks(imagetab)
+    output=gpu_run(imagetab, threadsperblock, blockspergrid)
+    # output=cpu_run(imagetab)
+    m = Image.fromarray(output) #.convert('RGB')
+    m.save(outputFile)
 ```
 
 # Transformation d'image avec CUDA et Numba
