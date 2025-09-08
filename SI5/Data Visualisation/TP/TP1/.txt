@@ -57,9 +57,8 @@ sum_votes_round1 <- round1 %>%
 round1 <- round1 %>% left_join(coords_region, by = c("region_code" = "insee_reg"))
 ```
 
-* `left_join()` ajoute les coordonnées correspondant au `region_code`.
+* `left_join()` fusionne `round1` avec `coords_region`, ajoutant les colonnes de coordonnées aux lignes de `round1` selon le `region_code`.
 * Chaque ligne de `round1` garde ses données originales et récupère les informations correspondantes de `coords_region`.
-
 
 ### d. Transformation en format long
 
@@ -67,9 +66,8 @@ round1 <- round1 %>% left_join(coords_region, by = c("region_code" = "insee_reg"
 results_tidy <- results %>% gather(key = "candidate", value = "votes", all_of(candidates))
 ```
 
-* `gather()` transforme les colonnes candidats en deux colonnes `candidate` et `votes`.
+* `gather()` prend les colonnes correspondant à chaque candidat et les transforme en deux colonnes : `candidate` contient le nom du candidat et `votes` le nombre de votes.
 * Cela permet d'avoir une ligne par candidat par région, ce qui facilite l'analyse et la visualisation.
-
 
 ---
 
@@ -91,7 +89,6 @@ p1 <- ggplot(round1_tidy, aes(x = region_name, y = votes, fill = candidate)) +
 * Le graphique `p1` permet de visualiser la répartition des votes par candidat dans chaque région.
 * `fill` dans `aes()` détermine la couleur des barres selon la variable choisie (ici le candidat). Cela permet de distinguer visuellement chaque candidat sur le graphique.
 
-
 ### b. Comparaison entre tours
 
 ```r
@@ -109,19 +106,14 @@ p2 <- ggplot(results_tidy, aes(x = region_name, y = votes, fill = factor(round))
 * Le graphique permet de visualiser comment les votes évoluent entre les tours pour chaque région et chaque candidat.
 * `factor(round)` convertit la variable `round` en facteur, c'est-à-dire en variable catégorielle. Cela permet à ggplot de traiter chaque tour comme une catégorie distincte pour la couleur des barres.
 
-
-<div style="text-align: center;">
-  <img src="images/candidats_et_regions.png" alt="Votes par tour et candidat" style="width:50%;">
-  <p><em>Figure 1 : Votes valides par candidat et par région pour les deux tours</em></p>
-</div>
-
 ### c. Couleurs manuelles
 
 ```r
 scale_fill_manual(values = c("MACRON" = "blue", "LE.PEN" = "red"))
 ```
 
-* Définit des couleurs pour Macron et Le Pen.
+* Permet de donner des couleurs fixes aux candidats pour plus de lisibilité.
+* Dans les graphiques précédents, Macron sera bleu et Le Pen rouge.
 
 ---
 
@@ -134,7 +126,7 @@ votes_round2 <- round2_tidy %>%
   summarise(total_votes = sum(votes, na.rm = TRUE))
 ```
 
-* Calcule le total des votes du deuxième tour par candidat.
+* Calcule le total des votes pour chaque candidat du deuxième tour.
 
 ```r
 p4 <- ggplot(votes_round2, aes(x = candidate, y = total_votes, fill = candidate)) +
@@ -143,10 +135,7 @@ p4 <- ggplot(votes_round2, aes(x = candidate, y = total_votes, fill = candidate)
   theme_minimal()
 ```
 
-<div style="text-align: center;">
-  <img src="images/2emetour_votes.png" alt="Votes totaux 2ème tour" style="width:50%;">
-  <p><em>Figure 2 : Total des votes du deuxième tour par candidat</em></p>
-</div>
+* Ce graphique montre directement le nombre total de votes par candidat.
 
 ---
 
@@ -158,13 +147,10 @@ p4 <- ggplot(votes_round2, aes(x = candidate, y = total_votes, fill = candidate)
 coords_region_sf <- coords_region %>% st_as_sf(coords = c("longitude", "latitude"), crs = 4326)
 ```
 
-- ``st_as_sf()`` transforme un data frame avec colonnes de coordonnées en objet spatial ``sf``.
-
-- ``coords`` indique quelles colonnes représentent longitude et latitude.
-
-- ``crs`` définit le système de projection (ici WGS84).
-
-- Ceci est nécessaire pour pouvoir utiliser les fonctions de cartographie de ``sf`` ou ``leaflet``.
+* `st_as_sf()` transforme un data frame avec colonnes de coordonnées en objet spatial `sf`.
+* `coords` indique quelles colonnes représentent longitude et latitude.
+* `crs` définit le système de projection (ici WGS84).
+* Ceci est nécessaire pour pouvoir utiliser les fonctions de cartographie de `sf` ou `leaflet`.
 
 ### b. Carte interactive des votes blancs
 
@@ -197,19 +183,17 @@ leaflet(map_data) %>%
     colors = "orange",
     labels = "Taux de votes blancs",
     opacity = 0.7
+  )
+
+# Explications :
+# - group_by() : regroupe les données par région pour calculer le taux de votes blancs.
+# - summarise() : calcule la proportion de votes blancs sur le total des votes.
+# - left_join() : associe les coordonnées spatiales pour chaque région.
+# - mutate() avec st_coordinates() : extrait longitude et latitude depuis l'objet sf.
+# - addCircleMarkers() : crée un cercle sur la carte pour chaque région, avec taille et label.
+# - color et fillOpacity : définissent l'apparence visuelle des cercles.
+# - addLegend() : ajoute une légende pour expliquer la signification des couleurs et tailles des cercles.
 ```
 
-
-**Explications** :
- - ``group_by()`` : regroupe les données par région pour calculer le taux de votes blancs.
- - ``summarise()`` : calcule la proportion de votes blancs sur le total des votes.
- - ``left_join()`` : associe les coordonnées spatiales pour chaque région.
- - ``mutate()`` avec ``st_coordinates()`` : extrait longitude et latitude depuis l'objet sf.
- - ``addCircleMarkers()`` : crée un cercle sur la carte pour chaque région, avec taille et label.
- - ``color`` et ``fillOpacity`` : définissent l'apparence visuelle des cercles.
- - ``addLegend()`` : ajoute une légende pour expliquer la signification des couleurs et tailles des cercles.
-
-<div style="text-align: center;">
-  <img src="images/carte_interact.png" alt="Carte interactive" style="width:50%;">
-  <p><em>Figure 3 : Carte interactive des votes blancs par région</em></p>
-</div>
+```
+```
