@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0b26b26-b72b-4e7f-88e2-227db12041e9" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../Exos/src/main/java/org/example/AtomicIntExercises.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exos/src/main/java/org/example/AtomicIntExercises.java" afterDir="false" />
-    </list>
+    <list default="true" id="d0b26b26-b72b-4e7f-88e2-227db12041e9" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -81,6 +79,7 @@
       <updated>1738845789680</updated>
       <workItem from="1738845790728" duration="3715000" />
       <workItem from="1738917569142" duration="55000" />
+      <workItem from="1742305130760" duration="9000" />
     </task>
     <servers />
   </component>

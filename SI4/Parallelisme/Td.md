@@ -141,7 +141,7 @@ run(50, 32)
 ### Transformation image
 
 ```python
-from numba import cuda
+**from** numba import cuda
 import numba as nb
 import numpy as np
 import time
