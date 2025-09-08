@@ -112,7 +112,7 @@ p2 <- ggplot(results_tidy, aes(x = region_name, y = votes, fill = factor(round))
 
 <p align="center">
   <img src="images/candidats_et_regions.png" alt="Votes par tour et candidat" style="width:50%;">
-  <p><em>Figure 1 : Votes valides par candidat et par région pour les deux tours</em></p>
+  <p align="center"><em>Figure 1 : Votes valides par candidat et par région pour les deux tours</em></p>
 </p>
 
 ### c. Couleurs manuelles
@@ -145,7 +145,7 @@ p4 <- ggplot(votes_round2, aes(x = candidate, y = total_votes, fill = candidate)
 
 <p align="center">
   <img src="images/2emetour_votes.png" alt="Votes totaux 2ème tour" style="width:50%;">
-  <p><em>Figure 2 : Total des votes du deuxième tour par candidat</em></p>
+  <p align="center"><em>Figure 2 : Total des votes du deuxième tour par candidat</em></p>
 </p>
 
 ---
@@ -211,5 +211,5 @@ leaflet(map_data) %>%
 
 <p align="center">
   <img src="images/carte_interact.png" alt="Carte interactive" style="width:50%;">
-  <p><em>Figure 3 : Carte interactive des votes blancs par région</em></p>
+  <p align="center"><em>Figure 3 : Carte interactive des votes blancs par région</em></p>
 </p>
