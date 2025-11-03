@@ -26,7 +26,14 @@
 
 ### Processus UCD (ISO 9241-210)
 
- 
+```mermaid
+graph LR
+    A[Planifier la démarche centrée utilisateur] --> B[Comprendre & spécifier le contexte d'utilisation]
+    B --> C[Spécifier exigences utilisateur & organisationnelles]
+    C --> D[Produire des solutions de conception]
+    D --> E[Évaluer vs exigences]
+    E --> B
+```
 ![Cycle du processus UCD illustrant la boucle continue entre planifier, comprendre le contexte, spécifier, concevoir et évaluer.](images/ucd_cycle.svg)
 - **Planifier** : expliciter bénéfices ROI, rassembler équipe multidisciplinaire, préparer chartes/process.
 - **Comprendre le contexte** : profils utilisateurs, tâches, environnements (technique, physique, social, légal).
@@ -47,7 +54,7 @@
 - Modèle Dreyfus : novice → débutant avancé → compétent → performant → expert.
 - Fréquence : constante, régulière, occasionnelle ; croiser avec familiarité technologique.
 - Matrice utilisateur/tâche = qui fait quoi et à quelle fréquence.
-
+![Matrice personas croisant niveau d'expertise et fréquence d'usage pour guider la priorisation des scénarios.](images/persona_matrix.svg)
 
 ### Outils de profilage
 
@@ -70,7 +77,6 @@
 - Échelles : Likert, fréquence, intensité émotionnelle (SAM) ; préciser libellés.
 - Structurer l’instrument (ordre logique, regroupements thématiques).
 - Pré-test indispensable pour détecter ambiguïtés (échantillon restreint représentatif).
-
 
 ### Biais fréquents
 
@@ -98,12 +104,16 @@
 - **Rôle dans le processus** : expansion (générer options) vs contraction (sélectionner/affiner).
 - **Durée de vie** : rapide (papier, vidéo, Wizard of Oz), itératif, évolutif.
 
-
 - Low-fi : coût faible, co-conception, spécifications souples ; limites sur vérification d’erreurs.
 - High-fi : tests réalistes, support marketing ; coûteux, maintenance lourde.
 
 ### Gestion des itérations
 
+```mermaid
+graph TD
+    A[Élaboration\n(diversifier les solutions)] --> B[Réduction\n(sélectionner & raffiner)]
+    B --> A
+```
 - Distinguer choix d’options vs évolution d’une même option.
 
 ### Annotations
@@ -130,8 +140,6 @@
 4. Vérifier cohérence (actions couplées, équilibre, généralisation).
 5. Valider auprès des utilisateurs/expert métier.
 
-![Pyramide illustrant les niveaux de description d'une tâche du but stratégique jusqu'aux actions élémentaires.](images/task_model_layers.svg)
-
 ### Notations & outils
 
 - ConcurTaskTrees : opérateurs temporels, tâches parallèles/séquentielles.
@@ -157,12 +165,25 @@
 
 > 💡 **Traçabilité.** Relier options, exigences, modèles de tâches et prototypes pour préserver la trace des choix.
 
-![Schéma QOC reliant questions, options et critères pour formaliser la rationale de conception.](images/design_rationale_qoc.svg)
-
 ## Séance 6 – Méthodes d’inspection & analyses analytiques
 ### Panorama des méthodes d’évaluation
 
- 
+```mermaid
+graph LR
+    A[Usability Evaluation Methods] --> B[Inspection]
+    A --> C[Tests utilisateurs]
+    A --> D[Enquêtes]
+    A --> E[Modélisation analytique]
+    B --> B1[Heuristic Evaluation]
+    B --> B2[Cognitive/Pluralistic Walkthrough]
+    B --> B3[Guidelines & Normes]
+    C --> C1[Think-aloud]
+    C --> C2[Wizard of Oz]
+    D --> D1[Questionnaires satisfaction]
+    D --> D2[Charge mentale (NASA-TLX)]
+    E --> E1[GOMS/KLM]
+    E --> E2[Analyse par modèles de tâches]
+```
 ![Synthèse visuelle des familles de méthodes d'évaluation : inspection, tests utilisateurs, enquêtes et modèles analytiques.](images/evaluation_methods.svg)
 
 ### Heuristic Evaluation (Nielsen & Molich)
@@ -209,3 +230,4 @@
 - Versionner prototypes + feedbacks (traçabilité pour design rationale).
 - Préparer plan de test, feuilles de séance, rapport de synthèse.
 - Capitaliser sur la bibliographie du cours (Nielsen, Mayhew, Rubin, Lazar, Carroll & Rosson, Palanque et al.).
+
