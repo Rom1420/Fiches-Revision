@@ -1,0 +1,750 @@
+Conception de Systèmes 
+Interactifs
+Méthodes d’inspection 
+Evaluation Heuristique, Cognitive Walkthrough, 
+GOMS KLM
+Marco Winckler
+Université Côte d’ Azur (Polytech Nice) | I3S | SPARKS team | bureau 435
+winckler@i3s.unice.fr
+http://www.i3s.unice.fr/~winckler/
+
+Useful References
+• Nielsen, J. (1993) Usability Engineering. 
+Academic Press, 362 p.
+• Nielsen, J., Mack, R.L. (1994) Usability 
+Inspection Methods. John Wiley & Sons, 448 
+p.
+• Rubin, J. Handbook of Usability Testing: How 
+to Plan, Design and Conduct Effective Tests. 
+John Wiley & Sons. 330 p.
+• D. Mayhew (1999) The Usability Engineering 
+Lifecycle: A Practitioner's Handbook for User 
+Interface Design. Morgan Kaufmann. 542 p.
+• Bias and Mayhew (eds) (1994) Cost Justifying 
+Usability. Morgan Kaufmann. 334 p. 
+2
+
+3
+Examples of 
+Usability Problems
+4
+
+5
+Usability problems: coffee machine
+Problème en image… 
+La solution… 
+6
+Usability problems: exampling usability problems
+
+Classification of Usability Evaluation Methods 
+Usability Evaluation Methods
+Inspection
+User Testing
+Inquiry
+Cognitive walkthrough
+Heuristic Evaluation
+Guidelines Review
+Thinking aloud protocol
+Wizard of Oz
+Log file analysis
+Field observation
+Questionnaires (satisfaction, preferences, etc.)
+Questionnaires (cognitive workload, Nasa TLX)
+Analytical Modelling
+Model-based analysis
+Specialized Methods …
+7
+Evaluating Design (early phases)
+• Usability Inspection Methods (Conducted by 
+experts, are based on experts opinion)
+– Cognitive Walkthrough, Pluralistic Walkthrough
+– Heuristic Evaluation
+– Guideline Review: evaluation of the design following 
+guidelines
+– Standard Inspections: evaluation following norms 
+(ISO)
+• Model-based Evaluations (design phases)
+– Task models-based analysis
+– GOMS, KLM
+8
+9
+Heuristic Evaluation
+(inspection method)
+« Evaluation Heuristique »
+• Méthode proposé par Nielsen et 
+Molich (1993)
+• Le principe: plusieurs évaluateur 
+vérifient l’interface avec l’aide 
+de seulement 10 règles 
+heuristiques
+• Les heuristiques aident 
+l’évaluateurs a se rappeler des 
+aspects importants a évaluer
+10
+
+Les 10 heuristiques…
+1. Utiliser de dialogues simples et naturels
+2. Parler le langage de l’utilisateur
+3. Minimiser la charge cognitive 
+4. Cohérence
+5. Donner du feedback
+6. Fournir de sorties explicites
+7. Fournir des raccourcis
+8. Fournir de messages d’erreurs
+9. Concevoir pour les erreurs
+10. Aide et documentation
+11
+1. Utiliser de dialogues simples et 
+naturels
+• Utiliser une logique d’utilisation et pas de fonctionnement
+– Concevoir en fonction de la tâche
+– Réduction du gouffre de l’exécution
+• Présenter seulement les informations pertinentes
+– «Less is more»
+– Groupage logique des informations
+– Peu de fenêtres et de navigation
+12
+
+2. Parler le langage utilisateur
+• Terminologie inspirée du langage de la tâche, et pas du 
+système
+– «Ce produit n’est pas référencé dans le stock» plutôt que
+– «Foreign key not found in table T_STOCK»
+• Présenter l’interaction du point de vue de l’utilisateur
+– «Vous venez d’acheter 100 actions de la société XYZ» plutôt que
+– «Nous venons de vous vendre 100 actions de la société XYZ»
+• Mnémoniques, abréviations, icônes
+– S’assurer qu’elles sont significatives pour l’utilisateur
+13
+3. Minimiser la charge cognitive
+• Pallier la faible capacité de la mémoire à court terme
+• Privilégier la reconnaissance par rapport à la mémoire
+– Menus, icônes, choix explicites
+– Attention : Less is more !
+• Décrire les formats d’entrée
+– Date de naissance : ___/___/___ (JJ/MM/AA, ex : 12/12/70)
+• Utiliser un petit nombre de commandes génériques
+– cut, copy, paste, drag’n drop
+– Utilisables pour un mot, un paragraphe, un document...
+14
+4. Cohérence
+• Cohérence des effets
+– La même commande aura toujours les mêmes effets dans 
+des situations comparables
+– Prédictibilité de l’interface
+• Cohérence du langage et des graphiques
+– Dispositions spatiale des contrôles et texte des étiquettes
+– Apparence visuelle des contrôles (ex: scrollbars)
+• Cohérence des entrées
+– Même syntaxe dans l’ensemble du système
+15
+5. Donner du feeback
+• Minimiser le gouffre de l’évaluation
+• Etre le plus spécifique possible
+– «Enregistrement du fichier ‘Toto’ dans le répertoire ‘bidon’ 
+en cours...» plutôt que
+– «Enregistrement en cours...»
+• Temps de réponse
+– 0,1 seconde max : perçu comme instantané
+– 1 seconde max : Le dialogue n’est pas interrompu, mais le délai est 
+perçu
+– 10 secondes : limite pour conserver l’attention de l’utilisateur sur le 
+dialogue
+– >10 secondes : L’utilisateur souhaite faire qq. chose d’autre
+16
+Feedback immédiat
+17
+Non Oui
+Saisie non 
+visible
+
+6. Fournir de sorties explicites
+• Stratégies
+– Bouton «Annuler» pour les dialogues modaux
+– «Undo» universel (retour à l’état précédent)
+– «Interrompre» pour les opérations longues
+– «Quitter» le programme n’importe quand
+– «Défauts» pour réinitialiser des propriétés
+18
+7. Fournir des raccourcis
+• Adaptabilité aux utilisateurs experts
+• Stratégies :
+– Accélérateurs clavier et souris
+– Complétion automatique des commandes
+– Touches de fonctions
+– Réutilisation
+• «History» du système Unix : 75% des commandes ont déjà été 
+tapées auparavant
+– Barre d’outils personnalisable
+19
+8. Fournir de messages d’erreurs
+• Les phrases doivent être concises, completes et 
+claires 
+– « cannot open this document » X « cannot open this 
+document because the application is not on the disk »
+• La document de doit pas être une priorité pour 
+comprendre l’erreur
+• Proposer de solutions
+– « … because the MS Word is not on the disk »
+• Respecter l’utilisateur
+– « illegal user action, job abort »
+20
+Qualité des messages d ’erreurs
+21
+NonOui Message 
+peu détaillé
+
+9. Concevoir pour les erreurs
+• Deux types d’erreurs
+– Mistakes :
+• Une décisions consciente qui conduit à une action 
+erronée
+– Slips :
+• Comportement inconscient qui conduit à une mauvaise 
+séquence d’actions
+• Fréquent chez les utilisateurs expérimentés
+22
+Types de «Slips»
+• Erreur de capture
+– L’activité la plus fréquente est déclenchée, au lieu de celle désirée
+• ex : confirmer la suppression d’un fichier, alors qu’on ne voulait pas le supprimer
+• Prévention : au lieu de confirmer, permettre le «Undo»
+• Erreur de description
+– Quand deux actions possibles ont beaucoup en commun
+• ex : glisser un fichier dans la poubelle au lieu de la disquette
+• Prévention : différencier les icônes, disposition spatiale étudiée
+• Erreur «Data driven»
+• ex: téléphoner à quelqu’un pour lui donner un numéro de chambre, et composer le 
+numéro de chambre
+• Activation associative
+• ex: le téléphone sonne, on crie «Entrez!»
+23
+Types de «Slips» (suite)
+• Perte d’activation
+– Oublier le but final lorsqu’on exécute une séquence d’actions
+• ex: «Qu’est-ce que je fais ici ?»
+• Prévention : rendre le but explicite (si le système le connaît), 
+rendre le cheminement explicite
+• Erreurs de mode
+– Action effectuée dans un contexte inadéquat
+• ex: VI, référencer un fichier qui est dans un autre répertoire, ...
+• Prévention : minimiser les modes, rendre les modes visibles
+24
+Protection contre les erreurs
+25
+
+Correction des erreurs
+26
+Oui
+Commande
+Annuler
+10. Aide et documentation
+• Fournir de renseignement par écrit (où en ligne) sur 
+le fonctionnement de l’application
+• Les utilisateurs souvent ne lisent pas la doc…
+• La documentation doit aider l’utilisateur àa:
+– Chercher l’info
+– Comprendre l’info
+– Appliquer la procédure
+27
+Exemple d’aide et documentation
+28
+Example
+29
+Description du problème: dans la rubrique sur le livre “O tempo e o Vento”, le bouton 
+« critique » semble active mais il ne fournir aucun retour;
+Séverité (1-3): 3
+Heuristique violée: feedback (H5).
+Le processus d’évaluation
+• Nombre d’évaluateurs
+• Expertise des évaluateurs
+• L’approche Walkthroughout 
+• Description détaillé des problèmes 
+• Classification de problèmes par rapports a leur 
+sévérité et les heuristiques
+30
+Nombre d’évaluateur [ discount method ]
+31
+
+Planifier l’évaluation
+• Proposer aux évaluateur les tâches principales à 
+inspecter
+• Expliquer aux évaluateurs la raison d’être de l’outil 
+pour qu’ils puisse réaliser leurs tâches
+• Demander aux évaluateurs d’évaluer l’interaction 
+avec le système
+• Sélectionner les évaluateurs:
+– 5 évaluateur expérimentés trouverons 81%-90% des 
+problèmes avec l’interface…
+– 5 évaluateurs novices (ex. des étudiants) trouverons 22%-
+29% de problèmes …
+32
+L’approche Walkthroughout … 
+• Il faut un coordinateur et des évaluateurs…
+• Le coordinateur sélectionne les évaluateur et fait la synthèse 
+des évaluations individuelles
+• Les évaluateurs ne doivent pas communiquer avant la fin de 
+l’évaluation
+• 1-2 heure pour chaque session de test
+• L’évaluateur doit d’abord se familiariser avec l’outil avant de se 
+lancer dans l’évaluation
+• Chaque problème doit être classé selon une (ou plusieurs 
+heuristique), une sévérité doit également être attribué
+• Si aucune heuristique ne correspond au problème trouvé, 
+l’évaluateur peut proposer une nouvelle heuristique et la 
+justifier..
+33
+Les Heuristiques pour le Web, les jeux, les 
+téléphone portables, l’interaction avec les robots,...
+• Nielsen, J.  Designing Web Usability. Peachpit Press Publications. 432 
+pages.
+• Pinelle, D., Wong, N., and Stach, T. 2008. Heuristic evaluation for games: 
+usability principles for video game design. In Proceeding of the Twenty-
+Sixth Annual SIGCHI Conference on Human Factors in Computing Systems
+(Florence, Italy, April 05 - 10, 2008). CHI '08. ACM, New York, NY , 1453-
+1462. DOI= http://doi.acm.org/10.1145/1357054.1357282 
+• Clarkson, Edward C. Arkin, Ronald C. Applying Heuristic Evaluation to 
+Human-Robot Interaction Systems. GVU Technical Report;GIT-GVU-06-08 
+• Bertini, E., Gabrielli, S., and Kimani, S. 2006. Appropriating and assessing 
+heuristics for mobile computing. In Proceedings of the Working Conference 
+on Advanced Visual interfaces (Venezia, Italy, May 23 - 26, 2006). AVI '06. 
+ACM, New York, NY , 119-126. DOI= 
+http://doi.acm.org/10.1145/1133265.1133291 
+34
+Evaluation Heuristique X Test utilisateurs
+35
+
+Heuristic Evaluation
+[ Comments ]
++ easy to apply
++ anyone could be traing for using this method (!!!)
++ costs X benefits
+- results are directly related to evaluators experience
+- it covers only some kind of usability problems...
+36
+37
+Inspection Methods
+(The Cognitive Walkthought Method)
+Wharton, C., Rieman, J., Lewis, C., and Polson, P . (1994). The cognitive walkthrough 
+method: A practitioner’s guide. In Nielsen, J., and Mack, R. (Eds.), Usability inspection 
+methods. New York, NY: John Wiley & Sons, Inc.
+Cognitive Walkthrough
+• Formalized way of imagining people's thoughts and actions 
+when they use an interface for the first time. 
+• First select a task that the design is intended to support. 
+• Then try to tell a believable story about each action a user has 
+to take to do the task. 
+• To make the story believable, you have to motivate each of 
+the user's actions, relying on the user's general knowledge 
+and on the prompts and feedback provided by the interface. If 
+you can't tell a believable story about an action, then you've 
+located a problem with the interface.
+What’s it good for?
+• Question assumptions about what the users will be 
+thinking
+– Will the user try to achieve the right effect?
+– Will the user notice that the correct action is available?
+– Will the user associate the correct action with the effect to 
+be achieved?
+– If the correct action is performed, will the user see that 
+progress is being made toward solution of the task?
+• Identify controls that may be missing or hard to find
+• Note inadequate feedback
+• Suggest difficulties with labels and prompts
+How to do it
+Prior to doing a walkthrough, you need four things: 
+1. You need a description of a prototype of the 
+interface. It doesn't have to be complete, but it 
+should be fairly detailed. Things like exactly what 
+words are in a menu can make a big difference.
+2. You need a task description (for a representative 
+task).
+3. You need a complete, written list of the actions 
+needed to complete the task.
+4. You need an idea of who the users will be and what 
+kind of experience they'll bring to the job.
+Some caveats
+• Don't merge step 3 into the evaluation 
+process. The walkthrough should look at the 
+exact sequence, to identify problems users 
+might encounter when following it.
+• The walkthrough does not test real users on 
+the system. With a walkthrough you can 
+potentially evaluate the interface by imagining 
+the behavior of entire classes of users, not use 
+one unique user.
+Performing the Cognitive Walkthrough
+• Define the inputs
+– Identify users and tasks
+– Create a description (screenshots, storyboard) or 
+implementation (rapid prototype) of the interface
+– Define the action sequences for completing each task
+• Gather the team
+– Facilitator maintains the pace of the discussion
+– Scribe records information
+• problems (and suggested solutions)
+• assumptions (about tasks and user’s skills)
+Performing the Walkthrough, cont.
+• Gather the team, cont.
+– Participants walk through (discuss) the tasks with 
+respect to the interface (prototypes or screenshots) 
+and action sequences
+– They try to tell a credible story
+• What is the user trying to achieve at this point? What is the 
+user’s goal and why is it their goal?
+• What actions are obviously available in the interface?
+• Does the label for the correct action match the user’s goal?
+• If the user performs the correct action, will they get good 
+feedback?
+Performing the Walkthrough, cont.
+• Record critical information
+– The credible success (or failure) story
+– Assumptions (about tasks and user’s skill)
+– Problems (and suggested solutions)
+• Revise the interface to fix the problems
+– Re-implement rapid prototype or create new 
+screenshots
+• Repeat
+– Designing the “correct” interface requires iteration
+• Proposed solutions may turn out to be wrong!
+Inverting a portion of an image 
+(Example)
+• Users
+– We want novice users of Photoshop to be able to 
+invert selections of an image with little or no training;
+– Assume that user’s have had experience with other 
+imaging programs
+• Tasks
+– Select a subregion of an image and invert it
+• Interface
+– We have screenshots from the latest version of the 
+product
+Example, cont.
+• Action Sequences
+– Zoom display to area of interest
+– Select the Lasso Tool
+– Select the subregion of the image
+– Select Inverse from the Image menu
+Photoshop Interface
+
+Description of Interface
+• Photoshop presents
+– a toolbar (far left)
+• vertically arranged
+• Assume that novice users are unfamiliar with the toolbar’s 
+icons
+– the image (center)
+– a control panel (far right)
+• Assume that novice users are unfamiliar with the operation 
+and purpose of the control panel
+Zoom in on Face
+
+Action: Zoom in on Image
+• What’s the user’s goal, and why?
+– The user wants to specify the portion of the image to 
+invert exactly. Zooming in on the region of interest 
+helps to increase the accuracy of the selection
+– Is the action obviously available?
+– The default tool in Photoshop is the Zoom tool; if the 
+user has just started Photoshop its the current tool
+– Novice users may have to search for this tool on the 
+toolbar if they need it later on
+– This tool uses the magnifying glass as its icon
+Zoom in on Image, cont.
+• Does the action or label match the goal?
+– No label involved here, however magnifying glass icon 
+represents task well
+– Clicking on image, zooms the tool
+– Dragging on image, specifies zoom region more 
+accurately
+– Assume: novice users will click rather than drag 
+(despite screenshot!)
+• Is there good feedback?
+– Yes, Photoshop instantly zooms the image
+Select Lasso Tool
+
+Select the Lasso Tool
+• What’s the user’s goal, and why?
+– They need a tool to select a portion of the image
+• Is the action obviously available?
+– They are familiar with the lasso tool from other image 
+programs
+– The lasso icon is available at the top of the toolbar 
+(increasing the chance that it will be seen)
+– The tooltip provides confirmation of the icon’s 
+information
+Select the Lasso Tool, cont.
+• Does the action or label match the goal?
+– Tooltip serves as label and confirms the meaning of 
+the familiar lasso icon
+• Is there good feedback?
+– Not shown but toolbar icon highlights when selected
+Select Image
+
+Select the Image
+• What’s the user’s goal, and why?
+– Select a portion of the image
+• Is the action obviously available?
+– Assume novice user is familiar with using the lasso tool
+• Does the action or label match the goal?
+– Yes, the lasso tool’s sole purpose is selecting regions
+• Is there good feedback?
+– Yes, the lasso tool produces a “rubber-band” that indicates the 
+current selection
+Select Invert Operation
+
+Invert the Image
+• What’s the user’s goal and why?
+– The overall task is to invert a region of the image
+• Is the action obviously available?
+– No, previous experience will lead them to look for action in the 
+menus
+• Does the action or label match the goal?
+– Yes, but the invert operation is buried in a submenu called 
+Adjust within the Image menu; novice users may look for the 
+command in the “Edit” menu
+– Is there good feedback? Yes, the image inverts
+Operation Complete
+
+Example Wrap-up
+• Action 1: Zoom In
+– Available as default tool; novice users may have to search for 
+tool on subsequent operations
+• Action 2: Select Lasso Tool
+– Lasso Icon is located in prominent place on toolbar; novice 
+users are familiar with this tool
+• Action 3: Select Image
+– No problem here
+• Action 4: Invert Image
+– Invert command is buried in submenu
+Possible Improvements?
+• The Invert selection command is a common operation 
+yet it is buried in a submenu
+– Note: It is assigned an intuitive keyboard short-cut (I) which is 
+good!
+• Suggestions
+– Move Invert up one level into the Image menu?
+– Place a command for inverting the selection on one of the 
+toolbars?
+Walkthrough results
+• A walkthrough does not necessarily generate a lot of 
+suggestions per task
+– Location within requirements phase
+• More suggestions common at the beginning
+– Task Dependent
+• Certain problems may only be revealed by a particular type of task
+– User skill level
+• Does the program try to support both novice and expert users?
+• Photoshop for example has traditionally focused on expert users...
+63
+Analytical 
+(GOMS - KLM)
+GOMS
+• Describe the user behavior in terms of
+– Goals
+• i.e. edit manuscript, locate line
+– Operators
+• Elementary perceptual, motor, or cognative acts
+– Methods
+• Procedure for using operators to accomplish goals
+– Selection rules
+• Used if several methods are available for a given goal
+• Family of methods
+– KLM, CMN-GOMS, NGOMSL, CPM-GOMS
+GOMS Example
+• Goal (the big picture)
+– Go from home to the airport
+• Methods (or subgoals?)
+– Take BART, taxi, airport shuttle
+• Operators
+– Go to BART station, wait for BART…
+• Selection rules
+– BART is cheaper, but I’m running late…
+GOMS How-To:
+• Generate task description
+– Pick high-level user Goal
+– Write Methods for reaching Goal (may invoke sub-goals)
+– Write Methods for sub-goals
+– Iterate recursively until Operators are reached
+• Evaluate description of task
+• Apply results to UI
+• Iterate
+GOMS Calculations
+• Execution time
+– Add up times from operators
+– Assume experts (have mastered tasks)
+– Assume error-free behavior
+– Very good rank ordering
+– Absolute accuracy (~10%-20%)
+Using GOMS Analysis
+• Check that frequent goals can be achieved 
+quickly
+• Making operator hierarchy is often the value
+– Functional coverage & consistency
+• Does UI contain needed functions?
+• Are similar tasks preformed similarly?
+– Operator Sequence
+• In what order are individual operations done?
+Keystroke Level Model (KLM)
+• Describe the task using the following Operators
+– K: pressing a key or a pressing (or releasing) of a button
+• T(K) = 0.08~1.2 seconds (~0.2 avg)
+– P: pointing
+• T(P) = 1.1 seconds (without button presses)
+– H: homing (switching device
+• T(H) = 0.4 sec
+– D(n,L): drawing segmented lines
+• T(D) = 0.9n + 0.16L
+– M: mentally prepare
+• T(M) = 1.35s
+– R(t) : system repsonse time
+• T(R) = t
+Exemple
+Description Operation Time (sec)
+Reach for mouse H[mouse] 0.40
+Move pointer to "Replace" button P[menu item] 1.10
+Click on "Replace" command K[mouse] 0.20
+Home on keyboard H[keyboard] 0.40
+Specify word to be replaced M4K[word] 2.15
+Reach for mouse H[mouse] 0.40
+Point to correct field P[field] 1.10
+Click on field K[mouse] 0.20
+Home on keyboard H[keyboard] 0.40
+Type new word M4K[word] 2.15
+Reach for mouse H[mouse] 0.40
+Move pointer on Replace-all P[replace-all] 1.10
+Click on field K[mouse] 0.20
+Total 10.2
+70
+KLM Heuristic Rules (Raskin)
+0: Insert M
+– in front of all K
+– in front of all P’s selecting a command (not in front of P’s ending a command)
+1: Remove M between fully anticipated operators
+– MPK →PK
+2: if a string of MKs belong to a cognitive unit, delete all M’s except the first
+– 4564.23: MKMKMKMKMKMKMK →MKKKKKKK
+3: if K is a redundant terminator, then delete M in front of it
+– [enter] [enter]: MKMK →MKK
+4a: if K terminates a constant string (command name) delete the M in front of it
+– cd [enter]: MKKMK →MKKK
+4b: if K terminates a variable string (parameter) keep the M in front of it
+– cd class [enter]: MKKKMKKKKMK →MKKKMKKKKKMK
+Using KLM
+• Encode using all physical operators
+– K, M, P , H, D(n,l), R(t)
+• Apply Raskin’s KLM rules
+• Transform R followed by an M
+– If t ≤ T(M) : R(t) →R(0)
+– If T(M) < t : R(t) →R(t – T(M) )
+• Compute the total time by adding each time 
+cost
+Applications of GOMS
+• Compare different UI designs
+• Profiling (time)
+• Building a help system?  Why?
+– Modeling makes user tasks & goals explicit
+– Can suggest questions users will ask & the 
+answers
+What GOMS Can Model
+• Task must be goal-directed
+– Some activities are more goal-directed then others
+– Creative activities may not be as goal-directed
+• Task must be a routine cognitive skill
+– As opposed to problem solving
+– Good for machine operators
+• Serial and parallel tasks (CMP-GOMS)
+Advantages of GOMS
+• Gives qualitative and quantitative measures
+• Model explains the results
+• Less work then a user study- no users!
+• Easy to modify when UI is revised
+Disadvantages of GOMS
+• Not as easy as other evaluation methods
+– Heuristic evaluation, guidelines, etc.
+• Takes lots of time, skill & effort
+• Only works for goal-directed tasks
+• Assumes expert performance
+• Does not address several UI issues
+– Readability, memorizability of icons, etc
+In conclusion (about GOMS)
+• Know your users capabilities and limits
+• Models such as Fitts’s and GOMS can help you 
+test your UI without real users
+• But there’s still no substitute for user studies
+Exercise
+Rationale for the exercise: make the link between task 
+models and inspection based evaluation
+• User the scenarios previously extracted from task 
+models
+• Perform each scenario using your prototype
+• Whilst performing the scenario observe any usability 
+problem 
+• Report usability problems using the heuristic 
+evaluation
+• IMPORTANT: see how report usability problems…
+78
+79
+Reporting Findings
+Some criteria for identifying usability 
+problems
+• Matching interface with user’s needs (ex. task 
+analysis)
+• User performance:
+– Task execution (successful, unsuccessful, partial execution)
+– Time to complete a task
+– Error occurrence
+• User satisfaction, stress, etc
+• Conformance with ergonomic rules, guidelines, 
+recommendations, etc
+80
+Classifying usability problems 
+[ Why to do this? ]
+• determine the severity of problems
+• solve most critical problems first
+• identify recurrent problems and try to avoid 
+them
+81
+Classifying usability problems 
+• Impact:
+– critical (+ 2 min., frustration, user give up)
+– important (still 2 min., success, lost in quality of interaction)
+– Less important (user can solve problems by themselves)
+X
+• Frequency:
+– big (3-5 users)
+– medium (2-3 users)
+– small (1 user)
+82
+Common Industry Format (CIF)
+• Standard format for reporting usability problems
+• US National Institute of Standards and Technology (NIST) 
+83
+Formative test Summative test
+• During the development process
+• To mould or improve the product
+• Virtually anywhere (don’t need a lab)
+• With the test administrator and the 
+participant co-present
+• At the end of a development process
+• To measure or validate the usability of a product
+• To answer the question: "How usable is this 
+product"
+• To compare against competitor products or 
+usability metrics
+• To generate data to support marketing claims 
+about usability
+• In a usability lab
+• With the participant working alone
+• Participant comments in the form of a 
+"thinking aloud" narrative (ex. attitudes, 
+sources of confusion, reasons for actions)
+• Photographs and highlights videos
+• Usability problems and suggested fixes
+• Statistical measures of usability (for example, 
+success rate, average time to complete a task, 
+number of assists)
+• Reports or white papers
+84
+Session test form
+Summary report

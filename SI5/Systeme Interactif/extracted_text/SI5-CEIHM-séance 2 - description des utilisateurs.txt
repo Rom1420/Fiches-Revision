@@ -1,0 +1,742 @@
+CEIHM
+Description des utilisateurs
+Séance 2
+Marco Winckler
+Université Nice Sophia (Polytech) | I3S | SPARKS team | bureau 446
+winckler@i3s.unice.fr
+http://www.i3s.unice.fr/~winckler/
+Université Côte d’ Azur
+
+Agenda
+• Describing users  
+– User models (ref class 2)
+– User group (who are the users ?)
+– (a few yet useful) methods
+• Profiling questionnaires
+• Modeling roles
+• Personnas
+2
+What does it mean user group ?
+• The first requirement of practical HCI design is to 
+identify who the users will be!
+• Users groups describe the characteristics of target users 
+of an interactive system 
+• Process for identifying and selecting users
+– define the characteristics of the user population, i.e. user groups
+– work with a representative sample of the user group
+3
+User Groups (or WHO?)
+• Characteristics of the User
+• Focusing on the User means: ask questions, try to
+get answers
+• Things we want to ask:
+– Questions related to the person (demographic information),
+– Attitude (e.g. towards work: motivation, interests, readiness to
+asume a risk),
+– Frequency the product is used,
+– Knowledge in the (working) area,
+– Experiences in other areas (education, technical background) 
+– (software) products used
+– Language used (e.g. technical terms, entertainment, …) 
+User Groups (or WHO?)
+• Who are the users?
+– Primary and secundary users
+– Buyers or substitute (or representativeà users)
+• Description of the Users:
+– Jobs, Tasks, Tools, mental models
+– Individuell Differences
+– Usage of products
+User groups (or WHO?)
+• How to learn about the users?
+– Who is having contact with the users (e.g. hotline)?
+– What kind of users and potential users can we think of?
+– User/Task Matrix (who is doing what, and how often)?
+– Typical characteristics of the user-community
+– EVALUTE your ASSUMPTIONS!!
+User/Task Matrix
+Users Getting 
+comfortabl
+e with 
+software
+Basic
+software 
+use
+Advanced 
+software use
+Training 
+the 
+patients
+Customizing the 
+software
+Patients X X
+Patient families x X X
+Novice clinicians X X X
+Expert clinicians X x X X
+Describing and assessing user groups  
+• Methods for describing user groups
+– User roles, personas, user profiling
+• Methods for assessing user groups
+– Interviews, questionnaires, focus groups … 
+• Important Problems
+– Every user is an unique individual (variation in the population)
+– In some cases, users tasks and responsibilities might be more 
+important that individuals preferences but not always…
+– Stereotyped views of users is a dangerous and yet necessary tradeoff 
+8
+User characteristics 
+(based on learning skills and usage)
+• A simplest classification:
+– Users are: NOVICE or EXPERT
+– Usage is: FREQUENT or INFREQUENT
+• Defining user ability 
+– Levels of ability e.g. novice, advanced beginner, competent user, 
+proficient user, expert (Dreyfus, 1980)
+– Revised frequency of usage (constant, regular, occasional)
+– Task familiarity (slanted towards technical ability)
+– Degree of usage of similar technology (dissimilar hardware/software).
+– Demographic data (user age and status profile)
+– Value perception (particularly relevant to the introduction of new 
+technology) 
+9
+Dreyfus, S. E.; Dreyfus, H. L. (February 1980). A Five-Stage Model of the Mental Activities
+Involved in Directed Skill Acquisition. Washington, DC: Storming Media. 
+Ascertain User’s Needs
+• Define tasks
+– Tasks
+– Subtasks
+• Frequency
+– Frequent
+– Occasional
+– Exceptional
+– Repair
+• Ex. difference between a space 
+satellite, car engine, and fighter jet
+
+Reliability
+• Actions function as specified
+• Data displayed must be correct
+• Updates done correctly
+• Leads to trust! (software, 
+hardware, information) – case: 
+Pentium floating point bug
+• Privacy, security, access, data 
+destruction, tampering
+
+Standardization, Integration, 
+Consistency, Portability
+• Standardization – common user-interface features across 
+multiple applications
+– Apple
+– Web
+– Windows
+• Integration – across application packages
+– file formats
+• Consistency – common action sequences, terms, units, 
+layouts, color, typography within an application
+• Portability – convert data and interfaces across multiple 
+hardware and software environments
+– Word/HTML/PDF/ASCII
+Usability Measures
+• How can we measure the 
+‘goodness’ of an interface?
+• What are good metrics?
+• ISO 9241
+– Effectiveness
+– Efficiency
+– Satisfaction
+• Schneiderman
+– Time to learn
+– Speed of performance
+– Rate of errors
+– Retention over time
+– Subjective satisfaction
+
+Usability Motivations
+• Life-Critical systems
+– Applications: air traffic, nuclear reactors, military, emergency dispatch
+– Requirements: reliability and effective (even under stress)
+– Not as important: cost, long training, satisfaction, retention
+• Industrial and Commercial Use
+– Applications: banking, insurance, inventory, reservations
+– Requirements: short training, ease of use/learning, multiple languages, 
+adapt to local cultures, multiplatform, speed
+• Office, Home, and Entertainment
+– Applications: E-mail, ATMs, games, education, search engines, cell 
+phones/PDA
+– Requirements: Ease of learning/use/retention, error rates, satisfaction
+– Difficulties: cost, size
+•Time to learn
+•Speed of performance
+•Rate of errors
+•Retention over time
+•Subjective satisfaction
+Usability Motivations
+• Exploratory, Creative, Collaborative
+– Applications: Web browsing, search engines, simulations, 
+scientific visualization, CAD, computer graphics, music 
+composition/artist, photo arranger (email photos)
+– Requirements: remove the ‘computer’ from the 
+experience, 
+– Difficulties: user tech savvy-ness (apply this to application 
+examples)
+• Socio-technical systems
+– Applications: health care, voting, police
+– Requirements: Trust, security, accuracy, veracity, error 
+handling, user tech-savy-ness
+•Time to learn
+•Speed of performance
+•Rate of errors
+•Retention over time
+•Subjective satisfaction
+Universal Usability
+• Interface should handle diversity of 
+users
+– Backgrounds
+– Abilities
+– Motivation
+– Personalities
+– Cultures
+• Question, how would you design an 
+interface to a database differently for:
+– A. right-handed female, Indian, software 
+engineer, technology savvy, wants rapid 
+interaction
+– B. left-handed male, French, artist
+
+Universal Usability
+• Does not mean ‘dumbing down’
+– Ex. Helping disabled has helped 
+others (parents w/ strollers, 
+elderly)
+– Ex. Door handles
+• Goal: Address the needs of 
+more users - unlike yourself!
+• Everyone is often not at full 
+faculties at all times
+
+Physical Variation
+• Ability
+– Disabled (elderly, 
+handicapped, vision, 
+ambidexterity, ability to 
+see in stereo 
+[SUTHERLAND])
+– Speed
+– Color deficiency
+• Workspace 
+– Science of ergonomics
+– Size
+– Design
+• Lots of prior research
+
+Physical Variation
+• Field of anthropometry
+– Measures of what is 5-95% for 
+weight, height, etc. (static and 
+dynamic)
+– Large variance reminds us there is 
+great ‘variety’
+– Name some devices that this would 
+affect.
+• note most keyboards are the same
+• screen brightness varies considerably
+• chair height, back height, display 
+angle
+• Multi-modal interfaces
+• Audio
+• Touch screens
+
+Cognitive and Perceptual Variation
+• Bloom’s Taxonomy
+– knowledge, comprehension, analysis, application, 
+synthesis, evaluation
+• Memory
+– short-term and working
+– long-term and semantic
+• Problem solving and reasoning
+• Decision making
+• Language and communication
+Cognitive and Perceptual Variation
+• Language and 
+communication
+• Search, imagery, sensory 
+memory
+• Learning, skill 
+development, knowledge 
+acquisition
+• Confounding factors:
+– Fatigue
+– Cognitive load
+– Background
+– Boredom
+– Fear
+– Drugs/alcohol
+
+Personality
+• Computer anxiety
+• Gender
+– Which games do women like?
+– Pac-man, Donkey Kong, Tetris
+– Why? (Hypotheses: less violent, 
+quieter soundtracks, fully visible 
+playing fields, softer colors, 
+personality, closure/completeness)
+– Can we measure this?
+• What current games are for 
+women?
+• Style, pace, top-down/bottom-up, 
+visual/audio learners, dense vs. 
+sparse data
+
+Personality
+• No simple taxonomy of user 
+personality types.  Ex. Myers-
+Briggs Type Indicator
+– Extrovert vs. introvert
+– Sensing vs. intuition
+– Perceptive vs. judging
+– Feeling vs. thinking
+• Weak link between personality 
+types and interfaces
+• Think about your application, and 
+see if user personality is 
+important!
+– Fighter jets vs. search engines
+
+Cultural and International Diversity
+• Language
+• Date / Time conventions
+• Weights and Measures
+• Left-to-right
+• Directions (!)
+• Telephone #s and addresses
+• Names, titles, salutations
+• SSN, ID, passport
+• Sorting
+• Icons, buttons, colors
+• Etiquette
+• Evaluation:
+– Local experts/usability studies
+
+Users with Disabilities
+• Federal law to ensure access to IT, including computers and web 
+sites. (1998 Amendment to Rehabilitation Act)
+• Disabilities
+– Vision
+• Blind (bill-reader)
+• low-vision
+• color-blind
+– Hearing
+• Deaf
+• Limited hearing
+– Mobility
+– Learning
+• Dyslexia
+• Attention deficient, hemisphere specific, etc.
+• Keyboard and mouse alternatives
+• Color coding
+• Font-size
+Users with Disabilities
+• Contrast
+• Text descriptors for web 
+images
+• Screen magnification
+• Text to Speech (TTS) – JAWS 
+(web pages)
+– Check email on the road, in 
+bright sunshine, riding a bike
+• Speech Recognition
+• Head mounted optical mice
+
+Users with Disabilities
+• Eye Gaze control
+• Learning what helps those with 
+disabilities affects everyone
+– Present procedures, directions, and 
+instructions accessible to even poor 
+readers
+– Design feedback sequences that 
+explain the reason for error and help 
+put users on the right track
+– Reinforcement techniques with other 
+devices
+• Good target area for a final 
+project!
+
+Elderly
+• Reduced
+– Motor skills
+– Perception
+– Vision, hearing, touch, mobility
+– Speed
+– Memory
+• Other needs
+– Technology experience is varied (How 
+many grandmothers use email?  
+mothers?)
+– Uninformed on how technology could 
+help them
+– Practice skills (hand-eye, problem 
+solving, etc.)
+• Touch screens, larger fonts, louder 
+sounds
+
+Children
+• Technology saviness?
+• Age changes much:
+– Physical dexterity 
+• (double-clicking, click and drag, and small targets)
+– Attention span
+– (vaguely) Intelligence
+• Varied backgrounds (socio-economic)
+• Goals
+– Educational acceleration
+– Socialization with peers
+– Psychological - improve self-image, self-confidence
+– Creativity – art, music, etc. exploration
+
+Children
+• Teenagers are a special group
+– Next generation
+– Beta test new interfaces, trends
+– Cell phones, text messages, simulations, fantasy games, 
+virtual worlds
+• Requires Safety
+• They
+– Like exploring (easy to reset state)
+– Don’t mind making mistakes
+– Like familiar characters and repetition (ever had to babysit a 
+kid with an Ice Age DVD?)
+– Don’t like patronizing comments, inappropriate humor
+• Design: Focus groups
+
+Accommodating Hardware and 
+Software Diversity
+• Support a wide range of hardware and software 
+platforms
+• Software and hardware evolution
+– OS, application, browsers, capabilities
+– backward compatibility is a good goal
+• Three major technical challenges are:
+– Producing satisfying and effective Internet interaction 
+(broadband vs. dial-up & wireless)
+– Enabling web services from large to small (size and 
+resolution)
+– Support easy maintenance of or automatic conversion to 
+multiple languages
+User groups modeling techniques
+• Inferring individuals facts, patterns of user 
+behaviors, condition-action rules
+– Task models
+– Scenarios
+• Using stereotypes to infer many things at a 
+time
+– User roles
+– User profiles
+– Persona
+32
+User characteristics to consider
+• Demographic data: 
+– Age, gender, education, occupation, cultural background, 
+special needs, computer training and knowledge, 
+experience with similar systems/products
+• Traits and intelligence: 
+– cognitive styles, affective traits, skill sets or capability
+• Job or task related factors: 
+– job characteristic, knowledge of application and job 
+familiarity, rate of use of the computer (in work)
+33
+Design for the target audience
+• Ex. e-commerce 
+application for selling 
+games for kinds
+Audience Criteria
+Parents Price
+Security
+Durability
+Time spent for buying
+Teachers Price
+Security 
+Educational value
+Useful in classes
+Friends Suggestions for gifts
+Ordered by age
+Time and costs of delivering 
+Il vient avec papier cadeaux ?
+Children Is it fun?
+It is new?
+Are children allowed to buy on-line?
+34
+User profile
+• Fictitious summary including motivation, goals 
+and personalities
+• Includes information about, age, gender, skills, 
+education level, experience, cultural level
+35
+Describing the main user characteristics
+• Personal characteristics:
+– Age, sex, education, job type, socio-economic status, role in organization.
+– Lifestyle, personality, emotions and attitudes (e.g. toward using a technology).
+– Skills.
+– Physical abilities and constraints, e.g. poor eyesight, color blindness, etc.
+• Task related characteristics:
+– Goals and motivation.
+– Tasks.
+– Usage (heavy vs. light, frequency, indirect or remote).
+– Training and experience (from novice to expert).
+•    Geographic and social characteristics:
+– Location: regions, countries, continents, market areas.
+– Cultures and other circumstances.
+– Social connections and societies.
+36
+Example
+1. # of users that occupy this user type
+2. General responsibilities or activities
+3. Computer skills
+4. Domain expertise
+5. Goals: how does the tool help this user reach their goals?
+6. Pain Points: what nagging problems can the tool help to 
+solve?
+7. Usage Contexts: where will the tool be used?
+8. Tool Ecosystem: what other tools does this user type rely on?
+9. Collaborators: who does this user work with to help reach their 
+goals?
+10.Frequency of Use: how often is this type of user likely to use the 
+tool?
+37
+To help understanding the characteristics of 
+users/customers that might have bearing on 
+the design, construct a profile containing 
+information about the type of user relevant 
+to the tool being created.
+Characteristics suitable for this user 
+type (design imperatives)
+▪ ease of learning
+▪ retention of learning
+▪ efficiency of interaction
+▪ reliability of interaction
+▪ user satisfaction
+▪ user convenience
+▪ necessity for proficiency
+▪ importance of accuracy
+38
+Questionnaire
+• How do we formulate the question?
+• What kind of question (and what kind of 
+answers) are appropriate?
+• Why do we ask the question?
+Knowledge of the Interviewed
+1. Explications: open/closed questions
+2. Information level of the interviewed:
+1. Unclear terms
+2. Abstract terms
+→ conduct a pretest
+3. Multi-Dimensions of questions
+Formulating Questions
+4. Ordering questions:
+• From the general to the special
+• 5 dimensions for questions
+• Consciousness: open knowledge question: What do you understand by 
+participation in the decision process?“
+• Unconcsious attitude: open question: What role should unions play for 
+the decision process? 
+• Specific attitude: closed question: Some people say that the employers 
+should have the mayority in the board of directors, other say employers 
+and employees should have the same number of seats – what do you 
+think? 
+• Reasons: Open-Why question: Why do you think that? 
+• Itensity: Closed itensity question: „How sure are you: very sure, sure, 
+not sure, not sure at all? 
+5. Blurrred questions („Do you also think that there are too 
+many foreign people living here?“)
+Is the question appropriate? 
+• There is an important distinction in open 
+and closed questions:
+• Open: How do most of your colleagues 
+tink about working again 42 hours per 
+week? 
+• Closed: Are most of your colleagues 
+sopporting or declining to work 42 hours 
+per week? 
+Researcher Background
+• Questions are asked with a reason: typically they are 
+related to a hypothesis that should be validated. One 
+question is normally not enough!
+• Do not formulate a hypothesis as a direct question:
+– Are you a neurotic character?
+– Do you feel isolated in your appartment outside of the 
+city?
+– Are you able to use the new interface? 
+Rules for asking questions
+• Short, simply, rely on the background of the interviewed person.
+• The longer an event is ago, the less precise will be the answer
+• The more a person is interested in the topic, the more valid the answer
+• The more important an event for the person, the more detailed the
+answer
+• The more dangourous the event for the person, the more they will tend to
+forget the event
+• The more social disapprovement, the less likely it will be reported
+• The more important something is (e.g. income), the more the answers
+will be exagerated
+• Using a closed question with two alternatives: the later alternative will be
+more attractive!
+Rules for asking questions
+Open Questions:
+• The order items are named, must not mean the 
+order of importance. Sometimes even the most 
+important aspect is not named, as it is so self-
+evident. 
+• The number of items named will increase with the 
+time you allow the person to respond, and the more 
+you encourage the person to answer. Take care not 
+to suggest things!!
+Rules for asking questions
+Closed questions:
+• The more detailed someone was thinking about a position 
+and his/her reasons for that position, the less likely s/he will 
+get along with a given list of answers
+• The less detailed someone was thinking about his/her 
+reasons, the more happy they will be about a given list of 
+answers. With a very low level of information/reflexion from 
+the participant, it is likely that you will get an answer by 
+chance.
+• Disagreeable reasons, that would not be told in an open 
+answer, can be included in a closed list of answers. 
+Rules for asking questions
+Lists of questions
+• The lower the information of the participant, the more he will 
+try to choose the „right“ given alternative. We know that he 
+will choose a category in the lower middle (position effect).
+• To avoid these position effect, the position of the questions 
+should be changed (within the poll).
+• The longer the descriptions, the more chance to confuse the 
+participants. 
+• Sometimes it is useful to avoid the „neither-nor“ category, so 
+participants have to make up their mind and you can avoid 
+the maybe, I don‘t know. 
+Pretest
+• Before you start your study: do a pretest
+• With a limited number of cases, but cases 
+should be within the final sample
+• Get aware of unclear formulations and 
+possible error sources 
+• Be careful that you influence the 
+information people have about the topic 
+(so do not „re-ask“ the same sample)
+Matrix of the User-Characteristics
+
+User roles
+• A collection of attributes that characterize 
+certain user population and their intentional 
+interaction with the system
+• Task and responsibility based
+• Individual preferences does not matte here
+50
+User roles: a simple example
+51
+
+user/task matrix
+Tasks Admissions clerk Ward clerk Physician’sofficer
+Collect patient 
+demographic data
+Frequent Never Frequent
+Collect patient insurance 
+data
+Frequent Never Frequent
+Collect patient medical 
+data
+Sometimes Frequent Frequent
+Assign patient to room
+and bed
+Never Frequent Never
+Make patient ID bracelet Frequent Sometimes Never
+Give directions to floor 
+and room
+Frequent Sometimes never
+Role Modeling Steps
+• brainstorm an initial set of user roles
+– A user role is one user
+– System roles are also useful
+• organize the initial set of cards
+– Tasks and responsabilities
+• consolidate roles
+• refine the roles
+– The frequency with which the user will use the software.
+– The user’s level of expertise with the domain.
+– The user’s general level of proficiency with computers and software.
+– The user’s level of proficiency with the software being developed.
+– The user’s general goal for using the software. Some users are after 
+convenience,
+– others favor a rich experience, and so on.
+53
+
+Priorities and conflicts between user groups
+54
+
+Personas
+• Technique based on data gathered through 
+user research, mapping user archetypes 
+(profiles), that represent a few important 
+classes of users’ goals and needs 
+55
+Build a simple persona 
+• Include: 
+– Name
+– A role or job title
+– Quotes in the personas language
+– Relevant demographics
+– Descriptions that reveals goals, motivations, pain 
+points 
+– Descriptions that describe primary activities this 
+user type will engage in.
+56
+
+Case study BRPE
+57
+
+Personas for BRPE
+58
+
+Prototyping scenarios
+59
+
+Creating scenarios and user stories 
+• White down representatives users tasks with the Web application
+• Identify users tasks for each kind of user in all contexts of use
+• Define:
+– Context of use (street, work, home, etc …)
+– How the system help to perform the task
+– What is required to perform the task
+– How important the task is for the user?
+60
+How to write a user story 
+• Separation of the user/customer types’ goals (previous slides)
+• Template: As a <some role>, I want <something>, so that <some 
+value>
+– Describes who wants, what wants and what for in one 
+sentence
+– Examples:
+• “As an end user I want to be able to upload my picture to my 
+profile page, so that my profile page looks cool”
+• “As a sales person, I want to see statistics of my 
+performance in graphical charts, so that I monitor my 
+performance”
+• “As an administrator, I want to have database backups, so 
+that I won’t be in big trouble if something unexpected 
+happens”
+• User story does not define any details of the implementation!
+• Every user story needs a Definition of Done (acceptance criteria)
+61
+References
+• Carroll, J.M (1995) Introduction: The Scenario 
+Perspective on System Development. In J.M. Carroll 
+(ed.) Scenario-Based Design: Envisioning work and 
+Technology in System Development New York: Wiley
+• Carroll John M. (2000). Making use: scenario-based 
+design of human-computer interactions. Cambridge, 
+London, Massachusetts: The MITT Press.
+• Larry L. Constantine and Lucy A. D. Lockwood. 1999. 
+Software for Use: A Practical Guide to the Models and 
+Methods of Usage-Centered Design. ACM 
+Press/Addison-Wesley Publ. Co., New York, NY , USA.
+62

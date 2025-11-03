@@ -1,0 +1,336 @@
+CEIHM
+Questionnaires et Entretiens 
+Séance 2
+Marco Winckler
+Université Nice Sophia (Polytech) | I3S | SPARKS team | bureau 446
+winckler@i3s.unice.fr
+http://www.i3s.unice.fr/~winckler/
+Université Côte d’ Azur
+
+SURVEYS/QUESTIONNAIRE
+Surveys
+• The most often used method in HCI research.
+• Def : surveys are a „well-defined“ and „well-written“ set of questions  to which 
+an individual is asked to respond.  Surveys are typically self-administered … 
+(Lazar et al., 2009, p. 100)
+❖ Benefits:
+❖ Easy to collect data from large number of people
+❖ relatively low cost
+❖ good for getting an overview
+❖ unobtrusive
+❖ do not require special tools (can be even done on paper)
+❖ Drawbacks:
+❖ difficult to gain „deep“ understanding
+❖ no follow-up questions possible
+❖ biased data: e.g. asking for usage during the last 6 months, current 
+feelings, …
+Survey/Questionnaire - Examples
+- Evaluation of Usability:
+- https://garyperlman.com/quest/
+- SUS:
+- https://www.researchgate.net/publication/228593520_SUS_A_quick_and_dir
+ty_usability_scale
+- Hedonic and Pragmatic Quality (User Experience):
+- http://attrakdiff.de/ 
+- Self-Assessment Manikin Questionnaire (SAM)
+- http://irtel.uni-mannheim.de/pxlab/demos/index_SAM.html 
+Developing Survey Questions
+• Two types:
+❖ Overall Structure of the Survey
+❖ Structure of the Single Questions
+❖ How do we have to formulate a question?
+❖ Which kind of questions (and answer categories) are reasonable?
+❖ Why is a questions asked?
+Types of Questions:
+❖ Open: „What do most of your colleagues think about working 50 hours per week 
+for the same salary?“ 
+❖ Closed: „Do most of your colleagues support or deny to work 50 hours per week 
+for the same salary?“
+❖ Examples for answer categories:
+❖ Likert Scale
+❖ Ratings
+❖ Level of Agreement (Very much agree, Do not agree at all)
+❖ Emotions (☺)
+❖ Fixed set of answers
+❖ Branches (e.g. no/yes; if yes, please describe ….)
+
+Influences when answering questions
+PRIMACY and RECENCY EFFECT
+❖ If you have a long list of possible choices (written down), there will be a tendency 
+for taking one of the first answers – Primacy Effect
+• What do you think is important for a healthy nutrition
+ Water
+ Fruits
+ Vegetables
+ Coffee
+ Beer
+ Meat
+❖ If you read out a long list of possible answers, then there will be a tendency to take 
+one of the last answers – Recency Effect.
+Influences when answering questions:
+OPEN or CLOSED Questions
+• What is the most important thing that children should learn to prepare them 
+for life?“
+• Open: ……….. (let participant answer freely)
+• Closed:
+ Learn reading
+ Learn writing
+ Learn maths
+ Do sports
+ Make them independent
+ Educate them with table manners
+❖ Open: 5%; Closed 62%: make them independent.
+Influences when answering questions:
+answer categories
+• How much time do you spend watching TV (daily):
+0 – 0,5 hours up to 2,5 hours
+0,5 hours – 1 hour 2,5 hours to 3 hours
+1 hour – 1,5 hours 3 hours to 3,5 hours
+1,5 hours – 2 hours 3,5 hours to 4 hours
+2 hours – 2,5 hours 4 to 4,5 hours
+More than 2,5 hours more than 4,5 hours
+Average: 16,2 % watch more than 2,5 37,5 % watch more than 2,5
+Influences when answering questions:
+answer categories
+• How often are you really upset on your workplace? 
+• Sometimes during the day once per week
+• Once per day 2-3 times per month
+• Nearly every day once per month
+• Once per week once every half year
+• Less than once per week less
+• People will report when they were
+a bit upset really upset
+• Overestimation of „small events“
+Influences when answering questions:
+answer categories
+• How successful have you been in your life?
+• Scale: 10 – 0 +5 --- 0 --- -5
+• Value named from 4 to 0: Value named from  - 1 to – 5:
+• 34 % 13 %
+• Average: 6,4 Average (transferred): 7,3
+Influences when answering questions:
+answer categories
+• How satisified were you with the shipping time in days for the product from
+Asia?
+1 day 5 days
+2 days 6 days
+3 days 7 days
+4 days 8 days
+5 days or more 9 days or more
+Using the scale on the right makes people “more satisfied” with the service ☺
+Influences when answering questions:
+direction of comparison
+• „Thinking of your teachers in high school, would you say that your female 
+teachers were more empathetic with regard to academic and personal 
+problems than your male teachers, or were they less empathetic?“
+• Females more empathetic 41%
+• „Thinking of your teachers in high school, would you say that your male 
+teachers were more empathetic with regard to academic and personal 
+problems than your female teachers, or were they less empathetic?
+• Females more empathetic 9%
+Influences when answering questions:
+graphical format
+„At every university, some students are doing better than others. Some tend to 
+be towards the top of the performance hierarchy and some tend to be towards 
+the bottom. Where would you place your own academic performance?“
+• scale from 1 (top) to 10 (bottom)
+• Percentage of participants choosing a value between 6 and 10:
+• If you use a simle row of : 18,8%
+• If you use a Pyramid with the values : 48,8%
+
+What shall we do?
+• Rotate/Permuate Answer Categories
+• Equidistant answer categories
+• Make clear introductions for each topic / when you change topic
+• Split the sample: make two independent surveys/samples
+• Method mix
+• Pretests (review by knowledgable colleagues; interview potential 
+respondents, pilot study both tool and implementation procedure)
+• Make an experiment to control the possible influences in the 
+questionnaire 
+How many participants?
+• See: https://www.uxmatters.com/mt/archives/2016/01/how-
+to-determine-the-right-number-of-participants-for-usability-
+studies.php
+• https://www.nngroup.com/articles/user-interviews/
+16
+INTERVIEWS
+Interview : Definition
+• „An interview is a (fixed) procedure with a scientific goal, where 
+participants responses are evoked by a number of questions or 
+other (spoken) stimuli.“
+• An interview is typically oral.
+• Structured (theme and order of questions are fixed) or standardized 
+(questions are fixed)
+• In most cases researcher and interviewer are not the same person
+• A researcher is „translating“ the research plan in a number of 
+questions (questionnaire) and a set of interviewers is conducting 
+the interviews.
+Interviews: Pro‘s & Con‘s
+• Pro:
+❖ Ability to go „deep“
+❖ Interviews can be open ended and exploratory
+❖ Flexible
+• Cons:
+❖ Effort 
+❖ Analysis can be difficult (1 hour recording, 10 hours analysis)
+❖ Problems of recall (people can not remember)
+❖ Interviewer has to be trained
+Interview : Application
+• Standardized Interview can offer a broad variety of 
+information (depending on the size of the questionnaire and 
+the willingness of the interviewed persons). 
+• Interviews are the basis for information on positions, 
+perceptions and facts.
+• Limitations of interviews are posed by the limitations of 
+language (people might not have „words“ to describe their 
+feelings of perceptions) and limitations of people‘s language 
+skills. 
+Rules for Asking Questions
+Open questions:
+❖ The order of anwers to a question is not representative for the importance
+of the answers
+❖ It can happen that the most important aspect is not named, as it is
+completely evident to the person being interviewed.
+❖ When the number of answers is increasing, the person being interviewed
+should get more time for answering (do not interrupt)
+❖ Be careful not to influence (suggest) answers. (Especially if the
+interviewed person is not able to give an answer …)
+Rules for Asking Questions
+Closed Questions:
+❖ The more someone has thought about his opinions, the more likely s/he 
+will not be happy with a fixed set of answers.
+❖ The less someone has thought about his/her opinion, the more s/he will 
+appreciate a fixed list of answers.
+❖ Be careful: If people do not have informations about a topic, or no 
+opinion on a topic, they might just check answers by chance.
+❖ Unpleasent reasons, that would not be named in an open question, can be 
+presented with a closed questions as one of the pre-scripted alternative 
+answers.
+Rules for Asking Questions
+❖ Short, easy, and focusing on the framework of the interviewed  person
+❖ The long(er) ago an event, the more unprecise the answer
+❖ The more a person is interested in a thematic area, the more valid the 
+answers
+❖ The more important an event, the more precise the answers
+❖ The more dangerous (drastic, threatening) an event, the more likely the 
+person will forget it
+❖ The more something is social disapproved, the less likely people will 
+report that (e.g. mental illness)
+❖ The higher something is socially valued (e.g. salary), the higher the 
+answers 
+❖ Closed questions with two alternatives: The alternative named last, 
+sounds more attractive to the interviewee. 
+Rules for Asking Questions
+Questions in List Format:
+❖ The less information the interviewee has, the more he will try to „guess“ 
+the „right“ answer in the given alternatives. Based on experience we know 
+that he will choose a category in the lower middle (position effect).
+❖ To avoid position effects it is necessary to change the order (for the 
+different interviews)
+❖ The longer the information, the more likely that the interviewee gets lost.
+❖ Sometimes it is useful to avoid a „neither-nor“ category. This leads to a 
+clear position of the interviewee and avoids the „maybe, don‘t know, don‘t 
+care“ effect.
+When asking a questions …
+1. Try to understand the reasons for an answer (so you understand the 
+framework of the interviewed person) e.g. by possing additional open or 
+closed questions.
+2. Keep in mind that people have different levels of information/education or 
+familiarity with a subject
+❖ AVOID:
+❖ unclear terms
+❖ abstract terms
+❖ →conduct a pre-test (to see if people understand your questions!)
+When asking a questions …
+3. Anwers can have multi-dimensions:
+e.g. Can you tell me what people live in your neighbourhood – people 
+might answer: 
+• „old people“ (Dimension Age), 
+• „friendly people“ (Dimension Sympathy)
+• „working people like we are“ (Dimension Status in Society)
+4. Biased questions: all questions that lead to a bias (e.g. „Don‘t you think
+too, that we have to many immigrants“?)
+When asking a questions …
+5. Ordering of questions: From general to special 5 dimensional 
+question planning:
+i. Consciousness: open knowledge question: „What do you understand 
+when we talk about employee participation? “
+ii. Unconscious Attitude: „What should a labour union do to improve 
+employee participation“?
+iii. Specific attitude:  closed question: „Some people say, that employers 
+should have the majority of seats in the management board, others 
+say that employer and employees should have equal number of seats. 
+What do you think?“
+iv. Open-Why-Question: Why do you have this opinion?
+v. Intensity: closed intensity question: How sure are you about that? 
+Extremly sure, sure, unsure, extremly unsure? 
+Be Careful …. 
+• It is necessary to have more than one question to 
+answer a hypothesis.
+• Never use a hypothesis directly as a question e.g. 
+„Are you neurotic?“, „Do you feel lonely in your 
+new appartment?“, „Are you able to use this 
+software“?
+Conducting an Interview
+• Behavior of the interviewer
+• Goal is to help the interviewed person to feel comfortable in 
+the situation.
+• The behavior of the interviewer is important. Interview 
+depends heavily on the behavior of the interviewer 
+(additionally there are influencing effects based on 
+gender/ethnicity/social group).
+• Reaction on the interviewee‘s behavior
+• Interview location
+Conducting an Interview
+• Other important aspects:
+– The way the interviewer is posing the questions, e.g. slow/fast
+– The length of the break after each question
+– Usage of not pre-scripted requests (e.g. „Could you explain that more 
+detailed?“)
+– Usage of sentences that allow a resume (e.g. „You mean …“
+– The usage of stimuli to show interest („mmm, oui, d‘accord, mais 
+encore, oui j‘ai compris, …“)
+– Eye contact
+– Body movement, congruent body positions, distance to the 
+interviewee
+Possible Error Sources for Interviews and 
+Questionnaires
+• Formulation of the Questions
+• Order of the questions
+• Behaviour of the interviewer
+• Number of „Drop-outs“ in the selected sample
+• It is important that the interviewers have a good training
+• Do not trust interviewers (neither students nor chief 
+interviewers from commercial institutions)
+• Reliability of answers can be improved by using control 
+questions, repeating questions.
+Special Types of Interviews: 
+Depth Interview
+Oral Interview:
+non standardized questions, low level of question structure, Expert 
+questioning, Interview-Guideline
+Goal:
+– To understand meaning and importance of an answer of the 
+interviewee
+– To investigate one special aspect of the opinion of the interviewed 
+person
+– To understand influences on the opinion and opinion making 
+process of the person
+– To analyse complex attitude patterns
+– To allow a motivational interpretation
+– To investigate an explorative research question (= a research 
+question where we do not have an explanatory theory or model)
+Special Types of Interviews and Questionnaires: 
+Tests
+• Types of tests:
+• Performance tests:
+• Intelligence test
+• Development test
+• School test
+• Psychometric personality tests
+• Attitude tests, interest test, personality test
+– Tests for personality and personality development (e.g. 
+Rorschach-Test)
+– Possibility for diagnostics
+e.g. long term diagnostics

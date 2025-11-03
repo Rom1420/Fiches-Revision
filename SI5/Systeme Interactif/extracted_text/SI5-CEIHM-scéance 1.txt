@@ -1,0 +1,402 @@
+Conception de Systèmes 
+Interactifs
+Introduction: les concepts de base
+séance 1
+Marco Winckler
+Université Côte d’ Azur (Polytech Nice) | I3S | SPARKS team | bureau 453
+Marco.Winckler@univ-cotedazur.fr
+http://www.i3s.unice.fr/~winckler/
+Université Côte d’ Azur (Polytech Nice)
+
+Objectifs
+« …maitriser les principes de conception, de 
+programmation et d'évaluation d'interfaces 
+homme-machine permettant de produire des 
+systèmes informatiques utilisables… »
+2
+References
+• Voici quelques références pour aujourd’hui… d’autres 
+suivront…
+– Nielsen, J. (1993) Usability Engineering. Academic Press.
+– D. Mayhew (1999) The Usability Engineering Lifecycle: A 
+Practitioner's Handbook for User Interface Design. Morgan 
+Kaufmann. 542 p.
+– Jonathan Lazar, Jinjuan Feng, Harry Hochheiser. Research 
+Methods in Human-Computer Interaction, 2nd Edition. 
+Morgan Kaufmann 2017, ISBN 978-0-12-805390-4
+– Ergonomie des interfaces - Guide pratique pour la 
+conception des applications web, logicielles, mobiles et 
+tactiles. J-F. Nogier,T. Bouillot,J. Leclerc
+• Lire pour avoir de bons arguments!
+• Trop facile de sembler créatif quand on ignore le 
+travail des autres… 3
+
+Agenda aujourd’hui
+• Concepts de base
+• Présentation du planning
+• Exercice pratique en TD
+• Démarrage du projet
+4
+Evaluation
+• Deux évaluation: examen (individuel) + projet (groupe de 5) 
+• Projet
+– Un livrable est à produire à chaque séance
+– L’ensemble de livrables constitue le rapport, à savoir:
+• Identification du scope du projet
+• Cas d’usage et utilisateurs ciblés
+• Prototypes
+• Modèles de tâches et scénarios
+• Démarche rationnel sur les choix de conception
+• Evaluation par inspection 
+– Projet = assemblage de livrables mis en forme sur la forme 
+d’un rapport
+5
+6
+Real life Usability Problems
+7
+One tap for hot and other for cold…
+8
+Is this 
+usable?
+9
+When trying to 
+open this file 
+cabinet users found 
+themselves pulling 
+the handle on the 
+top (See arrow).
+Guess what 
+happened? 
+
+10
+People generally don’t 
+comply to pre defined 
+paths…
+Usability problems: examples 
+11
+http://www.fooz.com/eric/bad/
+
+Usability problems: examples 
+12
+http://www.englishpractice.com/
+
+Usability problems: examples 
+13
+http://www.englishpractice.com/
+
+Usability problems: examples 
+14
+http://www.englishpractice.com/
+15
+Usability problems: wrong places for 
+good things
+16
+Usability problems: do I have time for a coffee?
+17
+Usability problems: coffee machine
+
+18
+Usability problems: just press the button!
+
+19
+Usability problems: booking flights
+
+20
+Usability problems: changing user choices
+21
+Usability
+Some criteria for identifying usability problems
+• Matching interface with user’s needs (ex. task 
+analysis)
+• User performance:
+– Task execution (successful, unsuccessful, partial 
+execution)
+– Time to complete a task
+– Error occurrence
+• User satisfaction, stress, etc
+• Conformance with standards, ergonomic rules, 
+guidelines, recommendations, etc
+22
+Definitions: usability, user experience and 
+accessibility
+• [Bevan, 1995]
+– Quality of use: efficient usage of interface’s resources by users...
+• [Nielsen, 1992]
+23
+
+Usability is …
+• Is the system easy to learn?
+– What happens if I press the button?
+– What can kind of actions can be currently performed?
+– Why am I here?
+– Ah … yes I know that, it should work like that …
+– Save is in the first menu … it is always there …
+– Left is cancel, right is ok (or is it the other way arround?)
+24
+Usability is …
+• Whatever I do … the system will not crash
+– What happens currently with the system?
+– Am I able to recover from an error? 
+– Why is nothing happening? Did the system crash? 
+– Why can‘t I do it this way, I really thought the 
+system would support that.
+25
+Principles related to Usability 
+• What do we have to take into account to make 
+something usable?
+26
+Predictability
+Synthesizability
+Familiarity
+Generalizability
+Consistency
+Learnability
+Dialoge initiative
+Multi-threading
+Task migratability
+Substitutivity
+Customizability
+Flexibility
+Observability
+Recoverability
+Responsiveness
+Task conformance
+Robustness
+Usability
+IHM dans le ISO standards
+• ISO 13407 User Centered Design 
+• ISO 9241 Usability 
+– Effectiveness 
+– Efficiency 
+– Satisfaction 
+• User Experience – ressenti utilisateur (en 
+cours de standardisation)
+27
+User eXperience
+28
+“UX is person's 
+perceptions and responses 
+that result from the use or 
+anticipated use of a 
+product, system or 
+service.” ISO 9241-210 (2009)
+Definitions: User Experience
+29
+Visual/aesthetic experience refers to the pleasure that people gain from 
+sensory perceptions, how beautiful something is perceived
+Emotion, the emotional experience is one of the three main factors 
+contributing to product experience, including feelings and emotions elicited
+Stimulation as a hedonic attribute of a product, which can lead to new 
+impressions, opportunities and insights
+Identification dimension addresses the human need to express one’s self 
+through objects
+Meaning and Value is referring to "Ideo pleasure" indicating values the 
+product can satisfy. 
+Relatedness (social relatedness/co-experience), products that facilitate 
+communication as well as those that serve as conversation pieces contribute 
+to socio pleasure.
+User eXperience over time
+30
+
+Time spans of UX
+31
+
+32
+Accessibility
+Users with Special needs (Accessibility)
+• Accessibility: make an interface accessible even for impaired people or users with 
+special needs including physical or cognitive handicap, special work conditions or 
+technology constraints
+• Ex.:
+– Users with visual impaired (8%  male population  in USA can’t distinguish red 
+from green)
+33
+L’écran noir
+Accessibility 
+False Ideas
+• I am not disabled, therefore this is not for me 
+– WAI is for all 
+– 20% people have some kind of problem 
+– Barriers affect several devices: (mobiles, PDA, TV, kiosks, voice response systems, ...) 
+• Disabled people can't use computers 
+– Internet is a great world for them (and for me too) 
+– Specialized Hw + Sw (Braille, voice, magnifiers, ...) 
+– Other temporal disabilities: driving 
+• Boring/dull text-only alternate version 
+– Discrimination (not all people have the same problems) 
+– Why double effort or resources? 
+– A text only version may be even less accessible 
+• Specific design for each user type/device 
+– Design for ANY user type 
+– Device independence 
+34
+Accessibility  
+Vision
+• Full blindness → Braille 
+devices, audio transcription 
+• Color-blindness → user's 
+style sheet with overrided 
+colors 
+• Short-sightedness → 
+magnifier, user's style sheet 
+with magnified fonts 
+• Sight busy in other activity 
+(driving) → audio 
+transcription 
+35
+Accessibility 
+Hearing 
+36
+• Deafness 
+• Hard of hearing 
+• Noisy environments 
+• Silent environments (library) 
+Accessibility  
+Physical disabilities
+• Motor disabilities 
+• No mouse 
+• Adapted keyboard 
+• Speech disabilities 
+37
+Accessibility 
+Cognitive and neurological disabilities
+• Dyslexia, dyscalculia 
+• Attention deficit disorder 
+• Memory impairments 
+• Photo-sensitivity 
+38
+Accessibility  
+Technology 
+• Too old browser 
+• Too new browser 
+• Other operating system 
+• No such plug-in 
+• Low bandwidth 
+39
+Accessibility 
+Disability as a function of age
+40
+Source: U.S. Census Bureau Report on Americans with Disabilities: 1994-1995 (August 1997).
+Based on Survey of Income and Program Participation. Oct 1994 - Jan 1995.
+
+41
+Processus de conception
+User Centered Design (UCD)/
+Design Centré Utilisateur
+42
+• En général: design industriel, 
+innovation, dans un cycle de 
+conception d’ingénierie 
+système!
+• en IHM:!
+• UCD utilisabilité,
+• ISO9241-210:2010!
+– IS: conception participative!
+
+La conception centrée utilisateur
+• La norme ISO 13407 définit les conditions :
+– Une préoccupation amont des utilisateurs, de leurs tâches 
+et de leur environnement
+– La participation active de ces utilisateurs, ainsi que la 
+compréhension claire de leurs besoins et des exigences 
+liées à leurs tâche
+– Une répartition appropriée des fonctions entre les 
+utilisateurs et la technologie
+– L'itération des solutions de conception : on peut s'imaginer 
+le cycle comme une spirale, une démarche qui boucle et 
+reboucle jusqu'à ce que le système satisfasse aux 
+exigences définies au départ
+– L'intervention d'une équipe de conception multi-
+disciplinaire
+43
+Etapes du processus de conception centrée 
+utilisateur
+44
+
+Planifier le processus de conception centrée sur l'utilisateur 
+• Cette pré-étape consiste à planifier les activités de 
+développement dans une optique de conception 
+centrée utilisateur
+• Les avantages doivent être connus de l'équipe, 
+notamment :
+– le retour sur investissement
+– la satisfaction des utilisateurs
+– l'utilisabilité du système et 
+– l'adaptation aux caractéristiques des opérateurs
+• Les exigences doivent aussi être clairement 
+explicitées
+• Consulter les documents sur l'ergonome et charte 
+graphique
+• Dans le cas de la conception d'une application 
+métier, on essaie aussi de constituer un groupe de 
+travail (composé notamment des opérateurs, futurs 
+utilisateurs du système).
+45
+
+Comprendre et spécifier le contexte d'utilisation 
+• comprendre la population 
+cible et ses caractéristiques, 
+ses buts et tâches, ses 
+environnements
+• décrire les environnements 
+technique, physique, 
+ambiants, social, 
+organisationnel et législatif 
+• identification des profils 
+utilisateurs 
+• Méthodes à utiliser:
+– Card sorting (tri de cartes)
+– Entretiens
+– Focus Groups
+– Scenarii
+– Personnas
+46
+
+Spécifier les exigences liées à l'utilisateur et à 
+l'organisation 
+• Objectifs d'utilisabilité : 
+– "Qu’est-ce que je vais mesurer et 
+qu’est-ce que j’attends en 
+termes de performance homme-
+machine?«
+– Critères:
+• Taux de succès
+• Nombre d'erreurs
+• Temps d'exécution des 
+tâches
+• Nombre d'étapes 
+nécessaires à la 
+complétion des tâches
+• Eventuels recours à une 
+aide interne ou externe au 
+produit
+• Rythme d'apprentissage
+• Satisfaction des 
+utilisateurs…
+• Objectifs opérationnels et 
+financiers 
+• Exigences organisationnelles 
+47
+
+Produire des solutions de conception 
+• Production de solutions de conception 
+vise à utiliser les connaissances 
+acquises lors des étapes précédentes 
+pour matérialiser les solutions afin de 
+pouvoir les modifier en fonction des 
+feedback utilisateurs 
+• Méthodes à utiliser:
+– Prototypage
+48
+
+Evaluer les solutions conçues au regard des exigences 
+• Réaliser de testes 
+utilisateurs
+• Décrires les problèmes 
+d’utilisabilité rencontré
+• Ordonner les défauts de 
+conception selon leur 
+importance 
+• Recueillir un feedback sur 
+la conception développée
+49

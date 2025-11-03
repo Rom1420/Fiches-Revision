@@ -1,0 +1,407 @@
+Conception de Systèmes 
+Interactifs
+Design Rationale
+Marco Winckler
+Université Nice Sophia (Polytech) | I3S | SPARKS team | bureau 453
+winckler@i3s.unice.fr
+http://www.i3s.unice.fr/~winckler/
+Université Nice Sophia Antipolis (Polytech)
+
+References
+• Carroll, J. M., & Rosson, M. B. (2003) Design Rationale as Theory. Ch. 15 in J.M. 
+Carroll (Ed.), HCI Models, Theories, and Frameworks. San Francisco: Morgan 
+Kaufmann
+• MacLean, Allan; Young, Richard M.; Bellotti, Victoria M. E., and Moran, Thomas P . 
+Questions, Options, and Criteria: Elements of Design Space Analysis. Lawrence 
+Erlbaum Associates; 1991; 6, pp. 201-250.
+• Célia Martinie, Philippe A. Palanque, Marco Winckler, Stéphane Conversy: 
+DREAMER: a design rationale environment for argumentation, modeling and 
+engineering requirements. SIGDOC 2010: 73-80
+2
+Structure of the lecture
+• About design process
+• What is Design Rationale?  
+• What is the purpose?
+• How is it conducted?
+• Contributions to HCI 
+• Notations
+First, about design
+• Design is a problem-solving process whose 
+objective is describe and find a way to… 
+implement requirements, respecting 
+constraints, and ensure good quality
+• The result of the process includes:
+– Specification of the product to be implemented
+– A set of design decisions
+4
+Best solutions with respect 
+to some criteria
+Taking decisions
+5
+Design problem
+Design issues 1 Design issues n
+Problem space
+Solution spaceDesign 
+option a 
+issue 1
+Design 
+option b 
+issue 1
+Design 
+option c 
+issue 1
+Design 
+option a 
+issue n
+Design 
+option b 
+issue n Design 
+option c 
+issue n
+The design process 
+• A designer has to face with several issues
+– Each issue part of the overall problem
+– Each issue might be solved by more than one 
+design option
+– The designer makes a decision to resolve every 
+issue
+• This process implies to chose the best option 
+among the alternatives 
+6
+What is Design rationale?
+• Rationale has to do with logical explanations 
+and reasoning
+• Discussions, debates, negotiations
+• Reasons for features
+• Reasons against features
+• Weighing of tradeoffs 
+7
+Why to use Design Rationale?
+• Increase understanding interaction situations by:
+– Documentation
+– Analysis
+– Descriptions
+– Causes and consequences
+• Showing important aspects about:
+– Context
+– Applicability
+– Scope
+8
+Steps in Design Rationale 
+• Scenarios
+• Narratives
+• Generating claims
+• Claims analysis
+9
+Scenarios
+• Describe user interaction
+• Created or observed situations
+• Documented as narratives
+• Several scenarios are recommended
+• Typical scenarios comes from theory,  observation, 
+field studies, personal experiences, documented 
+experiences
+• We look for situations where contradictions are 
+obvious
+10
+Types of scenarios
+• Goals: what can I do?
+– What - other than sending e-mails - does this system 
+support?
+• Opportunism: what does this do?
+– What does the “Rules” preference support?
+• How-To: carrying out procedures.
+– How do you add mailboxes and hierarchies of mailboxes?
+• Sense-Making: what happened?
+– Why is there suddenly a mailbox for drafts?
+11
+Claim analysis
+• Claims are statements
+– interpreted as design suggestions
+– are carefully examined
+• Every claim is associated with benefits and 
+drawbacks, systematically documented
+• Decisions are supported by theories relevant 
+for the current situation
+12
+Supporting theories
+• Psychological theories (see second class…)
+– Memory
+– Gestalt laws
+– etc.
+• Sociological theories
+• Ergonomics
+• Different point of views according to users
+• ...
+13
+Tradeoff analysis
+14
+
+Example
+• Have a shared calendar at work:
++ saves time when meetings are scheduled.
++ easy to know when people are available.
+- but people have to remember to make a note of 
+everything they do.
+- but people might not feel comfortable that 
+everyone knows where they are and what they 
+do.
+15
+How to find claims
+• Text analysis
+– Scanning for causes & effects
+• Pose questions related to situations/ 
+actions/goals
+– what made her click there?
+• Analyze scenarios with users
+• Reuse of prior analyses
+• Use Norman’s stages of action
+16
+Norman’s stages of action
+• Forming the goal
+• Forming the intention
+• Specifying an action
+• Executing the action
+• Perceiving the state of the world
+• Interpreting the state of the world
+• Evaluating the outcome
+17
+Interaction gulfs (according to D. Norman, 1986)
+Semantic distance 
+of inputs
+Articulatory distance 
+of inputs
+Execution gulf
+system
+goal
+Intention 
+ comparison
+meaning of 
+inputs
+detailed 
+action plan
+how to 
+execute
+execution
+ perception
+way to 
+present 
+results
+interpretation
+meaning of 
+outputs
+Evaluation gulf
+Semantic distance 
+of outputs
+Articulatory distance 
+of outputs
+Execution gulf is the effort 
+required for a user to express 
+an intention in terms of 
+commands or instructions
+Evaluation gulf refers to the 
+way the results provided by 
+the system are meaningful or 
+understandable by the users, 
+and in accordance with their 
+goals
+Semantic distance 
+of inputs
+Articulatory distance 
+of inputs
+Execution gulf
+system
+goal
+Intention comparison
+meaning of 
+inputs
+detailed 
+action plan
+how to 
+execute
+execution perception
+way to 
+present 
+results
+interpretation
+meaning of 
+outputs
+Evaluation gulf
+Semantic distance 
+of outputs
+Articulatory distance 
+of outputs
+Semantic distance 
+of inputs
+Articulatory distance 
+of inputs
+Execution gulf
+system
+goal
+Intention comparison
+meaning of 
+inputs
+detailed 
+action plan
+how to 
+execute
+execution perception
+way to 
+present 
+results
+interpretation
+meaning of 
+outputs
+Evaluation gulf
+Semantic distance 
+of outputs
+Articulatory distance 
+of outputs
+Semantic distance 
+of inputs
+Articulatory distance 
+of inputs
+Execution gulf
+system
+goal
+Intention comparison
+meaning of 
+inputs
+detailed 
+action plan
+how to 
+execute
+execution perception
+way to 
+present 
+results
+interpretation
+meaning of 
+outputs
+Evaluation gulf
+Semantic distance 
+of outputs
+Articulatory distance 
+of outputs
+Semantic distance 
+of inputs
+Articulatory distance 
+of inputs
+Execution gulf
+system
+goal
+Intention comparison
+meaning of 
+inputs
+detailed 
+action plan
+how to 
+execute
+execution perception
+way to 
+present 
+results
+interpretation
+meaning of 
+outputs
+Evaluation gulf
+Semantic distance 
+of outputs
+Articulatory distance 
+of outputs
+18
+Task-artifact cycle
+19
+Tasks and scenarios Artifacts
+requirements
+design options
+Design artefact and knowledge reuse
+20
+
+Summary
+• Design rationale at several levels:
+– A tool for communicating design 
+alternatives/decisions to users or clients
+– Contributes to general design knowledge
+– Supports research approaches contributing to HCI 
+theory
+21
+Exercise for the TD
+• Examine and discuss scenarios and claims for 
+the design options described with your 
+prototypes 
+– Are the scenarios plausible?
+– Is it clear how the claims are identified?
+– What HCI knowledge grounds the claims analysis?
+– Can other claims be identified?
+• See slide 15 for an example
+22
+Design Rationale Notations
+• gIBIS (Conklin & Begeman, 1988) 
+• QOC (MacLean & McKerlie, 1995)
+• DREAM TEAM (Lacaze, Palanque, Barboni & 
+David Navarre, 2005)
+– Based on QOC
+23
+QOC (Question, Options, Criteria)
+24
+
+The TEAM Notation
+Questions, Option, 
+Criteria:
++ factors associated to 
+criteria
++ assessment of options
++ traceability of options 
+selected
++ view of participants
++ task models associated 
+to options 
++ executable scenarios for 
+an options
+Extensions on the TEAM Notation
+Requirements
+Questions
+Options
+Criteria
+Factors
+Scenarios, Tasks, Arguments
+
+Case Study
+• Source: DGAC (French Civil Aviation Authority)
+• Goals on this project:
+a) To develop a formal description technique for describing 
+widgets in user applications for cockpit display system; This 
+issue has been addressed by extending the ICO notation;
+b) To specify user applications compliant with ARINC 661 
+standard, which is an aeronautical international standard.
+The standard 
+ARINC 661
+RadioBox2 alternatives 
+for ‘look and feel”
+ARINC 661 RadioBox 2 in context: 
+Multi Purpose Interactive Application (MPIA) 
+
+Rationalizing the Design of the ARINC 
+RadioBox2 
+• Known requirements are added to the diagram;
+• Questions raised by designers during brainstorming meetings 
+are included in the diagram;
+• For each question raised, several design options should be 
+explored and the relationships between them must be 
+depicted by edges in the diagram;
+• Any artifacts (i.e. ICO models in the case of the project) 
+related to a particular element are connected to the 
+corresponding design option;
+• Criteria and factors influencing the choice are added to the 
+diagram (e.g. ISO 9126 standard on Software Quality);
+• Edges are added for connecting options and criteria;
+DEMO? 
+DREAM diagram for the design of the behavior of the ARINC 
+661 RadioBox2 widget
+
+Tool Support: DREAMER 
+participants
+sessions
+Main edition area
+zooming pan

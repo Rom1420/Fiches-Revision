@@ -1,0 +1,1024 @@
+CEIHM
+Modèle de Tâches
+Marco Winckler
+Université Nice Sophia (Polytech) | I3S | SPARKS team | bureau 446
+winckler@i3s.unice.fr
+http://www.i3s.unice.fr/~winckler/
+Université Nice Sophia Antipolis (Polytech)
+
+References
+Palanque P ., Martinie C., Winckler M. (2017) Designing and Assessing Interactive 
+Systems Using Task Models. In: Bernhaupt R., Dalvi G., Joshi A., K. Balkrishan D., O’Neill 
+J., Winckler M. (eds) Human-Computer Interaction – INTERACT 2017. INTERACT 2017. 
+Lecture Notes in Computer Science, vol 10516. Springer
+2
+Structure of the lecture
+• Introduction to Model-based Approaches 
+• State of art in Task Models
+• ConcurTaskTrees
+• Task Models for Cooperative Applications
+• HAMSTERS
+• Task Models in Usability Evaluation
+Why Model-based approaches?
+• Highlight important information
+• Help to manage complexity 
+• Useful to support design methods
+• One important aspect of most development 
+methods
+• Reason about models
+• Documentation and user help 
+• ...
+How does an interative UCD Process look like
+
+How does an interative UCD Process look like
+user/task matrix
+
+multi-level flowchart
+
+Task analysis: Definitions
+• Task
+• Goal
+• Basic Task
+• Task Analysis <> Activity analysis 
+• Task Modeling
+What is the point of task analysis? 
+• Determine 
+– What the users do
+– The tools they use to do their work 
+– The information they know or the information 
+they must know for performing their work 
+• Cover all/most cases
+• Cover all/most users  
+One small example
+• To clean the house 
+– Take the vacuum cleaner
+– Plug it in 
+– Use it in all the rooms 
+– When the bag is full, empty it 
+– Store the vacuum cleaner 
+• You must know
+– Where is the vacuum cleaner
+– Where are the plugs 
+– How to remove the bag
+– Where are the new bags 
+– Evaluate if a room is clean or not 
+Information gathering
+• Planned procedure
+– Ask the boss 
+– Look at the manual 
+• Actual procedure 
+– Ask the operator 
+– Record operator behaviour
+• Optimal procedure 
+– The target for a good system
+Task Analysis (Web application for museum)
+• Tourist
+– general and clear information in limited amount
+– access by spatial representations
+– guided navigation
+• Art student
+– some basic knowledge
+– choice among different types of information  
+• Expert
+– precise requests
+– detailed description of the information requested
+Beware about the abstraction level 
+• If you ask the following question:
+What are you doing?
+• You can get:
+– I am striking ctrl-B keys
+– I make "bonjour" in bold
+– I make on word bold 
+– I highlight a word
+– I am modifying a document
+– I am writing a letter 
+– I keep contact with my familly 
+– I am waiting for a phone call 
+Building the task tree 
+• 1 Build a list of tasks
+• 2 Gather high-level tasks 
+• 3 Breakdown low level tasks
+• Where to stop ? 
+– Is the action « empty bag » decomposed enough?
+– Objective: only decompose pertinent tasks (objective 
+optimization/automation of work)
+– User actions: cognitive/motor usually not that interesting to decompose 
+(except for performance evaluation)
+– System activity MUST not be represented (will be in other models) 
+• Highest level = reproduction of the specie
+• Lowest level = biological life (breathe, drink a coffee , …) 
+Example: make a cup of tea
+
+Refining Models
+• Once the model is built (whatever notation you use)
+– How to be sure that it is correct?
+– How to improve it?
+• Some heuristics
+– Coupled actions: e.g., where is "turn gas on"?
+– Restructure : e.g. make a task generic “make pot”
+– Balance : e.g. is “pour tea” simpler than “make pot”?
+– Generalise: e.g. make one cup … make many
+Example: make a cup of tea
+
+Example: make a cup of tea
+
+Examples of task analysis
+• Tourist
+– Book a train ticket
+– Find a monument in the city
+– Game of 15
+• A client using a cash machine
+– Withdraw money 
+– Check the balance on the account 
+– …
+Party : The game of 15
+• The game is played by 2
+• You have the following tokens 1, 2, 3, 4, 5, 6, 7, 8, 9
+• People play in turn, each player take one token at a time, 
+one token can only be taken once
+• The first with 3 token of which the sum adds up to 15 is 
+the winner
+Play this game without tool (paper, pencil or other! )
+Party : The game of 15
+• Analyze one player task
+–Propose a decomposition in sub tasks 
+• Propose an interface (paper +pencil or 
+computer tool) for this game
+–The user interface must (of course) help the 
+player to achieve his task
+Beware !
+• Not a cognitivist approach 
+• Don’t include the system 
+• Make sure models are correct 
+• No algorithmic description (calculation of who is the 
+winner)
+• No task migration (the system performs tasks 
+assigned to the player) 
+• Who starts (difference between you play together 
+and you play with ME - elbow communication)
+Task Analysis 
+Play the game of 15
+Ensure turn taking Choose a token Evaluate if there 
+is a winner
+Remember token I 
+have already taken
+Remember the 
+Remaining tokens
+Your solution
+
+Another solution
+8
+1
+6
+3
+5
+7
+4
+9
+2
+• Extraterrestrial 
+• Example of a computer system
+– We have a database with the following schema:
+– Propose a menu tree allowing to manipulate that 
+database
+Client Manages Sales Man
+1,1 1,n
+Functioning versus Usage 
+Structuring
+Client
+Sales man
+Add
+Delete
+Modify
+Display
+Add
+Delete
+Modify
+Dsisplay
+Functioning structure
+• View of the computer 
+Scientist
+– The tree structure reflects 
+the database structure
+– Grouping is made by 
+function code similarity 
+Example of task described as a scenario
+• « I spent my day at work entering information for 
+new clients and I must associate them with the more 
+suitable sales man (according to various criteria) … 
+sometimes I receive an invoice from a sales man 
+recently recruited. In such a case, I must create both 
+the new sales man and the client. Sometimes a sales 
+man quits the company. Usually they leave the 
+company for another one and the clients follow 
+them. I then have to delete the sales man and all its 
+related … »
+• Propose a tree structure adapted to the tasks
+Sales Management
+Add
+Delete its Clients
+Modify
+Display
+Add Sales Man
+Delete Sales Man
+Display Sales Man information
+Add Sales Man
+Display Sales Man information
+Usage structure (1/2)
+• User interface is structured according to the task
+Things are still problematic
+• There is no 
+– Menu for deleting clients (without sales man)
+– Client modification
+– …
+• There is 
+– Access to clients through their sales man
+– Display of client information without getting to their sales 
+man first
+– …
+U=1/F
+Engineering task models
+• Flexible and expressive notations
+• Systematic methods able to indicate how to 
+use information in the task models
+• Availability of automatic tools to use such 
+information efficiently
+The many possible task models
+• Existing System 
+– One or many systems
+– One or many operators
+• Envisioned System
+– One or many systems
+– One or many operators
+• Variation of models (co-evolution)
+Use of Task Models
+• Better understanding of the application (and in 
+particular its use)
+• Record discussions (multidisciplinary)
+• Help design
+• Help usability evaluation
+• Help performance evaluation
+• Help user in performing the tasks (contextual help)
+• Documentation (content + structure)
+Representations of Task Models 
+• Hierarchical task analysis
+• GOMS family
+• UAN
+• K-made (web)
+• AMBOSS (web)
+• HAMSTERS
+• Different syntax (textual vs graphical)
+• Different level of formality
+• Different set of operators for task composition
+GOMS Example
+GOAL: EDIT-MANUSCRIPT
+GOAL: EDIT-UNIT-Task repeat until no more unit tasks
+GOAL: ACQUIRE-UNIT-TASK
+GET-NEXT-PAGE if at end of manuscript
+GET-NEXT-TASK
+GOAL: EXECUTE-UNIT-TASK
+GOAL:LOCATE-LINE
+[select: USE-QS-METHOD
+USE-LF-METHOD]
+GOAL: MODIFY-TEXT
+[select: USE-S-METHOD
+USE-M-METHOD]
+VERIFY-EDIT
+Exemple GOMS-KLM
+Description Operation Time (sec)
+Reach for mouse H[mouse] 0.40
+Move pointer to "Replace" button P[menu item] 1.10
+Click on "Replace" command K[mouse] 0.20
+Home on keyboard H[keyboard] 0.40
+Specify word to be replaced M4K[word] 2.15
+Reach for mouse H[mouse] 0.40
+Point to correct field P[field] 1.10
+Click on field K[mouse] 0.20
+Home on keyboard H[keyboard] 0.40
+Type new word M4K[word] 2.15
+Reach for mouse H[mouse] 0.40
+Move pointer on Replace-all P[replace-all] 1.10
+Click on field K[mouse] 0.20
+Total 10.2
+37
+Limitations of GOMS
+• It does not consider user errors
+• It does not consider the possibility of 
+interruptions
+• It considers only sequential tasks
+• It can be inadequate for distributed 
+applications (such as web-based applications)
+UAN - User Action Notation
+• 2 complementary set of information
+– A hierarchy of tasks LOTOS (proche de CTT)
+– A table for describing states and feedback
+• Textual notation 
+• Introduced in 1992 (Hix & Hartson huge 
+success Developing user interfaces Ensuring, 
+Usability Through Product & Process) 
+Example of UAN specification
+Task: BuildRequest:
+((SelR | ClearR | IconifyR)*
+--> SpecField+)
+Task: SelApplication
+User Action Interface Feedback Interface State
+~[x,y in AppICON]
+(t<tdoubleClick)   w’!: w’-!
+UnMap(PrevAppliMenu)
+Map(AppMenu)
+UnMap(AppICON)
+CurAppli=App
+CurMenu=AppMenu
+ConcurTaskTrees
+• Focus on Activities 
+• Hierarchical Structure
+• Graphical Syntax
+• Rich set of temporal operators
+• Task allocation
+• Objects and task attributes
+Task Models vs Scenarios
+• Scenarios are informal descriptions of a 
+specific use in a specific context
+• Task models describe the possible activities 
+and their relationships
+• Scenarios can support task development
+• Task models can support scenarios 
+identification
+Moving from scenarios to tasks
+• Find verbs = tasks
+• Find words = objects 
+• Find adverbs = temporal relationships
+Temporal Operators
+• Enabling T1 >> T2 or T1 [ ]>> T2 
+• Disabling  T1 [> T2 
+• Interruption T1 |> T2
+• Choice T1 [ ] T2 
+• Iteration T1* or T1{n} 
+• Concurrency T1 |||  T2      T1 |[]| T2
+• Concurrency (must finish first) T1 |=| T2 
+• Optionality [T] 
+CTT Editor 
+Task Simulator
+HAMSTERS Software installation / Slides
+• Slides are available
+• Need java to be installed on your computer  
+http://www.oracle.com/technetwork/java/javase/downloads/jre8-
+downloads-2133155.html
+• Need to get Hamsters tool and examples 
+• Need to get the Hamsters video (file HAMSTERS - Create a project - Create 
+a task model.WMV)
+47
+Past-Current Research Projects
+• Air Trafic Management (enroute ATC workstations) 1995-2001 & 2010-
+2014 HALA! Network of excellence & SPAD
+• Dynamic instantiation of widgets, Post WIMP interfaces
+• Time constraint about 3mn (speed vector)
+• Automation and automation degradation / tasks migrations 
+• Space domain : R&T IMAGES (2004-2006) R&T TORTUGA (2008-2011) R&T 
+ALDABRA (2011-2012) R&T MARACCAS (2012-2013)
+• Specification of satellite ground segments with multimodal interfaces 
+• Target application: AGENDA & spacecraft-debris collision avoidance system 
+• Collaborative distributed operations / time constraint 24h
+• Civil aviation Thales (2001-2004) 2009-2016 (Airbus – dependable 
+interactive cockpits)
+• Interactive Cockpits (ARINC 661 standards)
+• Specification of system architectures for dependable interactive systems – Time 
+constraints 30 sec
+48
+Work on task modeling -> HAMSTERS
+• Philippe A. Palanque, Rémi Bastide, V. Sengès: Validating interactive system design through the 
+verification of formal task and system models. IFIP Engineering HCI (1995): 189-212
+• Philippe A. Palanque, Rémi Bastide: Synergistic Modelling of Tasks, Users and Systems using Formal 
+Specification Techniques. Interacting with Computers 9(2): 129-153 (1997)
+• David Navarre, Philippe A. Palanque, Fabio Paternò, Carmen Santoro, Rémi Bastide: A Tool Suite for 
+Integrating Task and System Models through Scenarios. DSV-IS (2001): 88-113
+• Marco Winckler, Philippe A. Palanque, Christelle Farenc, Marcelo Soares Pimenta: Task-Based
+Assessment of Web Navigation Design. TAMODIA Task Models and Diagrams for User Interface 
+Design (2002): 161-169
+• Philippe A. Palanque, Sandra Basnyat: Task Patterns for Taking Into Account in an Efficient and 
+Systematic Way Both Standard and Erroneous User Behaviours. Human Error, Safety and Systems 
+Development (2004): 109-130
+• Célia Martinie, Philippe A. Palanque, Marco Winckler: Structuring and Composition Mechanisms to 
+Address Scalability Issues in Task Models. INTERACT (2011) 589-609
+49
+Course objectives
+• Know the benefits of using task description techniques to design 
+interactive systems (tasks-based design)
+• Be able to describe users’ activities in a systematic and structured way 
+(examples and practical exercises) 
+• Know how to use the HAMSTERS notation and tool for editing, analyzing 
+and simulating task models (according to the current state of interaction 
+what are the available tasks) help understand if it is a correct description
+• Have experience in analyzing an interactive systems focusing on the tasks 
+the users have to perform (manual and tool supported by HAMSTERS)
+• Interact altogether on experiences on task-based design 
+50
+Descriptions of Tasks 
+• Record information gathered during tasks analysis
+• One important aspect of most development methods
+• Useful for designing an interactive system that fits user work
+– Identify complex activities in the current work
+– Allocation of tasks to different actors
+– Identify good candidate for automation 
+51
+Why Model-based approaches?
+• Highlight important/relevant information
+• Focus on abstract information (stay away from non 
+relevant details)
+• Help to manage complexity 
+• One important aspect of most development 
+methods
+• Possibility to reason about models
+• Support collaboration amongst stakeholders 
+52
+Affordance/Usability of models
+53
+Can go through easily
+ Can go through but difficult
+Impossible to go through
+UCD Without UCD 
+Significant Models in HCI
+• Task models
+• Cognitive models e.g. SRK
+• User models e.g. edutainment 
+• Domain Models e.g. UML class diagrams
+• Context Models e.g. location aware systems
+• Presentation Models e.g. widgets libraries
+• Dialogue models e.g. state machines 
+• Platform models e.g. cellphones descriptions 
+(display, CPU, …) 
+54
+Task models (versus task analysis)
+• Manage information gathered from task analysis
+– Structure
+– Record
+– Refine
+– Analyze
+– Reuse
+• 3 Fundamental concepts in tasks modelling
+– Hierarchical structure of tasks: Hierarchical Task Analysis (Annett & 
+Duncan, 1967) (Annett, 2004)
+– Knowledge representation: Task Knowledge Structure (Johnson et al. 
+1989)
+– Multi-user/Collaborative activities: Groupware Task Analysis (van der 
+Veer 1996) 
+55
+What is the point of task analysis? 
+• Determine 
+– What the users do
+– The tools they use to do their work 
+– The information they know or the information they must know for 
+performing their work 
+– The knowledge they have (or must have)
+– The objects they must or can use to perform their tasks 
+– The strategies they apply (or must know) for performing the tasks
+• Cover all/most cases
+• Cover all/most users  
+56
+One small example
+• To clean the house 
+– Take the vacuum cleaner
+– Plug it in 
+– Use it in all the rooms 
+– When the bag is full, empty it 
+– Stop when finished
+– Store the vacuum cleaner 
+• You must know
+– Where is the vacuum cleaner?
+– Where are the plugs?
+– How to remove the bag?
+– Where are the empty bags?
+– Should I start by the entrance or by the end of the room? – strategy (related to 
+context)
+– Should I have vacuum cleaner at maximum speed? – strategy
+– Evaluate if a room is clean or not – situational knowledge
+57
+Jens Rasmussen. Skills, rules, and knowledge; 
+signals, signs, and symbols, And other distinctions in 
+human performance models. IEEE transactions on 
+systems, man, and cybernetics, vol. Smc-13, no. 3, 
+may / june 1983, 257-266. 
+Information gathering
+• Operators/users work 
+– Planned procedure
+• Ask the boss (regulations)
+• Look at the manual or training material
+– Actual procedure 
+• Ask the operator 
+• Record operator behavior
+– Optimal/Minimal procedure 
+• The target for an optimal system (maybe not the best one – e.g. aircraft 
+cockpits)
+• Tools around the workspace
+– Post-it, memory joggers, annotations …
+58
+Beware about the abstraction level 
+• If you ask the following question:
+What are you doing?
+• You can get:
+– I am striking ctrl-B keys
+– I make the world "bonjour" in bold
+– I make one word bold 
+– I highlight a word
+– I am modifying a document
+– I am writing a letter 
+– I keep contact with my familly 
+– I am waiting for a phone call 
+59
+Example from A. Dix
+Task models as the corner stone of successful design
+60
+Task models as the corner stone
+of successful design
+• Main elements of the course
+– HAMSTERS notation
+– Task model creation, edition and validation
+• Practical work on an illustrative real life interactive 
+system
+• Not presented but included in the annex:
+• « Which notation to choose? »: a review of of 
+notations and tools for describing users’ tasks
+61
+In this part, you will learn how to
+• Create a task model
+• Build a task model
+• Validate a task model
+• Modify a task model
+62
+Example: Obtain money from an ATM
+63
+Photo credit: Adam De Almeida
+Why the ATM ?
+(Automated Teller Machine)
+• Simple but meaningful example:
+• System and activities already known by the audience
+• Requires manipulation of several types of data
+• Several versions of the system for withdrawing money:
+• Manual way (at the bank office)
+• ATM in public spaces
+• Java version of the ATM (for the course)
+64
+HAMSTERS TOOL
+65
+
+How to start HAMSTERS
+• Make sure Java JRE 8 is installed 
+http://www.oracle.com/technetwork/java/javase/do
+wnloads/jre8-downloads-2133155.html
+• Go in directory hamster/bin
+• Launch hamsters.exe
+• Menu File/new project or click on icon 
+66
+
+Launch HAMSTERS
+67
+
+Create a project
+68
+Menu File/New 
+Project
+Create a project
+69
+Icon New 
+Project
+Click Next
+70
+
+Enter the name of your project
+71
+
+Project created
+72
+Your new 
+project 
+appears
+Main directories in the project
+73
+Roles
+- Contains task models
+Subroutines
+Components
+- Contain reusable task models (presented in 
+part 2)
+Objects
+- Contain manipulated data: information, 
+physical objects…
+Actors
+Trainee
+Practical sessions
+Interactive system runtime and training (not 
+presented today)
+HUMAN-CENTERED ASSESSMENT AND 
+MODELLING TO SUPPORT 
+ENGINEERING FOR RESILIENT SYSTEMS
+HAMSTERS
+74
+
+Elements of the notation HAMSTERS
+• Hierarchy
+• Temporal ordering
+• Refined task types
+• Manipulated objects/information/devices
+• Knowledge
+75
+Hierarchy
+• Decomposition of activities according to goals
+• Goals into sub-goals
+• Sub-goals into tasks
+• Tasks into actions
+• …
+76
+Exercise 1
+Model the main tasks to withdraw money
+• Goal: Withdraw money
+• Prerequisites:
+• Have a withdrawal card
+• Know the amount that has to be withdrawn
+• Know the PIN number
+• Results:
+• Take money
+• Take back the withdrawal card
+77
+Exercise: ATM constraints
+• Insert_Card, Enter_Code, Witdraw_Card
+• Request_Cash, Select_Amount, 
+Withdraw_Cash
+78
+Request_Cash Select_Amountbefore
+Insert_Card Withdraw_Cardbefore
+Enter_Code Insert_Cardjust after
+and
+Select_Amount
+Insert_Card
+Withdraw_Cashbefore
+One example of ATM functioning 
+79
+
+Exercise 1
+80
+Withdraw
+money
+Identify Select 
+amount
+Process
+request
+Finalize
+withdrawal
+Building the task tree 
+• 1 - Build a list of tasks
+• 2 - Gather high-level tasks 
+• 3 - Breakdown low-level tasks
+• Where to stop ? 
+– Is the action “identify” decomposed enough?
+– Objective: only decompose pertinent tasks (objective 
+optimization/automation of work)
+– User actions: perceptive/cognitive/motor usually not that interesting 
+to decompose (except for performance evaluation or for interaction 
+design)
+– System activity MUST not be represented (will be in other models) but 
+connections to it yes 
+• Highest level = reproduction of the species ;-)
+• Lowest level = biological life (breathe, drink, contract muscle …) 
+81
+Installation Game (end of the game) 
+– Identify your hardware/software platform 
+– Downloading tool / getting a USB Key 
+– Installing HAMSTERS 
+– Create your first task model 
+82
+Video about HAMSTERS installation 
+83
+
+Create a task model
+84
+Icon New 
+File
+Create a task model
+85
+1. In the panel « Categories », 
+select Hamsters
+2. In the panel « File Types », 
+select « TaskModel.hmst »
+Create a task model
+86
+Select 
+TaskModel.hmst
+Enter the name of the task model
+87
+
+88
+Project structure
+Task model 
+editing
+Tool palette
+89
+Items creation using
+Drag and Drop
+Task properties
+Exercise 1 –you edit this small model
+90
+
+Temporal ordering
+• Temporal operators to describe temporal 
+relationships between tasks
+• Additional properties for the tasks: 
+– Optional (otherwise means mandatory)
+– Iterative (otherwise means executed once) 
+91
+Wilson S., Johnson P., Kelly C., Cunningham J. and Markopoulos P. Beyond hacking: A 
+model based approach to user interface design, Proceedings of HCI'93, 217—23, 
+Cambridge University Press, BCS HCI. 
+Temporal Operators
+• Enabling T1 >> T2 
+• Disabling  T1 [> T2 
+• Interruption T1 |> T2
+• Choice T1 [ ] T2 
+• Concurrency T1 |||  T2 
+• Order independant T1 |=| T2 
+92
+Wilson S., Johnson P ., Kelly C., Cunningham J. and 
+Markopoulos P . Beyond hacking: A model based 
+approach to user interface design, Proceedings of 
+HCI'93, 217—23, Cambridge University Press, 
+BCS HCI. 
+Fabio Paternò, Cristiano Mancini, Silvia 
+Meniconi: ConcurTaskTrees (CTT): A 
+Diagrammatic Notation for Specifying Task 
+Models. INTERACT 1997: 362-369
+Temporal properties of the task
+• Optional
+• Iterative
+93
+
+Task types
+94
+
+Human/operator behavioral tasks
+• Precise and detailed description of human activities
+• Perceptive, motor, cognitive (Card, Moran, Newell 
+1983)
+• Cognitive analysis, cognitive decision (Parasuraman 
+2000)
+95
+
+Tool palette in HAMSTERS (1/2)
+• Abstract tasks 
+• User Tasks
+• Interactive Tasks 
+• Operators 
+• System Tasks 
+• Collaborative Tasks 
+• Data 
+• Human Error 
+• Structuring Models
+96
+
+Tool palette in HAMSTERS (1/2)
+97
+
+Exercise 2: Refine the task model
+98
+
+Objects, Information,
+Knowledge, Devices and Software 
+applications
+99
+
+Data flow
+• Precise and detailed description of users’ knowledge, 
+manipulated objects and devices used
+• Read (data used for performing the task)
+• Write (data produced for performing the task)
+• Read/write (data modified while performing the 
+task)
+100
+Knowledge connected 
+to the tasks 
+Object modified 
+while performing a 
+task
+Device used for 
+performing a task
+Description of objects 
+manipulated by the user and by the system
+• Input and output devices
+• Physical objects
+101
+
+Exercise 3: Add data flows in model 
+102
+
+Exercise 3: Add data flows in model  
+• Add device(s)
+• Add credit card 
+• Add information in the head of the user 
+• Add objects in the system side
+103
+Validation of the model
+• Simulation of the model
+• Scenarios
+– Identification of scenarios
+– Production of scenarios 
+– Storage of scenarios
+104
+105
+Launch
+Simulator 
+106
+Enter name
+of the scenario
+107
+New scenario
+has been created
+Simulation panel
+108
+Executa
+ble tasks
+(enable
+d)
+Current
+executed scenario
+Modifying models / sequence 
+109
+
+Modifying models / interleaving  
+110
+
+Refining Models
+• Once the model is built (whatever notation you use)
+– How to be sure that it is correct?
+– How to improve it?
+• Some heuristics
+– Coupled actions: e.g., where is “Put card in card slot"?
+– Restructure : e.g. make a task generic “Enter PIN digit”
+– Balance : e.g. is “Select amount” simpler than “Identify”?
+– Generalize: e.g. always withdraw a particular amount… 
+withdraw different amounts 
+111
+Analysis of the completed models
+• Qualitative
+• Consistency of the users actions
+• Detection of usability issues
+• Quantitative
+• Task complexity: How many actions have to be performed to reach the 
+goal?
+• Which are the different possible sequence of actions (scenarios) and what 
+is the estimated min/max time for achieving them?
+• What is the exhaustive list of required knowledge?
+• Which information will have to be remembered and for how long?
+112
+Supported by HAMSTERS tool
+• Distribution the total number of tasks across task 
+types (Statistics panel)
+• Estimated minimum and maximum time to perform 
+a scenario (Statistics panel)
+• Structural verification of the task model (Verification 
+panel)
+113
+
+"Designing" task models
+• Dealing with alternative options
+• Functioning versus usage
+• Interviews/scenarios for informing task model 
+design
+• Types of task models 
+• Relationship with types of procedures
+114
+Dealing with alternative options
+• Money withdrawal at the cashier
+115
+
+Structuring: Functioning versus Usage
+• Extraterrestrial example (J. Grudin, A case 
+against consistency, INTERACT 90)
+• Example of a computer system
+– We have a database with the following schema:
+– Propose a menu tree allowing to manipulate that 
+database
+116
+Client Manages Sales Man
+1,1 1,n
+Client
+Sales man
+Add
+Delete
+Modify
+Display
+Add
+Delete
+Modify
+Display
+Functioning structure goes
+to prototype directly
+• View of the Computer Scientist
+– No tasks analysis/modeling is 
+needed
+– The tree structure reflects the 
+database structure
+– Grouping is made according to 
+code similarity 
+117
+Tasks model
+118
+
+Example of Informal Task Description
+• « I spent my day at work entering information for new clients 
+and I must associate them with the more suitable sales man 
+(according to various criteria) … sometimes I receive an 
+invoice from a sales man recently recruited. In such a case, I 
+must create both the new sales man and the client. 
+Sometimes a sales man quits the company. Usually they leave 
+the company for another one and the clients follow them. I 
+then have to delete the sales man and all its related … »
+• Exercise: Propose a tree structure adapted to the tasks 
+described in this scenario
+119
+Sales Management
+Add
+Delete its Clients
+Modify
+Display
+Add Sales Man
+Delete Sales Man
+Display Sales Man information
+Add Sales Man
+Display Sales Man information
+Usage structure (1/2)
+• User interface is structured according to the 
+task
+120
+Things are still problematic
+• There is no 
+– Menu for deleting clients (without sales man) 
+– Client modification 
+– …
+• There is 
+– Access to clients through their sales man
+– Display of client information without getting to 
+their sales man first
+– Duplication of menu items in the hierarchy
+– … 121
+U=1/F
+(W. Buxton BCS HCI 96)
+Task model in HAMSTERS
+122
+
+Examples of menu items
+duplication MS Word
+⚫123
+
+Example MS Word
+⚫124
+
+Example MS Word
+⚫125
+
+Example MS Word
+⚫126
+
+Various types of task models
+• Existing (extant) System 
+– One or many systems
+– One or many operators organization
+• Envisioned System
+– One or many systems
+– One or many operators organization 
+• Variation of models (co-evolution) as tasks are performed on a 
+given system – task modeling is a moving target 
+127
+Carroll, J. M., Kellogg, W. A. and Rosson, M. B. 1991. The 
+task-artifact cycle. Designing interaction: Psychology at 
+the human-computer interface.
+Carrol, J. M. Cambridge, England, Cambridge 
+University Press: 74-102.
+Summary
+• Main principles of task modeling 
+• A notation for describing user tasks
+• A tool to create, edit and simulate task 
+models
+• A simple technique to describe and analyze 
+user tasks
+128
+Advanced design and fine tuning
+of interaction supported by task models
+• Structuring mechanisms in task models and in HAMSTERS
+• Industrial case study: UI for satellite platform monitoring and 
+control
+• Modeling process
+– Performance analysis
+– Exploiting task model for re-design/automation design/task migration
+– Task-based design of interactive systems
+• Advanced practice of HAMSTERS tool and exercises
+• Beyond (task-based UI design, human error, multiuser, 
+training)
+• Limitations (UX, co-execution, interface generation, …)
+129
+Thank you for your attention
+• Acknowledgements
+• Thanks to Racim Fahssi who is in charge of 
+developing the edition module of the 
+HAMSTERS tool
+• Thanks to the ICS (Interactive Critical Systems) 
+team for helping us with the testing of the 
+tool
+130

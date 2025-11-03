@@ -1,0 +1,360 @@
+Conception de Systèmes 
+Interactifs
+Prototypage: les concepts de base
+séance 3
+Marco Winckler
+Université Côte d’ Azur (Polytech Nice) | I3S | SPARKS team | bureau 446
+winckler@i3s.unice.fr
+http://www.i3s.unice.fr/~winckler/
+
+Agenda
+• Overview of development process with prototypes
+• Taxonomy of prototypes
+• Annotations of prototypes
+Ouvrages de référence
+• Warfel, T. Z. Prototyping: A Practitioner's 
+Guide (2009). Rosenfeld Media. Pages 197.
+• Roosen, C., Roosen, A. A Beginner's Guide 
+to Axure 7.0: Prototyping Made Easy. 
+(2014)
+• Smith, M. F. Software Prototyping: 
+Adoption, Practice, and Management. 
+Amazon Digital Services LLC. 216 pages. 
+• Michel Beaudouin-Lafon and Wendy 
+Mackay. 2002. Prototyping tools and 
+techniques. In The human-computer 
+interaction handbook, Julie A. Jacko and 
+Andrew Sears (Eds.). L. Erlbaum Associates 
+Inc., Hillsdale, NJ, USA 1006-1031.
+
+References
+• Rettig, M. 1994. Prototyping for tiny fingers. Communications of the ACM 
+(April). 37(4):21-27!
+• One for all and all for one? Case studies of using prototypes in commercial 
+projects, Nick Bryan-Kinns, Fraser Hamilton, NordCHI02!
+• Breaking the Fidelity Barrier: An Examination of our Current 
+Characterization of Prototypes and an Example of a Mixed- Fidelity 
+Success., McCurdy et al, CHI 2006!
+• Vanderdonckt J. Coyette A. Vers un prototypage des interfaces graphiques
+incluant vraiment l’utilisateur final. ErgoIA 2006!
+• Silva, T. R., Hak, J-L., Winckler, M. Nicolas, O. A Comparative Study of 
+Milestones for Featuring GUI Prototyping Tools. Journal of Software 
+Engineering and Applications (JSEA), Vol.10 No.6, June 23, 2017, ISSN 
+Online: 1945-3124, ISSN Print: 1945-3116, PP . 564-589, DOI: 
+10.4236/jsea.2017.106031
+4
+Prototyping activities
+5
+• En général: design industriel, 
+innovation, dans un cycle de 
+conception d’ingénierie 
+système!
+• en IHM:!
+• UCD utilisabilité,
+• ISO9241-210:2010!
+– IS: conception participative!
+
+Exemple d’évolution. Outil PANDA
+6
+
+Pourquoi prototyper ?
+• nécessite “peu” de compétences techniques, “It’s too easy, it won’t work”. 
+Plus facile pour les aspects visuels que pour le comportement!
+• les prototypes favorisent la communication (et le transfert), la conception 
+d’IHM nécessite des compétences multidisciplinaires!
+• le développement itératif est une méthode d’ingénierie pérenne!
+• exploration de l’espace de conception plus vaste, avoir des informations 
+sur l’utilisabilité le plus tôt possible (feedback substantiel)!
+• aspects économiques (go/no go)!
+• garder des traces des alternatives pour la justification des choix, 
+l’illustration des spécifications
+“Technology has the shelf life of a banana, ...”! - Scott McNealy
+7
+Carte mental de l’activité de prototypage
+8
+
+Maquettage papier/video
+• on parle de l’interaction, plutôt 
+que du layout, des couleurs, etc.!
+• connaître mieux ses utilisateurs, 
+ne pas se mettre à leur place!
+• toolkit accessible: stylos, widgets, 
+photocopieuse, camera!
+• résultats du test: évaluation 
+formative et non sommative. On 
+teste l’interface, et non 
+l’utilisateur !
+9
+
+problématique ... À résoudre !
+• tâche de conception == résolution de problèmes 
+avec des besoins et des contraintes!
+• quand et comment allez-vous vérifier que les options 
+de conception sont bien réalisables lors du passage 
+développement du logiciel, stages, projets, réponses 
+à appel d’offre ... dans vos futures équipes IHM ?
+10
+définitions, typologies
+• définition 1 (artefact)
+– Un prototype est une représentation concrète de tout ou partie d’un 
+système; c’est un artefact tangible, par opposition à une 
+représentation abstraite!
+– Rôle: le prototypage informe la conception et permet de choisir la 
+“meilleure” solution
+– qui: les prototypes sont utilisés par designers, managers, 
+développeurs, utilisateurs finaux, clients!
+– en architecture, une maquette désigne un modèle réduit, en couture 
+un patron, en ingénierie: un artefact pour étudier la faisabilité; en 
+activité créative, un support pour explorer!
+– la conception consiste à faire des choix: notions de créativité et de 
+compétences d’ingénierie
+[W. Mackay, M. Beaudoin-Lafon]
+11
+définition 2 (besoin)
+• Le prototypage est une stratégie spécifique pour conduire 
+l’explicitation des besoins. C’est une activité du le cycle de 
+conception (dimensionnement en temps et argent)!
+• Un prototype est un modèle, une représentation qui remplace 
+l’interface (graphique par ex)
+[J. Vanderdonckt]
+12
+Définition 3 (processus)
+• Le prototypage rapide d’interface est une simulation de 
+dialogue. Elle permet d’obtenir rapidement des versions d’un 
+système, pour les démontrer ou les évaluer [...]!
+• Un prototype est un scénario, une spécification exécutable, 
+écrit comme un programme!
+• “Whereas testing, verification, and validation are intended to 
+indicate whether a design meets a requirements
+specification,!prototyping can show up errors in the 
+requirements.”
+[Hartson, Hix]
+13
+cinq typologies
+• haute ou basse fidélité!
+• représentation, précision, interactivité, 
+évolution!
+• par rapport au processus: étendre ou 
+contracter l’espace de conception!
+• stratégie de prototypage: horizontal, vertical, 
+orienté tâche, basé scénario!
+• rapide, itératif, évolutif
+14
+typologie 1: degré de fidélité
+• définition: la fidélité est la similarité de la 
+représentation entre le prototype et le produit final!
+– c’est une mauvaise caractérisation ! mais c’est la plus 
+connue ... !
+– “there's no such thing as low fidelity interaction”!
+– pour le degré de finition de la représentation, préférez la 
+notion de précision
+15
+prototypage Hi fi
+• proximité entre l’aspect (look and feel), l’ordonnancement 
+dans le temps et l’espace!
+– Visual builders: natif, restreint, présentationnel ok, navigationnel cher!
+– outils de facade (hypercard, ppt, director) présentationnel ok, mais 
+effort perdu!
+– Mid-fi: Visio pro, Excel!
+• effort apparemment perdu, sauf s’il existe un export (XML 
+e.g.)!
+– pro: User-driven tests, live specification , marketing and sales tool!
+– con: expensive, time-consuming, inefficient for proof of concept, not 
+effective for requirements gathering
+16
+prototypage Low Fi
+• conception, exploration de nombreux concepts, identification 
+des besoins!
+• pas fini, aspect informel des spécifications (sketchapad, 
+denim, freeform, sketchit, cali, silk)!
+• utile pour la communication: l’utilisateur final peut prototyper
+• (conception collaborative), les clients, les développeurs!
+• fondamentaux: naturalité, non obstrusion, continuité, 
+récupération (difficile)!
+• pro: peu coûteux!
+• con: vérification d’erreur limitée, specs faibles, tests facilitator 
+driven, navigational and flow limitations
+17
+18
+
+alternative McCurdy [2006]
+• 5 dimensions pour lesquelles on a une notion 
+de haute ou basse fidélité!
+– niveau de raffinement visuel!
+– largeur des fonctionnalités!
+– profondeur des fonctionnalités!
+– richesse de l’interactivité!
+– richesse du modèle de données
+19
+typologie 2 - M. Baudouin Lafon et W. 
+Mackay
+• représentation: description de la forme (off 
+line/on line = non logiciel/logiciel)!
+• précision: niveau de détail au regard de
+• l’évaluation (informal, rough, highly polished)!
+• interactivité: à quel point l’utilisateur peut 
+interagir ?!
+• évolution: cycle de vie du prototype 
+– (jetable, itératif, incrémental)
+20
+typologie 3: rôle par rapport au 
+processus de conception
+• produire des options (expanding the design 
+space), en facade, en comportement!
+• faire des choix (contracting the design space), 
+dépendants ou non des technologies cibles
+• nb: sachez qualifier chacun des prototypes et 
+communiquer sur leur nature!!
+• listez tous les prototypes créés, même non 
+retenus (design rationale)
+21
+typologie 4 - pour les prototypes 
+logiciels
+22
+
+typologie 5: durée de vie
+• rapide == “jetable”
+• off line rapid: papier, maquettes, oz, vidéo!
+• on line rapid: simulation non interactive ou 
+interactive, langages de scripts 
+éventuellement!
+• itératif == “jetable à terme” (par vous, par le 
+client)!
+• évolutif ou incrémental deviendra l’application 
+à terme”
+23
+« Overlapping funnels » de Laseau (1980)
+24
+
+Etapes dans le processus de conception
+• « Elaboration »
+– exploration de solutions dans laquelle plusieurs idées sont générées;
+– plusieurs prototypes sont produits;
+• « Réduction »: 
+– sélection de solution  représenté par le triangle  dans laquelle les 
+solutions les plus pertinentes sont choisis et raffinées;
+– Les prototypes sont évalués pour être soit améliorés soit abandonnés. 
+• IMPORTANT: il faut de distinguer les options de design des 
+évolutions de prototypes. 
+– Les options de design nécessite d’effectuer un choix; 
+– Les évolutions de prototypes représentent une amélioration et un 
+raffinage d’une option de design.
+25
+Evaluations avec les prototypes
+• Au cours de la phase d’évaluation, les utilisateurs 
+peuvent donner:
+– Un avis sur la solution qui leurs est proposée;
+– Proposer des idées; 
+– Fournir des données pourront être récoltés sur les tests 
+utilisateurs. 
+26
+Les annotations sur les prototypes
+• Constituent un outil versatile pour la communication avec les 
+utilisateurs et de collaboration entre les membre de l’équipe 
+de développent; 
+• Peuvent être utilisées comme un outil d’écriture et comme un 
+outil de lecture;
+27
+Usages et fonctions des annotations 
+• Clarifier et expliquer
+• Demander des détails
+• Émettre une opinion
+• Vérifier et faire confirmer
+• Approuver ou non le design
+• Proposer une modification
+• Planifier une tâche
+28
+Sur ce qui a été 
+produit
+Sur ce qui va être 
+produit
+Clarifier et expliquer: ex.: attributs 
+des widgets
+29
+
+Clarifier et expliquer: ex.:  
+spécification du dialogue
+30Prototype of a mini-game
+Clarifier et expliquer: ex.: modes 
+d’interaction
+31
+
+Demande de détails
+32
+
+Emmètre une opinion
+33
+
+Vérifier et faire confirmer
+34
+
+Faire valider le design
+35
+
+Typologie des annotations
+36
+Types d’annotation
+[Renear et al. 1999]
+– Texte
+– Symbole
+– Dessin
+– Enregistrement
+– Modification
+Cible
+Contexte
+Corps
+Marqueur
+Intégration
+[Chang et al. 2000]
+• Sur le support
+• Marqueurs
+• Renvoi
+Définition
+[Sanderson R. et al. 2013]
+• Contexte
+• Cible
+• Corps
+Outils pour la gestions des 
+annotations
+• Intégré avec les outils de prototypage
+– Ex.: Balsamiq, Uxpin…
+• Externes, pour annotations sur l’application 
+final 
+– Souvent Web
+– Ex. WebNotes
+37
+Ex. Annotations avec outils de 
+prototypages
+38
+Balsamiq: comments
+ Uxpin (voting)
+Outils de prototypage
+• Balsamiq: 
+http://www.balsamiq.com/products/mockups
+• Axure: http://www.axure.com/ 
+39
+Denim
+Gui Design Studio
+40
+
+Ex. WebNotes, outil externe au prototype
+41
+
+Les Types de Corps d’ Annotations
+• Marqueurs graphiques
+– Surligner le texte à regarder
+– Indicateur graphique 
+• Commentaires textuel
+• Mécanismes de vote
+• Spécification de scénarios (comportement) 
+• Références de source (fichiers) externes 
+• Dessins (sketching) 
+42
+TD
+• Installer un outil de prototypage, ex. Figma, Balsamiq, Uxpin, 
+etc 
+• développer plusieurs options de design
+• focus les besoins des groupes utilisateurs identifiés
+• prototyper la présentation + le dialogue
+• Tester les scenarios avec les prototypes
+43
