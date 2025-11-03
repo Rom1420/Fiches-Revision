@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 420" role="img" aria-labelledby="title desc">
+  <title id="title">Carte des fidélités de prototypes</title>
+  <desc id="desc">Schéma opposant prototypes basse et haute fidélité sur plusieurs dimensions : visuel, fonctionnel, interactions, données et usages typiques.</desc>
+  <defs>
+    <style>
+      .grid { fill: #ffffff; stroke: #2e6f95; stroke-width: 3; rx: 18; }
+      .band-low { fill: #e0f3ff; }
+      .band-high { fill: #ffe9e0; }
+      .axis { stroke: #2e6f95; stroke-width: 2.5; }
+      .title { font: 24px 'Segoe UI', sans-serif; font-weight: 600; fill: #164763; }
+      .label { font: 18px 'Segoe UI', sans-serif; fill: #164763; }
+      .bullet { font: 16px 'Segoe UI', sans-serif; fill: #1e3b4d; }
+    </style>
+  </defs>
+  <rect width="760" height="420" fill="#f3f9ff" rx="32"/>
+  <rect x="30" y="30" width="700" height="360" class="grid"/>
+  <rect x="50" y="80" width="660" height="120" class="band-low" rx="14"/>
+  <rect x="50" y="220" width="660" height="120" class="band-high" rx="14"/>
+  <text x="380" y="70" text-anchor="middle" class="title">Bas → Haut niveau de fidélité</text>
+
+  <text x="80" y="115" class="label">Basse fidélité</text>
+  <text x="80" y="145" class="bullet">• Papier, storyboard, wireframe rapide</text>
+  <text x="80" y="170" class="bullet">• Visuel simplifié, interactions simulées</text>
+  <text x="80" y="195" class="bullet">• Idéal pour explorer et co-concevoir</text>
+  <text x="420" y="145" class="bullet">• Faible coût / itérations rapides</text>
+  <text x="420" y="170" class="bullet">• Limité pour tester erreurs ou look & feel</text>
+
+  <text x="80" y="255" class="label">Haute fidélité</text>
+  <text x="80" y="285" class="bullet">• Maquettes cliquables, code fonctionnel</text>
+  <text x="80" y="310" class="bullet">• Visuel, données et comportements réalistes</text>
+  <text x="80" y="335" class="bullet">• Permet tests utilisateurs sommatives</text>
+  <text x="420" y="285" class="bullet">• Coûts élevés, maintenance lourde</text>
+  <text x="420" y="310" class="bullet">• Risque d'attachement prématuré</text>
+
+  <line x1="380" y1="80" x2="380" y2="340" class="axis" stroke-dasharray="6 10"/>
+  <text x="380" y="205" text-anchor="middle" class="label">Mixte / itératif</text>
+  <text x="380" y="230" text-anchor="middle" class="bullet">Combiner pour apprendre vite</text>
+</svg>

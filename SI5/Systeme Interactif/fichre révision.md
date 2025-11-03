@@ -78,6 +78,8 @@ graph LR
 - Structurer l’instrument (ordre logique, regroupements thématiques).
 - Pré-test indispensable pour détecter ambiguïtés (échantillon restreint représentatif).
 
+![Diagramme guidant le choix entre questionnaire et entretien en fonction de l'objectif et du type de données recherché.](images/questionnaire_interview_flow.svg)
+
 ### Biais fréquents
 
 - Primacy / Recency : premières options choisies à l’écrit, dernières à l’oral.
@@ -103,6 +105,8 @@ graph LR
 - **B.-Lafon & Mackay** : représentation (papier/logiciel), précision (informelle → polie), interactivité (passive → interactive), évolution (jetable, itératif, incrémental).
 - **Rôle dans le processus** : expansion (générer options) vs contraction (sélectionner/affiner).
 - **Durée de vie** : rapide (papier, vidéo, Wizard of Oz), itératif, évolutif.
+
+![Carte des niveaux de fidélité opposant prototypes basse fidélité à haute fidélité avec leurs usages et limites.](images/prototyping_fidelity_map.svg)
 
 - Low-fi : coût faible, co-conception, spécifications souples ; limites sur vérification d’erreurs.
 - High-fi : tests réalistes, support marketing ; coûteux, maintenance lourde.
@@ -140,6 +144,8 @@ graph TD
 4. Vérifier cohérence (actions couplées, équilibre, généralisation).
 5. Valider auprès des utilisateurs/expert métier.
 
+![Pyramide illustrant les niveaux de description d'une tâche du but stratégique jusqu'aux actions élémentaires.](images/task_model_layers.svg)
+
 ### Notations & outils
 
 - ConcurTaskTrees : opérateurs temporels, tâches parallèles/séquentielles.
@@ -164,6 +170,8 @@ graph TD
 - TEAM / DREAM : enrichit QOC (facteurs, traçabilité, artefacts liés, scénarios). Outil DREAMER pour éditer/argumenter.
 
 > 💡 **Traçabilité.** Relier options, exigences, modèles de tâches et prototypes pour préserver la trace des choix.
+
+![Schéma QOC reliant questions, options et critères pour formaliser la rationale de conception.](images/design_rationale_qoc.svg)
 
 ## Séance 6 – Méthodes d’inspection & analyses analytiques
 ### Panorama des méthodes d’évaluation

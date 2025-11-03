@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 420" role="img" aria-labelledby="title desc">
+  <title id="title">Structure QOC pour le design rationale</title>
+  <desc id="desc">Schéma montrant la relation entre questions, options et critères, ainsi que la manière de documenter les arguments.</desc>
+  <defs>
+    <style>
+      .bg { fill: #fff7f2; }
+      .bubble { fill: #ffffff; stroke-width: 3; rx: 18; }
+      .question { stroke: #f0803c; }
+      .option { stroke: #f5a572; }
+      .criterion { stroke: #f4c095; }
+      .title { font: 24px 'Segoe UI', sans-serif; fill: #a24411; font-weight: 600; }
+      .label { font: 18px 'Segoe UI', sans-serif; fill: #a24411; font-weight: 600; }
+      .bullet { font: 16px 'Segoe UI', sans-serif; fill: #7a3610; }
+      .arrow { stroke: #f0803c; stroke-width: 3; marker-end: url(#arrowhead); fill: none; }
+      .dash { stroke-dasharray: 8 6; }
+    </style>
+    <marker id="arrowhead" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto" fill="#f0803c">
+      <polygon points="0 0, 10 4, 0 8" />
+    </marker>
+  </defs>
+  <rect width="780" height="420" class="bg" rx="32"/>
+  <text x="390" y="60" text-anchor="middle" class="title">Questions → Options → Critères</text>
+
+  <rect x="70" y="110" width="220" height="190" class="bubble question"/>
+  <text x="180" y="150" text-anchor="middle" class="label">Question</text>
+  <text x="90" y="180" class="bullet">• Quel mode de navigation ?</text>
+  <text x="90" y="205" class="bullet">• Quel niveau de feedback ?</text>
+  <text x="90" y="230" class="bullet">• Quelles données afficher ?</text>
+
+  <rect x="300" y="110" width="190" height="260" class="bubble option"/>
+  <text x="395" y="150" text-anchor="middle" class="label">Options</text>
+  <text x="320" y="185" class="bullet">• Menu latéral</text>
+  <text x="320" y="210" class="bullet">• Menu burger</text>
+  <text x="320" y="235" class="bullet">• Navigation par onglets</text>
+  <text x="320" y="260" class="bullet">• Recherche globale</text>
+  <text x="320" y="285" class="bullet">→ arguments + prototypes</text>
+
+  <rect x="510" y="110" width="200" height="240" class="bubble criterion"/>
+  <text x="610" y="150" text-anchor="middle" class="label">Critères</text>
+  <text x="530" y="185" class="bullet">• Apprentissage rapide</text>
+  <text x="530" y="210" class="bullet">• Efficacité experts</text>
+  <text x="530" y="235" class="bullet">• Cohérence système</text>
+  <text x="530" y="260" class="bullet">• Contraintes techniques</text>
+  <text x="530" y="285" class="bullet">• Résultats des tests</text>
+
+  <path class="arrow" d="M290 190 L300 190"/>
+  <path class="arrow" d="M490 190 L510 190"/>
+  <path class="arrow dash" d="M400 320 L400 360"/>
+  <text x="400" y="380" text-anchor="middle" class="bullet">Tracer décisions + liens vers artefacts</text>
+</svg>
