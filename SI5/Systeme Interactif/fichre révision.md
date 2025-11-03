@@ -29,6 +29,7 @@ graph LR
     D --> E[Évaluer vs exigences]
     E --> B
 `
+![Cycle du processus UCD illustrant la boucle continue entre planifier, comprendre le contexte, spécifier, concevoir et évaluer.](images/ucd_cycle.svg)
 - **Planifier** : expliciter bénéfices ROI, rassembler équipe multidisciplinaire, préparer chartes/process.
 - **Comprendre le contexte** : profils utilisateurs, tâches, environnements (technique, physique, social, légal).
 - **Spécifier** : objectifs d’utilisabilité (succès, erreurs, temps, satisfaction…), contraintes organisationnelles.
@@ -46,6 +47,7 @@ graph LR
 - Modèle Dreyfus : novice → débutant avancé → compétent → performant → expert.
 - Fréquence : constante, régulière, occasionnelle ; croiser avec familiarité technologique.
 - Matrice utilisateur/tâche = qui fait quoi et à quelle fréquence.
+![Matrice personas croisant niveau d'expertise et fréquence d'usage pour guider la priorisation des scénarios.](images/persona_matrix.svg)
 
 ### Outils de profilage
 - Questionnaires de profil : données structurées.
@@ -65,6 +67,8 @@ graph LR
 - Échelles : Likert, fréquence, intensité émotionnelle (SAM) ; préciser libellés.
 - Structurer l’instrument (ordre logique, regroupements thématiques).
 - Pré-test indispensable pour détecter ambiguïtés (échantillon restreint représentatif).
+
+![Diagramme guidant le choix entre questionnaire et entretien en fonction de l'objectif et du type de données recherché.](images/questionnaire_interview_flow.svg)
 
 ### Biais fréquents
 - Primacy / Recency : premières options choisies à l’écrit, dernières à l’oral.
@@ -87,6 +91,8 @@ graph LR
 - **B.-Lafon & Mackay** : représentation (papier/logiciel), précision (informelle → polie), interactivité (passive → interactive), évolution (jetable, itératif, incrémental).
 - **Rôle dans le processus** : expansion (générer options) vs contraction (sélectionner/affiner).
 - **Durée de vie** : rapide (papier, vidéo, Wizard of Oz), itératif, évolutif.
+
+![Carte des niveaux de fidélité opposant prototypes basse fidélité à haute fidélité avec leurs usages et limites.](images/prototyping_fidelity_map.svg)
 
 - Low-fi : coût faible, co-conception, spécifications souples ; limites sur vérification d’erreurs.
 - High-fi : tests réalistes, support marketing ; coûteux, maintenance lourde.
@@ -120,6 +126,8 @@ graph TD
 4. Vérifier cohérence (actions couplées, équilibre, généralisation).
 5. Valider auprès des utilisateurs/expert métier.
 
+![Pyramide illustrant les niveaux de description d'une tâche du but stratégique jusqu'aux actions élémentaires.](images/task_model_layers.svg)
+
 ### Notations & outils
 - ConcurTaskTrees : opérateurs temporels, tâches parallèles/séquentielles.
 - HAMSTERS : édition, simulation, analyse performance, migration de tâches.
@@ -142,6 +150,8 @@ graph TD
 
 > 💡 Reliez options aux exigences, modèles de tâches et prototypes pour préserver la trace des choix.
 
+![Schéma QOC reliant questions, options et critères pour formaliser la rationale de conception.](images/design_rationale_qoc.svg)
+
 ## Séance 6 – Méthodes d’inspection & analyses analytiques
 ### Panorama des méthodes d’évaluation
 `mermaid
@@ -160,6 +170,7 @@ graph LR
     E --> E1[GOMS/KLM]
     E --> E2[Analyse par modèles de tâches]
 `
+![Synthèse visuelle des familles de méthodes d'évaluation : inspection, tests utilisateurs, enquêtes et modèles analytiques.](images/evaluation_methods.svg)
 
 ### Heuristic Evaluation (Nielsen & Molich)
 1. Dialogues simples et naturels.

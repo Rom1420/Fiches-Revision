@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 420" role="img" aria-labelledby="title desc">
+  <title id="title">Niveaux de description d'une tâche</title>
+  <desc id="desc">Pyramide illustrant les niveaux d'abstraction d'une tâche utilisateur, du but métier aux actions détaillées.</desc>
+  <defs>
+    <style>
+      .bg { fill: #f5f6ff; }
+      .pyramid { fill: #dfe6ff; stroke: #415bce; stroke-width: 3; }
+      .separator { stroke: #415bce; stroke-width: 2; }
+      .label { font: 18px 'Segoe UI', sans-serif; fill: #1b2a66; font-weight: 600; }
+      .bullet { font: 16px 'Segoe UI', sans-serif; fill: #233371; }
+      .title { font: 24px 'Segoe UI', sans-serif; fill: #1b2a66; font-weight: 600; }
+    </style>
+  </defs>
+  <rect width="760" height="420" class="bg" rx="32"/>
+  <text x="380" y="60" text-anchor="middle" class="title">De la vision au geste</text>
+  <polygon points="380,90 620,360 140,360" class="pyramid"/>
+  <line x1="180" y1="300" x2="580" y2="300" class="separator"/>
+  <line x1="220" y1="230" x2="540" y2="230" class="separator"/>
+  <line x1="260" y1="165" x2="500" y2="165" class="separator"/>
+
+  <text x="380" y="150" text-anchor="middle" class="label">But stratégique</text>
+  <text x="380" y="175" text-anchor="middle" class="bullet">Ex : Assurer la traçabilité d'une commande</text>
+
+  <text x="380" y="210" text-anchor="middle" class="label">Tâches de haut niveau</text>
+  <text x="380" y="235" text-anchor="middle" class="bullet">Ex : Vérifier l'état, informer le client</text>
+
+  <text x="380" y="280" text-anchor="middle" class="label">Tâches élémentaires</text>
+  <text x="380" y="305" text-anchor="middle" class="bullet">Ex : Rechercher dossier, saisir message</text>
+
+  <text x="380" y="355" text-anchor="middle" class="label">Actions / opérations</text>
+  <text x="380" y="380" text-anchor="middle" class="bullet">Ex : Cliquer bouton, lire notification</text>
+</svg>

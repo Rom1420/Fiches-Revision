@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 400" role="img" aria-labelledby="title desc">
+  <title id="title">Choisir entre questionnaire et entretien</title>
+  <desc id="desc">Diagramme de décision indiquant quand privilégier un questionnaire ou un entretien en fonction des objectifs, de l'échantillon et du type de données attendues.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#eef3ff"/>
+      <stop offset="100%" stop-color="#f9fcff"/>
+    </linearGradient>
+    <style>
+      .panel { fill: #ffffff; stroke: #4f6df5; stroke-width: 3; rx: 20; }
+      .arrow { stroke: #4f6df5; stroke-width: 3.5; marker-end: url(#arrowhead); fill: none; }
+      .label { font: 18px 'Segoe UI', sans-serif; fill: #1d2a6d; }
+      .title { font: 24px 'Segoe UI', sans-serif; font-weight: 600; fill: #1d2a6d; }
+      .bullet { font: 16px 'Segoe UI', sans-serif; fill: #2f3b6f; }
+    </style>
+    <marker id="arrowhead" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto" fill="#4f6df5">
+      <polygon points="0 0, 10 4, 0 8" />
+    </marker>
+  </defs>
+  <rect width="720" height="400" fill="url(#bg)" rx="32"/>
+  <rect x="40" y="40" width="640" height="70" class="panel" fill="#f6f7ff"/>
+  <text x="360" y="85" text-anchor="middle" class="title">Quel format d'étude choisir ?</text>
+
+  <rect x="70" y="150" width="250" height="200" class="panel"/>
+  <text x="195" y="185" text-anchor="middle" class="label">Questionnaire</text>
+  <text x="95" y="215" class="bullet">• Large échantillon</text>
+  <text x="95" y="240" class="bullet">• Données structurées</text>
+  <text x="95" y="265" class="bullet">• Comparaisons rapides</text>
+  <text x="95" y="290" class="bullet">• Pré-test indispensable</text>
+  <text x="95" y="315" class="bullet">• Attention aux biais de formulation</text>
+
+  <rect x="400" y="150" width="250" height="200" class="panel"/>
+  <text x="525" y="185" text-anchor="middle" class="label">Entretien</text>
+  <text x="425" y="215" class="bullet">• Compréhension fine</text>
+  <text x="425" y="240" class="bullet">• Relances & clarifications</text>
+  <text x="425" y="265" class="bullet">• Logistique plus lourde</text>
+  <text x="425" y="290" class="bullet">• Analyse qualitative</text>
+  <text x="425" y="315" class="bullet">• Forte implication enquêteur</text>
+
+  <path class="arrow" d="M360 110 L195 150"/>
+  <path class="arrow" d="M360 110 L525 150"/>
+  <text x="265" y="140" class="bullet" text-anchor="middle">Besoin de quantifier ?</text>
+  <text x="455" y="140" class="bullet" text-anchor="middle">Besoin d'approfondir ?</text>
+</svg>
