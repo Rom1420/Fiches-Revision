@@ -1,0 +1,482 @@
+Information Visualization
+Marco Winckler
+Université Côte d’ Azur (Polytech Nice) | I3S | SPARKS team | bureau 435
+winckler@unice.fr
+http://www.i3s.unice.fr/~winckler/
+User tasks and infovis techniques
+
+User tasks
+2
+Approach “what-why-how”
+• It is a way to analyze visualization 
+techniques using three questions:
+• What
+• Which data are represented
+• Why
+• Why users are using the visualization 
+technique
+• How
+• Which are the visual codification and which 
+are the interaction techniques implemented
+Munzner, Tamara Visualization Analysis and Design. Boca Raton, FL:Taylor & Francis, 2014
+What?
+Why?
+How?
+3
+Standard visualization model
+task
+Raw data “tables”
+of data
+Visual 
+structures
+views
+data rendering
+User interaction
+Data transformation Visual mapping View transformation
+Ward, M., Grinstein, G. and Keim, Daniel Interactive Data 
+Visualization. Natick, MA: A.K. Peters Ltd. 2010 4
+Foundations
+• Data characterization
+• Interaction and user tasks
+• Perception
+Interaction
+• Changing the display
+• Selection
+• Navigation
+• Reorder/reorganize
+• Changing the visual coding
+• Remove/include elements using 
+filtering, clustering, etc
+• Latency 
+• Feedback
+• Costs  
+• Time and user attention
+5
+User tasks
+Keller & Keller (1994)
+• Identify
+• Localize
+• Distinguish
+• Categorize
+• Cluster
+• Order
+• Compare
+• Associate
+• Correlate 
+Shneiderman (1996)
+• Overview 
+• “Zoom”
+• Filtering
+• Details on demand
+• Relate
+• History
+• Export (data)
+Keller, P. e Keller, M. Visual Cues: Practical 
+Data Visualization. IEEE Computer Society 
+Press,  1994
+Shneiderman, Ben The Eyes Have it: A Task by Data 
+Type Taxonomy for Information Visualization. 1996 
+IEEE Symposium on Visual Language, pp336-343
+6
+User tasks
+• Wehrend and Lewis, 1990
+• Springmeyer, 1990 
+• Shneiderman, 1996
+• Zhou and Feiner, 1998
+• Morse et al., 2000
+• Amar and Stasko, 2004 
+• Amar et al., 2005
+• Valiati et al., 2006
+Low level analytical tasks
+• Find value
+• Filter data
+• Compute value
+• Find limits
+• Classify/order
+• Determine threshold
+• Characterize distribution
+• Find anomalies
+• Cluster
+• Correlate
+7
+Visual strategies for user tasks
+• Two levels of abstraction to explain the relationship between user 
+tasks and interaction with infovis techniques
+Visual goals Infovis 1
+Infovis 2
+Infovis 3
+Visual tasks
+“High-level presentation intents” “Low-level visual techniques”
+Zhou, Muchelle e Feiner, Steven. Visual Task 
+Characterization for Automated Discourse Synthesis. 
+In: Proc. CHI’98, Los Angeles, USA. pp 392-399, 
+1998 
+8
+Visual tasks
+• Are characterized by two dimensions
+• Visual goals )
+• Goals that should be accomplished with the infovis technique
+• Visual implications
+• The visual actions the infovis technique implements
+9
+Visual goals & visual tasks
+10
+Visual goal and visual tasks
+Same visual task help to 
+accomplihs the same goal
+11
+Munzner, 2014
+Why people are using vis in terms of actions 
+and targets
+12
+High-level actions: Analyze
+• Consume
+• Discover vs Present
+• classical split
+• explore vs explain
+• Enjoy
+• newcomer
+• casual, social 
+• Produce
+• Annotate, Record
+• Derive
+• crucial design choice
+13
+Actions: Mid-level search, low-level query
+• what does user know?
+• target, location
+• how much of the data 
+matters?
+• one, some, all
+14
+Why: Targets 
+15
+Interaction
+• Distinguishes infovis from static paper visualizations.
+• Analysis is a process, often iterative, with branches and sideways 
+paths.
+16
+Acceptable Response Times
+• .1 second
+• Animation, visual continuity, sliders
+• 1 second
+• System response, pause in conversation
+• 10 seconds
+• Cognitive response
+17
+Basic Interaction Techniques
+• Selecting
+• Mouse click
+• Mouseover / hover / tooltip
+• Lasso / drag
+• Rearrange 
+• Move
+• Sort
+• Delete
+18
+Selecting
+19
+Selecting
+20
+dataa
+Strategies for interactive visualization
+• How to exhibit large data sets?
+Data
+screen
+dataa
+data
+adata
+details zoom O+D F+C transformation
+21
+How to ensure overview: by scalability
+• Small datasets are easy 
+• “Just show everything”
+• Large datasets…
+• What to exhibit? 
+(3,2)
+(5,7)
+(9,9)
+Attribute 1
+Attribute 2
+22
+Strategies for scalability
+• Compress information
+• Reduce size  (geometric zoom)
+• Reduce amount of information 
+• Compress without losing data (semantic zoom)
+• Increase density
+Data
+screen
+23
+Example:  SeeSoft
+• 1 pixel line per line of code
+24
+Reduce the amount of data
+• Example
+• Reduce # attributes
+• Reduce # items
+• Reduce range of values
+• Two ways
+• Remove
+• Grouping
+25
+http://exposedata.com/parallel/
+26
+Remove= cut/ prunning
+• Remove items
+• Remove attributes
+• Scatterplots:  
+• Select 2 or 3 attributes, ignore the others
+• Spotfire:  
+• Use the query to select attributes
+• And show details on demand 
+• Problem: loosing information
+27
+Grouping= clustering
+• Clustering (grouping many items in a one entity)
+• What to group?
+• By category  (SQL “group by”)
+• Spatial (TableLens)
+• By algorithm (clustering)
+• Defined by the user (“folders”)
+• What are the values associated to a group?
+• Mathematic functions (SQL “group by”)
+• Counting, average, min, max
+• Semantic abstraction 
+• Grouping many levels = trees
+• Navigation:
+• Parallel visualizations 
+• Semantic zooming
+28
+Clustering
+• Grouping attributes
+•Simple example
+• Function:  grade = (cc + project) / 2
+•Statistic techniques
+• PCA, …
+•Similarity maps
+• Mapping n-D to 1,2,3-D 
+using distance between 
+points
+InfoVis articles (1995-2008). By Eler (2011)
+29
+Advanced Interaction Techniques
+• Overview + Detail (O+D)
+• Focus + Context (F+C)
+• Brushing and Linking
+• Zoom: Panning and Zooming
+• Transformation: distortion-based Views
+30
+Overview + Details
+• Separate views
+• No distortion
+• Shows both overview and details simultaneously
+• Drawback: requires the viewer to consciously shift there focus of attention.
+31
+Overview
+ http://www.gapminder.org/
+32
+Overview
+ • It provides
+– Maps, spatial orientation
+– Contextual information, 
+relationships
+– Which information is (or not) 
+present in the display
+• Detection of patterns
+• Direct access
+• Reduce searching process
+• Enforce exploration, help to 
+select the next move
+• HCI metric – improve user 
+performance, time of learning 
+and satisfaction
+33
+Details and focus
+34
+Details and focus • It is the result of a 
+cleaning data 
+process (data that 
+are of the 
+scope/focus)
+• It provides details 
+about part of data
+• Semantic zooming
+35
+Overview+Detail: Treemaps
+• Treemaps: overview + detail (time separation)
+36
+Overview+Detail: Seesoft
+• Spatial separation
+37
+Focus + Context
+• A single view shows information in context
+• Contextual info is near to focal poin
+• Distortion may make some parts hard to interpret
+• Distortion may obscure structure in data
+• We’ll have a lecture on distortion later
+• Examples from Xerox PARC: 
+• TableLens
+• Perspective Wall 
+• Hyperbolic Tree Browser
+38
+Focus + Context:
+TableLensfrom PARC/Inxight
+http://www.inxight.com/products/sdks/tl/
+http://www.inxight.com/demos/tl_calcrisis/tl_calcrisis.html
+39
+Focus + Context (+ Distortion):
+Perspective Wall from PARC/Inxight
+http://www.inxight.com/demos/timewall_demos 40
+Focus + Context: 
+Hyperbolic Tree from PARC/Inxight
+http://inxight.com/products/sdks/st/
+41
+Highlighting / Brushing and Linking /
+Dynamic Queries
+• Spotfire, by Ahlberg & Shneiderman
+• http://hcil.cs.umd.edu/video/1994/1994_visualinfo.mpg
+• Now a very sophisticated product:
+• http://spotfire.tibco.com/products/gallery.cfm
+42
+Highlighting and Brushing:
+Parallel Coordinates by Inselberg
+• Free implementation: Parvis by Ledermen
+• http://home.subnet.at/flo/mv/parvis/
+43
+Pan and Zoom
+How to show a lot of information in a small space?
+• Multiple Levels of Resolution
+• The view changes depending on the “distance” from the viewer to the objects
+• Distortion-based techniques
+• Keep a steady overview, make some objects larger while simultaneously shrinking others
+44
+Zooming
+• Standard Zooming
+• Get close in to see information in more detail
+• Example: Google earth zooming in
+• Intelligent Zooming
+• Show semantically relevant information out of proportion
+• Smart speed up and slow down
+• Example: speed-dependent zooming, Igarishi & Hinkley
+• Semantic Zooming
+• A semantic zoom control allows the user to zoom between two different semantic views 
+of the same data set
+• Zooming can be conceptual as opposed to simply reducing pixels
+• Example tool: Pad++ and Piccolo projects
+• http://hcil.cs.umd.edu/video/1998/1998_pad.mpg
+45
+Speed-dependent Zooming 
+by Igarashi & Hinkley 2000
+http://www-ui.is.s.u-tokyo.ac.jp/~takeo/video/autozoom.mov
+http://www-ui.is.s.u-
+tokyo.ac.jp/~takeo/java/autozoom/autozoom.htm
+46
+Standard vs. Semantic Zooming
+• Geometric (standard) zooming:
+• The view depends on the physical properties of what is being viewed
+• Semantic Zooming:
+• When zooming away, instead of seeing a scaled-down version of an object, 
+see a different representation
+• The representation shown depends on the meaning to be imparted. 
+47
+Examples of Semantic Zoom
+• Other examples 
+• Zoom into restaurant: 
+• see the interior
+• see what is served there
+• maybe zoom based on price instead!
+• see expensive restaurants first
+• keep zooming till you get to your price 
+range
+48
+WinUI Gallery
+https://www.youtube.com/watch?v=d2xWEKtVv3s
+
+Examples of Semantic Zoom
+• Infinitely scalable painting program
+• close in, see flecks of paint
+• farther away, see paint strokes
+• farther still, see the holistic impression of the painting
+• farther still, see the artist sitting at the easel
+49
+Pad++
+• An infinite 2D plane
+• Can get infinitely close to the surface too
+• Navigate by panning and zooming
+• Pan: 
+• move around on the plane
+• Zoom:
+• move closer to and farther 
+from the plane
+• http://hcil.cs.umd.edu/video/1998/1998_pad.mpg
+50
+Pad++ Examples
+51
+How to Pan While Zooming?
+52
+How to Pan While Zooming?
+53
+Distortion
+• Mapping the information to a surface of exhibition
+f 
+Information surface Exhibition surface
+54
+Mapping function
+Information surface
+Identity function = 
+normal overview Bifocal
+Information surface
+Information 
+surface
+Exhibition 
+surface
+55
+Perspective Wall / Document Lens
+Perspective
+Contexto diminui gradualmente
+56
+“Bubble”
+Inconvenient: local context is smaller
+Bubble 57
+Non linear
+58
+“Fisheye”, “wide-angle lens”
+Inconvenient: don’t have a plain area
+degree 59
+Summary 
+• Bifocal
+• Perspective
+• Bubble
+• Wide-angle
+60
+Shneiderman’sTaxonomy of Information 
+Visualization Data Types
+• 1-D Linear Document Lens, SeeSoft
+• 2-D Map GIS, Medical imagery
+• 3-D World CAD, Medical, Molecules, Architecture
+• Multi-Dim Parallel Coordinates, Spotfire, Influence Explorer, TableLens
+• Temporal Perspective Wall, LifeLines, Lifestreams
+• Tree Cone/Cam/Hyperbolic, TreeBrowser, Treemap
+• Network Netmap, netViz, Multi-trees
+61
+Shneiderman’sTaxonomy of Information 
+Visualization Tasks
+• Overview: see overall patterns, trends
+• Zoom: see a smaller subset of the data
+• Filter: see a subset based on values, etc.
+• Details on demand: see values of objects when interactively selected
+• Relate: see relationships, compare values
+• History: keep track of actions and insights
+• Extract: mark and capture data
+62
+Shneiderman’sVisualization Mantra
+• Overview, zoom & filter, details on demand
+• Overview, zoom & filter, details on demand
+• Overview, zoom & filter, details on demand
+• Overview, zoom & filter, details on demand
+• Overview, zoom & filter, details on demand
+• Overview, zoom & filter, details on demand
+• Overview, zoom & filter, details on demand
+• Overview, zoom & filter, details on demand
+63
