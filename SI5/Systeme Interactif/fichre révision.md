@@ -26,14 +26,7 @@
 
 ### Processus UCD (ISO 9241-210)
 
-```mermaid
-graph LR
-    A[Planifier la démarche centrée utilisateur] --> B[Comprendre & spécifier le contexte d'utilisation]
-    B --> C[Spécifier exigences utilisateur & organisationnelles]
-    C --> D[Produire des solutions de conception]
-    D --> E[Évaluer vs exigences]
-    E --> B
-`
+ 
 ![Cycle du processus UCD illustrant la boucle continue entre planifier, comprendre le contexte, spécifier, concevoir et évaluer.](images/ucd_cycle.svg)
 - **Planifier** : expliciter bénéfices ROI, rassembler équipe multidisciplinaire, préparer chartes/process.
 - **Comprendre le contexte** : profils utilisateurs, tâches, environnements (technique, physique, social, légal).
@@ -113,11 +106,6 @@ graph LR
 
 ### Gestion des itérations
 
-```mermaid
-graph TD
-    A[Élaboration\n(diversifier les solutions)] --> B[Réduction\n(sélectionner & raffiner)]
-    B --> A
-```
 - Distinguer choix d’options vs évolution d’une même option.
 
 ### Annotations
@@ -176,22 +164,7 @@ graph TD
 ## Séance 6 – Méthodes d’inspection & analyses analytiques
 ### Panorama des méthodes d’évaluation
 
-```mermaid
-graph LR
-    A[Usability Evaluation Methods] --> B[Inspection]
-    A --> C[Tests utilisateurs]
-    A --> D[Enquêtes]
-    A --> E[Modélisation analytique]
-    B --> B1[Heuristic Evaluation]
-    B --> B2[Cognitive/Pluralistic Walkthrough]
-    B --> B3[Guidelines & Normes]
-    C --> C1[Think-aloud]
-    C --> C2[Wizard of Oz]
-    D --> D1[Questionnaires satisfaction]
-    D --> D2[Charge mentale (NASA-TLX)]
-    E --> E1[GOMS/KLM]
-    E --> E2[Analyse par modèles de tâches]
-`
+ 
 ![Synthèse visuelle des familles de méthodes d'évaluation : inspection, tests utilisateurs, enquêtes et modèles analytiques.](images/evaluation_methods.svg)
 
 ### Heuristic Evaluation (Nielsen & Molich)
