@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="640" viewBox="0 0 640 640">
+  <rect width="640" height="640" fill="#f8fafc"/>
+  <g font-family="'Segoe UI', sans-serif" font-weight="600" text-anchor="middle">
+    <circle cx="320" cy="320" r="260" fill="none" stroke="#f59e0b" stroke-width="6" stroke-dasharray="16 16"/>
+    <g fill="#2563eb" stroke="#1d4ed8" stroke-width="2">
+      <circle cx="320" cy="80" r="90"/>
+      <circle cx="540" cy="240" r="90"/>
+      <circle cx="470" cy="480" r="90"/>
+      <circle cx="170" cy="480" r="90"/>
+      <circle cx="100" cy="240" r="90"/>
+    </g>
+    <g fill="#ffffff" font-size="26">
+      <text x="320" y="80" dy="8">Planifier</text>
+      <text x="540" y="240" dy="-8">Comprendre</text>
+      <text x="540" y="240" dy="28">le contexte</text>
+      <text x="470" y="480" dy="-8">Spécifier</text>
+      <text x="470" y="480" dy="28">exigences</text>
+      <text x="170" y="480" dy="8">Concevoir</text>
+      <text x="100" y="240" dy="-8">Évaluer</text>
+    </g>
+    <g fill="none" stroke="#f97316" stroke-width="14" stroke-linecap="round" marker-end="url(#arrow)">
+      <path d="M320 170 C420 190 480 200 530 220"/>
+      <path d="M610 310 C600 420 550 460 510 500"/>
+      <path d="M420 560 C350 610 250 600 200 550"/>
+      <path d="M120 480 C70 430 60 350 80 290"/>
+      <path d="M110 200 C150 130 220 100 300 100"/>
+    </g>
+    <defs>
+      <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+        <path d="M0,0 L12,6 L0,12 z" fill="#f97316"/>
+      </marker>
+    </defs>
+    <text x="320" y="330" font-size="32" fill="#0f172a">Cycle UCD</text>
+    <text x="320" y="370" font-size="24" fill="#0f172a">ISO 9241-210</text>
+  </g>
+</svg>

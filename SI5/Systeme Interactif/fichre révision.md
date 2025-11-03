@@ -29,6 +29,7 @@ graph LR
     D --> E[Évaluer vs exigences]
     E --> B
 `
+![Cycle du processus UCD illustrant la boucle continue entre planifier, comprendre le contexte, spécifier, concevoir et évaluer.](images/ucd_cycle.svg)
 - **Planifier** : expliciter bénéfices ROI, rassembler équipe multidisciplinaire, préparer chartes/process.
 - **Comprendre le contexte** : profils utilisateurs, tâches, environnements (technique, physique, social, légal).
 - **Spécifier** : objectifs d’utilisabilité (succès, erreurs, temps, satisfaction…), contraintes organisationnelles.
@@ -46,6 +47,7 @@ graph LR
 - Modèle Dreyfus : novice → débutant avancé → compétent → performant → expert.
 - Fréquence : constante, régulière, occasionnelle ; croiser avec familiarité technologique.
 - Matrice utilisateur/tâche = qui fait quoi et à quelle fréquence.
+![Matrice personas croisant niveau d'expertise et fréquence d'usage pour guider la priorisation des scénarios.](images/persona_matrix.svg)
 
 ### Outils de profilage
 - Questionnaires de profil : données structurées.
@@ -160,6 +162,7 @@ graph LR
     E --> E1[GOMS/KLM]
     E --> E2[Analyse par modèles de tâches]
 `
+![Synthèse visuelle des familles de méthodes d'évaluation : inspection, tests utilisateurs, enquêtes et modèles analytiques.](images/evaluation_methods.svg)
 
 ### Heuristic Evaluation (Nielsen & Molich)
 1. Dialogues simples et naturels.
