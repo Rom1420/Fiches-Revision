@@ -5,10 +5,10 @@
 ## Cours 1 - Introduction et methodes
 
 ### 1) La "regle d'or" de l'evaluation indique que :
-- [ ] A. L'evaluation se fait uniquement apres l'implementation.
-- [ ] B. Plus tot on evalue, mieux c'est.
-- [ ] C. L'evaluation ne concerne que l'esthetique.
-- [ ] D. L'evaluation remplace le prototypage.
+- <input type="checkbox"> A. L'evaluation se fait uniquement apres l'implementation.
+- <input type="checkbox"> B. Plus tot on evalue, mieux c'est.
+- <input type="checkbox"> C. L'evaluation ne concerne que l'esthetique.
+- <input type="checkbox"> D. L'evaluation remplace le prototypage.
 <details>
 <summary>Reponse + explication</summary>
 <blockquote>
@@ -21,10 +21,10 @@ Bonne reponse : B. L'evaluation est moins couteuse quand elle est faite tot.
 </details>
 
 ### 2) L'evaluation s'inscrit principalement dans :
-- [ ] A. Le marketing produit.
-- [ ] B. La conception centree utilisateur.
-- [ ] C. La securite informatique.
-- [ ] D. La gestion des bases de donnees.
+- <input type="checkbox"> A. Le marketing produit.
+- <input type="checkbox"> B. La conception centree utilisateur.
+- <input type="checkbox"> C. La securite informatique.
+- <input type="checkbox"> D. La gestion des bases de donnees.
 <details>
 <summary>Reponse + explication</summary>
 <blockquote>
@@ -37,10 +37,10 @@ Bonne reponse : B. L'evaluation fait partie de la demarche UCD.
 </details>
 
 ### 3) Dans le cycle iteratif, quel enchainement est correct ?
-- [ ] A. Implementation -> test -> prototypage papier -> modelisation.
-- [ ] B. Analyse des taches -> modelisation -> prototypage papier -> test.
-- [ ] C. Test -> analyse -> implementation -> modelisation.
-- [ ] D. Modelisation -> implementation -> analyse -> test.
+- <input type="checkbox"> A. Implementation -> test -> prototypage papier -> modelisation.
+- <input type="checkbox"> B. Analyse des taches -> modelisation -> prototypage papier -> test.
+- <input type="checkbox"> C. Test -> analyse -> implementation -> modelisation.
+- <input type="checkbox"> D. Modelisation -> implementation -> analyse -> test.
 <details>
 <summary>Reponse + explication</summary>
 <blockquote>
@@ -53,10 +53,10 @@ Bonne reponse : B.
 </details>
 
 ### 4) Evaluation formative vs sommative : quelle difference cle ?
-- [ ] A. Formative apres l'implementation, sommative avant.
-- [ ] B. Formative pour ameliorer en cours, sommative pour valider a la fin.
-- [ ] C. Formative uniquement pour le marketing.
-- [ ] D. Sommative uniquement pour les designers novices.
+- <input type="checkbox"> A. Formative apres l'implementation, sommative avant.
+- <input type="checkbox"> B. Formative pour ameliorer en cours, sommative pour valider a la fin.
+- <input type="checkbox"> C. Formative uniquement pour le marketing.
+- <input type="checkbox"> D. Sommative uniquement pour les designers novices.
 <details>
 <summary>Reponse + explication</summary>
 <blockquote>
@@ -69,10 +69,10 @@ Bonne reponse : B.
 </details>
 
 ### 5) Une methode typique de l'evaluation formative est :
-- [ ] A. Mesures statistiques strictes.
-- [ ] B. Thinking aloud avec administrateur present.
-- [ ] C. Comparaison concurrentielle post-lancement.
-- [ ] D. Test utilisateur en autonomie totale, uniquement quantitatif.
+- <input type="checkbox"> A. Mesures statistiques strictes.
+- <input type="checkbox"> B. Thinking aloud avec administrateur present.
+- <input type="checkbox"> C. Comparaison concurrentielle post-lancement.
+- <input type="checkbox"> D. Test utilisateur en autonomie totale, uniquement quantitatif.
 <details>
 <summary>Reponse + explication</summary>
 <blockquote>
@@ -84,10 +84,10 @@ Bonne reponse : B.
 </details>
 
 ### 6) Quelle famille de methodes n'implique pas d'utilisateurs ?
-- [ ] A. Tests utilisateurs.
-- [ ] B. Enquetes.
-- [ ] C. Methodes d'inspection.
-- [ ] D. Observation sur le terrain.
+- <input type="checkbox"> A. Tests utilisateurs.
+- <input type="checkbox"> B. Enquetes.
+- <input type="checkbox"> C. Methodes d'inspection.
+- <input type="checkbox"> D. Observation sur le terrain.
 <details>
 <summary>Reponse + explication</summary>
 <blockquote>
@@ -98,10 +98,10 @@ Bonne reponse : C. Inspection par experts.
 </details>
 
 ### 7) GOMS et KLM appartiennent a la famille :
-- [ ] A. Enquete.
-- [ ] B. Tests utilisateurs.
-- [ ] C. Modelisation analytique.
-- [ ] D. Inspection heuristique.
+- <input type="checkbox"> A. Enquete.
+- <input type="checkbox"> B. Tests utilisateurs.
+- <input type="checkbox"> C. Modelisation analytique.
+- <input type="checkbox"> D. Inspection heuristique.
 <details>
 <summary>Reponse + explication</summary>
 <blockquote>
@@ -113,10 +113,10 @@ Bonne reponse : C.
 </details>
 
 ### 8) En phase de design, quel cadre est le plus coherent ?
-- [ ] A. Labo : inspection experts. Terrain : prototypage papier, tri de cartes.
-- [ ] B. Labo : logs uniquement. Terrain : eye-tracking uniquement.
-- [ ] C. Labo : tests sommatives. Terrain : modelisation analytique.
-- [ ] D. Labo : enquete marketing. Terrain : validation finale.
+- <input type="checkbox"> A. Labo : inspection experts. Terrain : prototypage papier, tri de cartes.
+- <input type="checkbox"> B. Labo : logs uniquement. Terrain : eye-tracking uniquement.
+- <input type="checkbox"> C. Labo : tests sommatives. Terrain : modelisation analytique.
+- <input type="checkbox"> D. Labo : enquete marketing. Terrain : validation finale.
 <details>
 <summary>Reponse + explication</summary>
 <blockquote>
@@ -129,10 +129,10 @@ Bonne reponse : A.
 </details>
 
 ### 9) Un usability lab est typiquement equipe de :
-- [ ] A. Uniquement des questionnaires papier.
-- [ ] B. Miroirs sans tain, audio/video, logs, parfois eye-tracking.
-- [ ] C. Uniquement un serveur de production.
-- [ ] D. Aucune capture, seulement des entretiens.
+- <input type="checkbox"> A. Uniquement des questionnaires papier.
+- <input type="checkbox"> B. Miroirs sans tain, audio/video, logs, parfois eye-tracking.
+- <input type="checkbox"> C. Uniquement un serveur de production.
+- <input type="checkbox"> D. Aucune capture, seulement des entretiens.
 <details>
 <summary>Reponse + explication</summary>
 <blockquote>
@@ -144,10 +144,10 @@ Bonne reponse : B.
 </details>
 
 ### 10) Un probleme d'utilisabilite se detecte entre autres par :
-- [ ] A. L'adequation aux besoins et la performance utilisateur.
-- [ ] B. Le nombre de lignes de code.
-- [ ] C. La taille du budget marketing.
-- [ ] D. Le choix du langage de programmation.
+- <input type="checkbox"> A. L'adequation aux besoins et la performance utilisateur.
+- <input type="checkbox"> B. Le nombre de lignes de code.
+- <input type="checkbox"> C. La taille du budget marketing.
+- <input type="checkbox"> D. Le choix du langage de programmation.
 <details>
 <summary>Reponse + explication</summary>
 <blockquote>
@@ -158,10 +158,10 @@ Bonne reponse : A.
 </details>
 
 ### 11) Classement par impact : lequel est critique ?
-- [ ] A. Le probleme n'empeche pas la tache.
-- [ ] B. L'utilisateur finit mais avec perte de qualite.
-- [ ] C. La tache est bloquee, frustration majeure, abandon.
-- [ ] D. Le probleme est resolu facilement par l'utilisateur.
+- <input type="checkbox"> A. Le probleme n'empeche pas la tache.
+- <input type="checkbox"> B. L'utilisateur finit mais avec perte de qualite.
+- <input type="checkbox"> C. La tache est bloquee, frustration majeure, abandon.
+- <input type="checkbox"> D. Le probleme est resolu facilement par l'utilisateur.
 <details>
 <summary>Reponse + explication</summary>
 <blockquote>
@@ -173,10 +173,10 @@ Bonne reponse : C.
 </details>
 
 ### 12) CIF (Common Industry Format) sert a :
-- [ ] A. Ecrire du code plus vite.
-- [ ] B. Rapporter les problemes factuellement et classer la severite.
-- [ ] C. Concevoir des prototypes papier.
-- [ ] D. Remplacer les tests utilisateurs.
+- <input type="checkbox"> A. Ecrire du code plus vite.
+- <input type="checkbox"> B. Rapporter les problemes factuellement et classer la severite.
+- <input type="checkbox"> C. Concevoir des prototypes papier.
+- <input type="checkbox"> D. Remplacer les tests utilisateurs.
 <details>
 <summary>Reponse + explication</summary>
 <blockquote>
@@ -187,10 +187,10 @@ Bonne reponse : B.
 </details>
 
 ### 13) L'inspection ergonomique (guidelines) implique :
-- [ ] A. Des utilisateurs reels en labo.
-- [ ] B. Des experts verifiant la conformite a des regles.
-- [ ] C. Une modelisation analytique du temps.
-- [ ] D. Une enquete de satisfaction uniquement.
+- <input type="checkbox"> A. Des utilisateurs reels en labo.
+- <input type="checkbox"> B. Des experts verifiant la conformite a des regles.
+- <input type="checkbox"> C. Une modelisation analytique du temps.
+- <input type="checkbox"> D. Une enquete de satisfaction uniquement.
 <details>
 <summary>Reponse + explication</summary>
 <blockquote>
@@ -203,10 +203,10 @@ Bonne reponse : B.
 </details>
 
 ### 14) Dans KLM, quel operateur correspond au pointage ?
-- [ ] A. K
-- [ ] B. P
-- [ ] C. H
-- [ ] D. M
+- <input type="checkbox"> A. K
+- <input type="checkbox"> B. P
+- <input type="checkbox"> C. H
+- <input type="checkbox"> D. M
 <details>
 <summary>Reponse + explication</summary>
 <blockquote>
@@ -219,10 +219,10 @@ Bonne reponse : B. P = Pointing.
 </details>
 
 ### 15) Regle 1 de Raskin (placement des M) dit que :
-- [ ] A. On ajoute un M avant chaque K.
-- [ ] B. On supprime M si la sequence est anticipee (automatique).
-- [ ] C. On garde un M avant chaque terminateur.
-- [ ] D. On supprime tous les M apres une commande fixe.
+- <input type="checkbox"> A. On ajoute un M avant chaque K.
+- <input type="checkbox"> B. On supprime M si la sequence est anticipee (automatique).
+- <input type="checkbox"> C. On garde un M avant chaque terminateur.
+- <input type="checkbox"> D. On supprime tous les M apres une commande fixe.
 <details>
 <summary>Reponse + explication</summary>
 <blockquote>
@@ -235,10 +235,10 @@ Bonne reponse : B.
 </details>
 
 ### 16) Avantage de GOMS/KLM :
-- [ ] A. Necessite beaucoup d'utilisateurs.
-- [ ] B. Donne des mesures qualitatives et quantitatives sans utilisateurs.
-- [ ] C. Fonctionne pour la creativite libre.
-- [ ] D. Integre lisibilite et fatigue par defaut.
+- <input type="checkbox"> A. Necessite beaucoup d'utilisateurs.
+- <input type="checkbox"> B. Donne des mesures qualitatives et quantitatives sans utilisateurs.
+- <input type="checkbox"> C. Fonctionne pour la creativite libre.
+- <input type="checkbox"> D. Integre lisibilite et fatigue par defaut.
 <details>
 <summary>Reponse + explication</summary>
 <blockquote>
@@ -253,10 +253,10 @@ Bonne reponse : B.
 ## Cours 2 - Test utilisateur
 
 ### 17) Dans le modele de Nielsen, l'utilisabilite est :
-- [ ] A. Superieure a l'acceptabilite.
-- [ ] B. Une sous-partie de l'utilite (usefulness).
-- [ ] C. Independante de l'utilite.
-- [ ] D. Synonyme de securite.
+- <input type="checkbox"> A. Superieure a l'acceptabilite.
+- <input type="checkbox"> B. Une sous-partie de l'utilite (usefulness).
+- <input type="checkbox"> C. Independante de l'utilite.
+- <input type="checkbox"> D. Synonyme de securite.
 <details>
 <summary>Reponse + explication</summary>
 <blockquote>
@@ -269,10 +269,10 @@ Bonne reponse : B.
 </details>
 
 ### 18) ISO 9241-11 definit l'utilisabilite par :
-- [ ] A. Efficacite, efficience, satisfaction.
-- [ ] B. Learnability, memorabilite, erreurs.
-- [ ] C. Performance, securite, cout.
-- [ ] D. Precision, rappel, F1-score.
+- <input type="checkbox"> A. Efficacite, efficience, satisfaction.
+- <input type="checkbox"> B. Learnability, memorabilite, erreurs.
+- <input type="checkbox"> C. Performance, securite, cout.
+- <input type="checkbox"> D. Precision, rappel, F1-score.
 <details>
 <summary>Reponse + explication</summary>
 <blockquote>
@@ -284,10 +284,10 @@ Bonne reponse : A.
 </details>
 
 ### 19) Le test utilisateur est :
-- [ ] A. Une inspection experte sans utilisateurs.
-- [ ] B. Une observation de vrais utilisateurs en taches.
-- [ ] C. Une modelisation analytique.
-- [ ] D. Uniquement un questionnaire.
+- <input type="checkbox"> A. Une inspection experte sans utilisateurs.
+- <input type="checkbox"> B. Une observation de vrais utilisateurs en taches.
+- <input type="checkbox"> C. Une modelisation analytique.
+- <input type="checkbox"> D. Uniquement un questionnaire.
 <details>
 <summary>Reponse + explication</summary>
 <blockquote>
@@ -300,10 +300,10 @@ Bonne reponse : B.
 </details>
 
 ### 20) Pour mesurer l'efficience on regarde surtout :
-- [ ] A. Le nombre de taches reussies.
-- [ ] B. Le temps pour accomplir la tache.
-- [ ] C. Le niveau de plaisir.
-- [ ] D. Le nombre de participants.
+- <input type="checkbox"> A. Le nombre de taches reussies.
+- <input type="checkbox"> B. Le temps pour accomplir la tache.
+- <input type="checkbox"> C. Le niveau de plaisir.
+- <input type="checkbox"> D. Le nombre de participants.
 <details>
 <summary>Reponse + explication</summary>
 <blockquote>
@@ -316,10 +316,10 @@ Bonne reponse : B.
 </details>
 
 ### 21) Quel type de test est le plus controle scientifiquement ?
-- [ ] A. Field observation.
-- [ ] B. Test experimental en laboratoire.
-- [ ] C. Enquete en ligne.
-- [ ] D. Interview libre.
+- <input type="checkbox"> A. Field observation.
+- <input type="checkbox"> B. Test experimental en laboratoire.
+- <input type="checkbox"> C. Enquete en ligne.
+- <input type="checkbox"> D. Interview libre.
 <details>
 <summary>Reponse + explication</summary>
 <blockquote>
@@ -331,10 +331,10 @@ Bonne reponse : B.
 </details>
 
 ### 22) La baseline de performance sert a :
-- [ ] A. Fixer des seuils Worst/Target/Best avant le test.
-- [ ] B. Modifier les resultats apres le test.
-- [ ] C. Remplacer les metriques.
-- [ ] D. Eviter les scenarios.
+- <input type="checkbox"> A. Fixer des seuils Worst/Target/Best avant le test.
+- <input type="checkbox"> B. Modifier les resultats apres le test.
+- <input type="checkbox"> C. Remplacer les metriques.
+- <input type="checkbox"> D. Eviter les scenarios.
 <details>
 <summary>Reponse + explication</summary>
 <blockquote>
@@ -346,10 +346,10 @@ Bonne reponse : A.
 </details>
 
 ### 23) Selon Nielsen/Virzi, pour du qualitatif formatif :
-- [ ] A. 2 utilisateurs suffisent toujours.
-- [ ] B. 5 utilisateurs suffisent souvent pour ~80% des problemes majeurs.
-- [ ] C. Il faut au moins 30 utilisateurs.
-- [ ] D. Il faut uniquement des experts.
+- <input type="checkbox"> A. 2 utilisateurs suffisent toujours.
+- <input type="checkbox"> B. 5 utilisateurs suffisent souvent pour ~80% des problemes majeurs.
+- <input type="checkbox"> C. Il faut au moins 30 utilisateurs.
+- <input type="checkbox"> D. Il faut uniquement des experts.
 <details>
 <summary>Reponse + explication</summary>
 <blockquote>
@@ -362,10 +362,10 @@ Bonne reponse : B.
 </details>
 
 ### 24) L'etape "pilote" sert a :
-- [ ] A. Recruter les participants definitifs.
-- [ ] B. Verifier que le protocole fonctionne.
-- [ ] C. Calculer le score SUS.
-- [ ] D. Faire l'analyse statistique.
+- <input type="checkbox"> A. Recruter les participants definitifs.
+- <input type="checkbox"> B. Verifier que le protocole fonctionne.
+- <input type="checkbox"> C. Calculer le score SUS.
+- <input type="checkbox"> D. Faire l'analyse statistique.
 <details>
 <summary>Reponse + explication</summary>
 <blockquote>
@@ -376,10 +376,10 @@ Bonne reponse : B.
 </details>
 
 ### 25) "Thinking aloud" signifie :
-- [ ] A. L'utilisateur parle pour expliquer ce qu'il pense.
-- [ ] B. L'observateur guide l'utilisateur.
-- [ ] C. L'utilisateur reste silencieux.
-- [ ] D. Le test est sans taches.
+- <input type="checkbox"> A. L'utilisateur parle pour expliquer ce qu'il pense.
+- <input type="checkbox"> B. L'observateur guide l'utilisateur.
+- <input type="checkbox"> C. L'utilisateur reste silencieux.
+- <input type="checkbox"> D. Le test est sans taches.
 <details>
 <summary>Reponse + explication</summary>
 <blockquote>
@@ -392,10 +392,10 @@ Bonne reponse : A.
 </details>
 
 ### 26) Le rapport de test utilisateur contient :
-- [ ] A. Uniquement des resultats quantitatifs.
-- [ ] B. Participants, protocole, resultats, indicateurs, recommandations.
-- [ ] C. Uniquement des verbatim.
-- [ ] D. Un code source complet.
+- <input type="checkbox"> A. Uniquement des resultats quantitatifs.
+- <input type="checkbox"> B. Participants, protocole, resultats, indicateurs, recommandations.
+- <input type="checkbox"> C. Uniquement des verbatim.
+- <input type="checkbox"> D. Un code source complet.
 <details>
 <summary>Reponse + explication</summary>
 <blockquote>
@@ -409,10 +409,10 @@ Bonne reponse : B.
 ## Cours 3 - Questionnaires, SUS, ethique
 
 ### 27) Le SUS est :
-- [ ] A. Un test de performance systeme.
-- [ ] B. Un questionnaire d'utilisabilite percue.
-- [ ] C. Un outil d'eye tracking.
-- [ ] D. Un guide ergonomique.
+- <input type="checkbox"> A. Un test de performance systeme.
+- <input type="checkbox"> B. Un questionnaire d'utilisabilite percue.
+- <input type="checkbox"> C. Un outil d'eye tracking.
+- <input type="checkbox"> D. Un guide ergonomique.
 <details>
 <summary>Reponse + explication</summary>
 <blockquote>
@@ -423,10 +423,10 @@ Bonne reponse : B.
 </details>
 
 ### 28) Le questionnaire SUS contient :
-- [ ] A. 5 questions.
-- [ ] B. 10 questions.
-- [ ] C. 15 questions.
-- [ ] D. 20 questions.
+- <input type="checkbox"> A. 5 questions.
+- <input type="checkbox"> B. 10 questions.
+- <input type="checkbox"> C. 15 questions.
+- <input type="checkbox"> D. 20 questions.
 <details>
 <summary>Reponse + explication</summary>
 <blockquote>
@@ -437,10 +437,10 @@ Bonne reponse : B.
 </details>
 
 ### 29) Pour une question positive (impair) au SUS :
-- [ ] A. Score = 5 - note.
-- [ ] B. Score = note - 1.
-- [ ] C. Score = note + 1.
-- [ ] D. Score = note / 5.
+- <input type="checkbox"> A. Score = 5 - note.
+- <input type="checkbox"> B. Score = note - 1.
+- <input type="checkbox"> C. Score = note + 1.
+- <input type="checkbox"> D. Score = note / 5.
 <details>
 <summary>Reponse + explication</summary>
 <blockquote>
@@ -452,10 +452,10 @@ Bonne reponse : B.
 </details>
 
 ### 30) Si la somme des scores SUS est 32, alors :
-- [ ] A. 32%
-- [ ] B. 64
-- [ ] C. 80
-- [ ] D. 100
+- <input type="checkbox"> A. 32%
+- <input type="checkbox"> B. 64
+- <input type="checkbox"> C. 80
+- <input type="checkbox"> D. 100
 <details>
 <summary>Reponse + explication</summary>
 <blockquote>
@@ -468,10 +468,10 @@ Bonne reponse : C. Score = 32 * 2.5 = 80.
 </details>
 
 ### 31) Un score SUS de 85 correspond plutot a :
-- [ ] A. Not acceptable.
-- [ ] B. Marginal.
-- [ ] C. Acceptable.
-- [ ] D. Excellent (Grade A).
+- <input type="checkbox"> A. Not acceptable.
+- <input type="checkbox"> B. Marginal.
+- <input type="checkbox"> C. Acceptable.
+- <input type="checkbox"> D. Excellent (Grade A).
 <details>
 <summary>Reponse + explication</summary>
 <blockquote>
@@ -483,10 +483,10 @@ Bonne reponse : D.
 </details>
 
 ### 32) Le principe d'ethique "consentement eclaire" signifie :
-- [ ] A. L'utilisateur doit payer.
-- [ ] B. L'utilisateur accepte en comprenant but, duree, risques.
-- [ ] C. L'utilisateur est oblige de finir.
-- [ ] D. L'utilisateur reste anonyme uniquement si le chercheur veut.
+- <input type="checkbox"> A. L'utilisateur doit payer.
+- <input type="checkbox"> B. L'utilisateur accepte en comprenant but, duree, risques.
+- <input type="checkbox"> C. L'utilisateur est oblige de finir.
+- <input type="checkbox"> D. L'utilisateur reste anonyme uniquement si le chercheur veut.
 <details>
 <summary>Reponse + explication</summary>
 <blockquote>
@@ -499,10 +499,10 @@ Bonne reponse : B.
 </details>
 
 ### 33) Le droit de retrait implique que :
-- [ ] A. L'utilisateur peut arreter sans consequence.
-- [ ] B. L'utilisateur ne peut pas quitter le test.
-- [ ] C. L'utilisateur doit finir le questionnaire.
-- [ ] D. L'utilisateur doit fournir son identite.
+- <input type="checkbox"> A. L'utilisateur peut arreter sans consequence.
+- <input type="checkbox"> B. L'utilisateur ne peut pas quitter le test.
+- <input type="checkbox"> C. L'utilisateur doit finir le questionnaire.
+- <input type="checkbox"> D. L'utilisateur doit fournir son identite.
 <details>
 <summary>Reponse + explication</summary>
 <blockquote>
@@ -516,10 +516,10 @@ Bonne reponse : A.
 ## Cours 4 - Experimentation controlee
 
 ### 34) La variable independante (VI) est :
-- [ ] A. Ce qu'on mesure.
-- [ ] B. Ce qu'on manipule.
-- [ ] C. Un facteur confondant.
-- [ ] D. Un resultat subjectif.
+- <input type="checkbox"> A. Ce qu'on mesure.
+- <input type="checkbox"> B. Ce qu'on manipule.
+- <input type="checkbox"> C. Un facteur confondant.
+- <input type="checkbox"> D. Un resultat subjectif.
 <details>
 <summary>Reponse + explication</summary>
 <blockquote>
@@ -532,10 +532,10 @@ Bonne reponse : B.
 </details>
 
 ### 35) La variable dependante (VD) est :
-- [ ] A. Ce qu'on manipule.
-- [ ] B. Ce qu'on mesure comme resultat.
-- [ ] C. Toujours nominale.
-- [ ] D. Toujours qualitative.
+- <input type="checkbox"> A. Ce qu'on manipule.
+- <input type="checkbox"> B. Ce qu'on mesure comme resultat.
+- <input type="checkbox"> C. Toujours nominale.
+- <input type="checkbox"> D. Toujours qualitative.
 <details>
 <summary>Reponse + explication</summary>
 <blockquote>
@@ -547,10 +547,10 @@ Bonne reponse : B.
 </details>
 
 ### 36) Un plan within-groups :
-- [ ] A. Chaque participant teste toutes les conditions.
-- [ ] B. Chaque participant teste une seule condition.
-- [ ] C. Evite totalement l'effet d'apprentissage sans mesure.
-- [ ] D. Necessite plus de participants.
+- <input type="checkbox"> A. Chaque participant teste toutes les conditions.
+- <input type="checkbox"> B. Chaque participant teste une seule condition.
+- <input type="checkbox"> C. Evite totalement l'effet d'apprentissage sans mesure.
+- <input type="checkbox"> D. Necessite plus de participants.
 <details>
 <summary>Reponse + explication</summary>
 <blockquote>
@@ -563,10 +563,10 @@ Bonne reponse : A.
 </details>
 
 ### 37) Le contrebalancement sert a :
-- [ ] A. Augmenter l'effet d'apprentissage.
-- [ ] B. Reduire l'effet d'apprentissage/fatigue.
-- [ ] C. Modifier la variable dependante.
-- [ ] D. Supprimer le besoin d'hypothese.
+- <input type="checkbox"> A. Augmenter l'effet d'apprentissage.
+- <input type="checkbox"> B. Reduire l'effet d'apprentissage/fatigue.
+- <input type="checkbox"> C. Modifier la variable dependante.
+- <input type="checkbox"> D. Supprimer le besoin d'hypothese.
 <details>
 <summary>Reponse + explication</summary>
 <blockquote>
@@ -578,10 +578,10 @@ Bonne reponse : B.
 </details>
 
 ### 38) Une donnee "ratio" est :
-- [ ] A. Une categorie sans ordre.
-- [ ] B. Une echelle avec zero absolu.
-- [ ] C. Une echelle avec zero arbitraire.
-- [ ] D. Une liste non ordonnee.
+- <input type="checkbox"> A. Une categorie sans ordre.
+- <input type="checkbox"> B. Une echelle avec zero absolu.
+- <input type="checkbox"> C. Une echelle avec zero arbitraire.
+- <input type="checkbox"> D. Une liste non ordonnee.
 <details>
 <summary>Reponse + explication</summary>
 <blockquote>
@@ -593,10 +593,10 @@ Bonne reponse : B.
 </details>
 
 ### 39) Si p = 0.03 et alpha = 0.05 :
-- [ ] A. On rejette H0.
-- [ ] B. On accepte H0.
-- [ ] C. La difference n'est pas significative.
-- [ ] D. On ne peut rien conclure.
+- <input type="checkbox"> A. On rejette H0.
+- <input type="checkbox"> B. On accepte H0.
+- <input type="checkbox"> C. La difference n'est pas significative.
+- <input type="checkbox"> D. On ne peut rien conclure.
 <details>
 <summary>Reponse + explication</summary>
 <blockquote>
@@ -608,10 +608,10 @@ Bonne reponse : A.
 </details>
 
 ### 40) Donnees normales, 2 conditions, within-groups :
-- [ ] A. Paired t-test.
-- [ ] B. Unpaired t-test.
-- [ ] C. Mann-Whitney.
-- [ ] D. Kruskal-Wallis.
+- <input type="checkbox"> A. Paired t-test.
+- <input type="checkbox"> B. Unpaired t-test.
+- <input type="checkbox"> C. Mann-Whitney.
+- <input type="checkbox"> D. Kruskal-Wallis.
 <details>
 <summary>Reponse + explication</summary>
 <blockquote>
@@ -624,10 +624,10 @@ Bonne reponse : A.
 </details>
 
 ### 41) Donnees non normales, > 2 conditions, between-groups :
-- [ ] A. One-way ANOVA.
-- [ ] B. Repeated Measures ANOVA.
-- [ ] C. Kruskal-Wallis.
-- [ ] D. Wilcoxon Signed-Rank.
+- <input type="checkbox"> A. One-way ANOVA.
+- <input type="checkbox"> B. Repeated Measures ANOVA.
+- <input type="checkbox"> C. Kruskal-Wallis.
+- <input type="checkbox"> D. Wilcoxon Signed-Rank.
 <details>
 <summary>Reponse + explication</summary>
 <blockquote>
@@ -639,10 +639,10 @@ Bonne reponse : C.
 </details>
 
 ### 42) Type I error signifie :
-- [ ] A. Rater une difference qui existe.
-- [ ] B. Conclure une difference qui n'existe pas.
-- [ ] C. Supprimer des outliers.
-- [ ] D. Changer la VI.
+- <input type="checkbox"> A. Rater une difference qui existe.
+- <input type="checkbox"> B. Conclure une difference qui n'existe pas.
+- <input type="checkbox"> C. Supprimer des outliers.
+- <input type="checkbox"> D. Changer la VI.
 <details>
 <summary>Reponse + explication</summary>
 <blockquote>
@@ -656,10 +656,10 @@ Bonne reponse : B.
 ## Cours 5 - Eye tracking
 
 ### 43) La fovea correspond a :
-- [ ] A. La vision peripherique floue.
-- [ ] B. La zone de vision nette et detaillee.
-- [ ] C. Les batonnets.
-- [ ] D. La saccade.
+- <input type="checkbox"> A. La vision peripherique floue.
+- <input type="checkbox"> B. La zone de vision nette et detaillee.
+- <input type="checkbox"> C. Les batonnets.
+- <input type="checkbox"> D. La saccade.
 <details>
 <summary>Reponse + explication</summary>
 <blockquote>
@@ -672,10 +672,10 @@ Bonne reponse : B.
 </details>
 
 ### 44) Pendant une saccade :
-- [ ] A. Le cerveau traite l'information visuelle.
-- [ ] B. Il y a suppression saccadique.
-- [ ] C. La fixation se stabilise.
-- [ ] D. La fovea ne bouge pas.
+- <input type="checkbox"> A. Le cerveau traite l'information visuelle.
+- <input type="checkbox"> B. Il y a suppression saccadique.
+- <input type="checkbox"> C. La fixation se stabilise.
+- <input type="checkbox"> D. La fovea ne bouge pas.
 <details>
 <summary>Reponse + explication</summary>
 <blockquote>
@@ -688,10 +688,10 @@ Bonne reponse : B.
 </details>
 
 ### 45) Hypothese "Mind-Eye" signifie :
-- [ ] A. Ce qu'on regarde n'a rien a voir avec ce qu'on pense.
-- [ ] B. Ce qu'on regarde reflete ce a quoi on pense.
-- [ ] C. L'eye tracking mesure l'attention cachee.
-- [ ] D. L'eye tracking mesure la memoire.
+- <input type="checkbox"> A. Ce qu'on regarde n'a rien a voir avec ce qu'on pense.
+- <input type="checkbox"> B. Ce qu'on regarde reflete ce a quoi on pense.
+- <input type="checkbox"> C. L'eye tracking mesure l'attention cachee.
+- <input type="checkbox"> D. L'eye tracking mesure la memoire.
 <details>
 <summary>Reponse + explication</summary>
 <blockquote>
@@ -704,10 +704,10 @@ Bonne reponse : B.
 </details>
 
 ### 46) L'attention "covert" :
-- [ ] A. Est mesuree directement par l'eye tracker.
-- [ ] B. Est l'attention portee sans fixer le regard.
-- [ ] C. Correspond aux saccades.
-- [ ] D. Est toujours top-down.
+- <input type="checkbox"> A. Est mesuree directement par l'eye tracker.
+- <input type="checkbox"> B. Est l'attention portee sans fixer le regard.
+- <input type="checkbox"> C. Correspond aux saccades.
+- <input type="checkbox"> D. Est toujours top-down.
 <details>
 <summary>Reponse + explication</summary>
 <blockquote>
@@ -720,10 +720,10 @@ Bonne reponse : B.
 </details>
 
 ### 47) PCCR signifie :
-- [ ] A. Une methode de capture des clics.
-- [ ] B. Pupil Center Corneal Reflection.
-- [ ] C. Une mesure de satisfaction.
-- [ ] D. Un test statistique.
+- <input type="checkbox"> A. Une methode de capture des clics.
+- <input type="checkbox"> B. Pupil Center Corneal Reflection.
+- <input type="checkbox"> C. Une mesure de satisfaction.
+- <input type="checkbox"> D. Un test statistique.
 <details>
 <summary>Reponse + explication</summary>
 <blockquote>
@@ -734,10 +734,10 @@ Bonne reponse : B.
 </details>
 
 ### 48) La calibration sert a :
-- [ ] A. Mesurer la vitesse de la souris.
-- [ ] B. Adapter le modele a l'oeil de l'utilisateur.
-- [ ] C. Eviter les saccades.
-- [ ] D. Calculer le score SUS.
+- <input type="checkbox"> A. Mesurer la vitesse de la souris.
+- <input type="checkbox"> B. Adapter le modele a l'oeil de l'utilisateur.
+- <input type="checkbox"> C. Eviter les saccades.
+- <input type="checkbox"> D. Calculer le score SUS.
 <details>
 <summary>Reponse + explication</summary>
 <blockquote>
@@ -748,10 +748,10 @@ Bonne reponse : B.
 </details>
 
 ### 49) Le "gaze plot / scanpath" sert surtout a :
-- [ ] A. Voir la densite globale des regards.
-- [ ] B. Visualiser l'ordre des fixations.
-- [ ] C. Mesurer la satisfaction.
-- [ ] D. Calculer le SUS.
+- <input type="checkbox"> A. Voir la densite globale des regards.
+- <input type="checkbox"> B. Visualiser l'ordre des fixations.
+- <input type="checkbox"> C. Mesurer la satisfaction.
+- <input type="checkbox"> D. Calculer le SUS.
 <details>
 <summary>Reponse + explication</summary>
 <blockquote>
@@ -763,10 +763,10 @@ Bonne reponse : B.
 </details>
 
 ### 50) La heatmap est utile pour :
-- [ ] A. La sequence temporelle exacte.
-- [ ] B. Le global, zones vues vs ignorees.
-- [ ] C. Mesurer l'ethique.
-- [ ] D. Classer les erreurs types.
+- <input type="checkbox"> A. La sequence temporelle exacte.
+- <input type="checkbox"> B. Le global, zones vues vs ignorees.
+- <input type="checkbox"> C. Mesurer l'ethique.
+- <input type="checkbox"> D. Classer les erreurs types.
 <details>
 <summary>Reponse + explication</summary>
 <blockquote>
@@ -778,10 +778,10 @@ Bonne reponse : B.
 </details>
 
 ### 51) Un TTFF court indique plutot :
-- [ ] A. L'element attire l'attention rapidement.
-- [ ] B. L'element n'est jamais vu.
-- [ ] C. L'utilisateur est confus.
-- [ ] D. L'utilisateur est expert.
+- <input type="checkbox"> A. L'element attire l'attention rapidement.
+- <input type="checkbox"> B. L'element n'est jamais vu.
+- <input type="checkbox"> C. L'utilisateur est confus.
+- <input type="checkbox"> D. L'utilisateur est expert.
 <details>
 <summary>Reponse + explication</summary>
 <blockquote>
@@ -794,10 +794,10 @@ Bonne reponse : A.
 </details>
 
 ### 52) Une fixation longue peut signifier :
-- [ ] A. Rien d'important.
-- [ ] B. Interet fort ou difficulte de comprehension.
-- [ ] C. Toujours un element secondaire.
-- [ ] D. Un bug materiel.
+- <input type="checkbox"> A. Rien d'important.
+- <input type="checkbox"> B. Interet fort ou difficulte de comprehension.
+- <input type="checkbox"> C. Toujours un element secondaire.
+- <input type="checkbox"> D. Un bug materiel.
 <details>
 <summary>Reponse + explication</summary>
 <blockquote>
@@ -806,3 +806,4 @@ Bonne reponse : B.
 - A, C, D sont faux : l'interpretation depend du contexte.
 </blockquote>
 </details>
+
